@@ -1,56 +1,169 @@
+<!DOCTYPE html>
 <html lang="es">
-  <head>
-  <meta charset="UTF-8">
-  <title>Héctor Aquiles — UI/UX Designer</title>
-<style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');</style>
-<link rel="stylesheet" href="css/styles.css">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Héctor Aquiles Armenta Repper | UI/UX Designer</title>
+  <meta
+    name="description"
+    content="Portafolio de Héctor Aquiles Armenta Repper, UI/UX Designer especializado en sistemas complejos, plataformas digitales y experiencias centradas en el usuario."
+  />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
+  <nav class="site-nav">
+    <a href="#" class="site-nav__brand" aria-label="Inicio">
+      <div class="logo-placeholder">LOGO</div>
+    </a>
+
+    <ul class="site-nav__menu">
+      <li><a href="#case-studies">Projects</a></li>
+      <li><a href="#resumen">About</a></li>
+      <li><a href="#contacto">Contact</a></li>
+    </ul>
+  </nav>
+
   <header class="hero">
-  <div class="hero__text">
-    <p class="hero__eyebrow">UI/UX Designer · Product Thinking · Complex Systems</p>
-
-    <h1>
-      Diseño experiencias digitales que transforman sistemas complejos en decisiones claras.
-    </h1>
-
-    <p class="hero__description">
-      Soy Héctor Aquiles Armenta Repper, UI/UX Designer con más de 20 años en diseño digital y una trayectoria enfocada en productos, plataformas y sistemas donde la claridad, la estrategia y la experiencia del usuario hacen la diferencia.
-    </p>
-
-    <div class="hero__actions">
-      <a class="btn btn--primary" href="#case-studies">Ver case studies</a>
-      <a class="btn btn--secondary" href="#resumen">Ver perfil</a>
+    <div class="hero__background">
+      <img
+        src="img/hector-hero.jpg"
+        alt="Héctor Aquiles Armenta Repper"
+        class="hero__bg-image"
+      />
+      <div class="hero__overlay"></div>
+      <div class="hero__grain"></div>
     </div>
-  </div>
 
-  <div class="hero__media">
-    <div class="hero__photo-frame">
-      <img src="img/hector.jpg" alt="Retrato de Héctor Aquiles Armenta Repper" class="hero__photo">
+    <div class="hero__content">
+      <p class="hero__eyebrow">UI/UX Designer · Complex Systems · Product Thinking</p>
+
+      <h1>
+        Diseño experiencias digitales con claridad, estructura y visión estratégica.
+      </h1>
+
+      <p class="hero__description">
+        Soy Héctor Aquiles Armenta Repper, UI/UX Designer con más de 20 años en diseño
+        digital. Ayudo a transformar plataformas complejas en experiencias útiles,
+        elegantes y alineadas con objetivos de negocio.
+      </p>
+
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="#case-studies">Ver proyectos</a>
+        <a class="btn btn--ghost" href="#resumen">Resumen curricular</a>
+      </div>
     </div>
-  </div>
-</header>
- 
-<div id="tldx-toast-container">
-  <section class="hero">
-  <div class="hero__content">
-    <h1>Diseño experiencias que convierten sistemas complejos en decisiones claras.</h1>
-    
-    <p class="hero__subtitle">
-      UI/UX Designer con +20 años en diseño digital. Especializado en sistemas complejos, dashboards y plataformas de alto impacto.
-    </p>
 
-    <div class="hero__actions">
-      <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
-      <a href="#contacto" class="btn btn--secondary">Contáctame</a>
+    <div class="hero__scroll">
+      <a href="#case-studies" aria-label="Ir a proyectos">Scroll</a>
     </div>
-  </div>
+  </header>
 
-  <div class="hero__image">
-    <img src="tu-foto.jpg" alt="Héctor Aquiles Armenta Repper">
-  </div>
-</section>
+  <main>
+    <section id="case-studies" class="section">
+      <div class="section__inner">
+        <p class="section__label">Case Studies</p>
+        <h2>Proyectos seleccionados</h2>
+        <p class="section__intro">
+          Aquí irán tus casos principales con enfoque en problema, contexto, decisiones,
+          proceso e impacto.
+        </p>
 
-</div>
+        <div class="cards">
+          <article class="card">
+            <span class="card__kicker">Logistics / Enterprise UX</span>
+            <h3>Legacy Logistics Platform</h3>
+            <p>
+              Rediseño de flujos, arquitectura y experiencia para una plataforma
+              operativa con alta complejidad.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card__kicker">IoT / Product Design</span>
+            <h3>Connected Access System</h3>
+            <p>
+              Diseño de experiencia para un sistema de cerraduras residenciales
+              conectadas y su ecosistema digital.
+            </p>
+          </article>
+
+          <article class="card">
+            <span class="card__kicker">Government / Public Sector</span>
+            <h3>High-Volume Civic Platform</h3>
+            <p>
+              Diseño orientado a claridad operativa, cumplimiento y manejo de alta
+              demanda en contextos críticos.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="resumen" class="section section--alt">
+      <div class="section__inner">
+        <p class="section__label">About</p>
+        <h2>Resumen curricular</h2>
+        <p class="section__intro">
+          Diseño digital, UX estratégico y sistemas complejos con enfoque en claridad,
+          estructura y adopción.
+        </p>
+
+        <div class="summary-grid">
+          <div class="summary-block">
+            <h3>Perfil</h3>
+            <p>
+              UI/UX Designer con trayectoria en productos digitales, plataformas
+              empresariales, government tech, IoT y sistemas legacy.
+            </p>
+          </div>
+
+          <div class="summary-block">
+            <h3>Fortalezas</h3>
+            <ul>
+              <li>User research</li>
+              <li>Information architecture</li>
+              <li>Interaction design</li>
+              <li>Product thinking</li>
+              <li>Design systems</li>
+            </ul>
+          </div>
+
+          <div class="summary-block">
+            <h3>Herramientas</h3>
+            <ul>
+              <li>Figma</li>
+              <li>Storybook</li>
+              <li>Miro</li>
+              <li>Maze</li>
+              <li>Jira / Azure DevOps</li>
+            </ul>
+          </div>
+
+          <div class="summary-block">
+            <h3>Enfoque</h3>
+            <p>
+              Transformar complejidad en experiencias claras, sostenibles y valiosas
+              para usuarios, negocio y operación.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto" class="section">
+      <div class="section__inner">
+        <p class="section__label">Contact</p>
+        <h2>Hablemos</h2>
+        <p class="section__intro">
+          Si te interesa colaborar en productos, plataformas o sistemas digitales,
+          podemos conversar.
+        </p>
+
+        <div class="contact-box">
+          <a href="mailto:tu-correo@ejemplo.com" class="contact-link">tu-correo@ejemplo.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
 </html>
