@@ -44,6 +44,47 @@ ul  { margin: 0; padding-left: 1.1rem; }
 p   { margin: 0 0 1rem; }
 p:last-child { margin-bottom: 0; }
 
+/* NAV RIGHT GROUP */
+.site-nav__right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+/* LANG SWITCHER */
+.lang-switcher {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 4px 2px;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+.lang-switcher:hover { opacity: 1; }
+
+.lang-option {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+  line-height: 1;
+}
+.lang-option.lang-active {
+  color: var(--accent);
+  font-weight: 500;
+}
+.lang-divider {
+  font-size: 0.65rem;
+  color: var(--dim);
+  line-height: 1;
+}
+
 /* NAV */
 .site-nav {
   position: fixed; inset: 0 0 auto 0; z-index: 50;

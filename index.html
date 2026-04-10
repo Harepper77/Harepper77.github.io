@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -19,12 +19,19 @@
     <a href="#" class="site-nav__brand" aria-label="Home">
       <div class="logo-mark"><span>HA</span></div>
     </a>
-    <ul class="site-nav__menu">
-      <li><a href="#case-studies">Work</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact" class="nav-cta">Contact</a></li>
-    </ul>
+    <div class="site-nav__right">
+      <ul class="site-nav__menu">
+        <li><a href="#case-studies" data-i18n="nav.work">Work</a></li>
+        <li><a href="#experience" data-i18n="nav.experience">Experience</a></li>
+        <li><a href="#about" data-i18n="nav.about">About</a></li>
+        <li><a href="#contact" class="nav-cta" data-i18n="nav.contact">Contact</a></li>
+      </ul>
+      <button class="lang-switcher" id="lang-switcher" aria-label="Switch language" onclick="toggleLang()">
+        <span class="lang-option" id="lang-en">EN</span>
+        <span class="lang-divider">/</span>
+        <span class="lang-option" id="lang-es">ES</span>
+      </button>
+    </div>
   </nav>
 
   <header class="hero">
@@ -34,16 +41,16 @@
       <div class="hero__grain"></div>
     </div>
     <div class="hero__content">
-      <p class="hero__eyebrow">Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México</p>
-      <h1>Clarity<br/><em>from</em><br/>complexity.</h1>
-      <p class="hero__description">
+      <p class="hero__eyebrow" data-i18n="hero.eyebrow">Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México</p>
+      <h1 data-i18n="hero.h1">Clarity<br/><em>from</em><br/>complexity.</h1>
+      <p class="hero__description" data-i18n="hero.desc">
         Former visual artist turned experience strategist. I design digital products
         that make complex systems legible — for enterprise logistics, civic infrastructure,
         and global-scale platforms.
       </p>
       <div class="hero__actions">
-        <a class="btn btn--primary" href="#case-studies">See my work</a>
-        <a class="btn btn--ghost" href="#about">About me</a>
+        <a class="btn btn--primary" href="#case-studies" data-i18n="hero.cta1">See my work</a>
+        <a class="btn btn--ghost" href="#about" data-i18n="hero.cta2">About me</a>
       </div>
     </div>
     <div class="hero__scroll">
@@ -55,9 +62,9 @@
 
     <section id="case-studies" class="section">
       <div class="section__inner">
-        <p class="section__label">Selected work</p>
-        <h2>Case studies</h2>
-        <p class="section__intro">
+        <p class="section__label" data-i18n="work.label">Selected work</p>
+        <h2 data-i18n="work.h2">Case studies</h2>
+        <p class="section__intro" data-i18n="work.intro">
           Each project represents a complex design challenge — systems with high stakes,
           real users, and measurable outcomes.
         </p>
@@ -65,85 +72,85 @@
 
           <article class="card card--featured">
             <div class="card__meta">
-              <span class="card__kicker">Enterprise UX · Logistics</span>
+              <span class="card__kicker" data-i18n="work.c1.kicker">Enterprise UX · Logistics</span>
               <span class="card__year">2022 – 2024</span>
             </div>
-            <h3>Capstone Logistics Platform</h3>
-            <p>Led UX for a legacy enterprise logistics platform serving thousands of daily operations across the US. Collaborated with product owners to groom the backlog, redesigned core workflows, and embedded UX culture in a previously developer-driven team.</p>
+            <h3 data-i18n="work.c1.title">Capstone Logistics Platform</h3>
+            <p data-i18n="work.c1.desc">Led UX for a legacy enterprise logistics platform serving thousands of daily operations across the US. Collaborated with product owners to groom the backlog, redesigned core workflows, and embedded UX culture in a previously developer-driven team.</p>
             <ul class="card__tags">
               <li>User Research</li><li>Wireframing</li><li>Design System</li><li>Backlog Management</li>
             </ul>
-            <div class="card__client">Via Improving · Atlanta, USA</div>
+            <div class="card__client" data-i18n="work.c1.client">Via Improving · Atlanta, USA</div>
           </article>
 
           <article class="card">
             <div class="card__meta">
-              <span class="card__kicker">Mobile · Brand App</span>
+              <span class="card__kicker" data-i18n="work.c2.kicker">Mobile · Brand App</span>
               <span class="card__year">2022</span>
             </div>
-            <h3>Electrolit Field Representative App</h3>
-            <p>Designed a mobile application from scratch to help management track brand representatives in the field. Led the full process: user interviews, sketching, design, prototyping, and testing across mobile and desktop.</p>
+            <h3 data-i18n="work.c2.title">Electrolit Field Representative App</h3>
+            <p data-i18n="work.c2.desc">Designed a mobile application from scratch to help management track brand representatives in the field. Led the full process: user interviews, sketching, design, prototyping, and testing across mobile and desktop.</p>
             <ul class="card__tags">
               <li>User Interviews</li><li>Mobile UX</li><li>Prototyping</li><li>Usability Testing</li>
             </ul>
-            <div class="card__client">Via Improving · Guadalajara, MX</div>
+            <div class="card__client" data-i18n="work.c2.client">Via Improving · Guadalajara, MX</div>
           </article>
 
           <article class="card">
             <div class="card__meta">
-              <span class="card__kicker">Government · IP Systems</span>
+              <span class="card__kicker" data-i18n="work.c3.kicker">Government · IP Systems</span>
               <span class="card__year">2025 – present</span>
             </div>
-            <h3>IMPI Digital Systems Consultancy</h3>
-            <p>Independent UX consultancy for IMPI (Instituto Mexicano de la Propiedad Industrial). Improving clarity, accessibility, and operational efficiency of government-facing digital platforms under strict legal and institutional constraints.</p>
+            <h3 data-i18n="work.c3.title">IMPI Digital Systems Consultancy</h3>
+            <p data-i18n="work.c3.desc">Independent UX consultancy for IMPI (Instituto Mexicano de la Propiedad Industrial). Improving clarity, accessibility, and operational efficiency of government-facing digital platforms under strict legal and institutional constraints.</p>
             <ul class="card__tags">
               <li>UX Strategy</li><li>Accessibility ADA</li><li>Gov Systems</li><li>Stakeholder Research</li>
             </ul>
-            <div class="card__client">Independent · México</div>
+            <div class="card__client" data-i18n="work.c3.client">Independent · México</div>
           </article>
 
         </div>
-        <p class="section__note">Additional work from Sparefoot, Delphian Systems, ZoomCatalog, and TEPJF available upon request.</p>
+        <p class="section__note" data-i18n="work.note">Additional work from Sparefoot, Delphian Systems, ZoomCatalog, and TEPJF available upon request.</p>
       </div>
     </section>
 
     <section id="experience" class="section section--alt">
       <div class="section__inner">
-        <p class="section__label">Career</p>
-        <h2>Experience</h2>
+        <p class="section__label" data-i18n="exp.label">Career</p>
+        <h2 data-i18n="exp.h2">Experience</h2>
         <div class="timeline">
 
           <div class="timeline__item timeline__item--current">
             <div class="timeline__period">Aug 2025 – Present</div>
             <div class="timeline__body">
-              <div class="timeline__role">Senior Lead UI/UX Designer</div>
-              <div class="timeline__company">GlobalLogic <span class="timeline__flag">· Google project</span></div>
-              <p class="timeline__desc">Working on a large-scale product engagement with Google through GlobalLogic, one of the world's leading digital engineering companies.</p>
+              <div class="timeline__role" data-i18n="exp.gl.role">Senior Lead UI/UX Designer</div>
+              <div class="timeline__company">GlobalLogic <span class="timeline__flag" data-i18n="exp.gl.flag">· Google project</span></div>
+              <p class="timeline__desc" data-i18n="exp.gl.desc">Working on a large-scale product engagement with Google through GlobalLogic, one of the world's leading digital engineering companies.</p>
             </div>
           </div>
 
           <div class="timeline__item timeline__item--current">
             <div class="timeline__period">2025 – Present</div>
             <div class="timeline__body">
-              <div class="timeline__role">UX Consultant</div>
-              <div class="timeline__company">IMPI — Instituto Mexicano de la Propiedad Industrial <span class="timeline__flag">· Independent</span></div>
-              <p class="timeline__desc">Independent UX consultancy for government digital systems.</p>
+              <div class="timeline__role" data-i18n="exp.impi.role">UX Consultant</div>
+              <div class="timeline__company">IMPI — Instituto Mexicano de la Propiedad Industrial <span class="timeline__flag" data-i18n="exp.impi.flag">· Independent</span></div>
+              <p class="timeline__desc" data-i18n="exp.impi.desc">Independent UX consultancy for government digital systems.</p>
             </div>
           </div>
 
           <div class="timeline__item">
             <div class="timeline__period">Jun 2019 – Jun 2025</div>
             <div class="timeline__body">
-              <div class="timeline__role">Senior Lead UI/UX Designer · Talent Lead</div>
-              <div class="timeline__company">Improving <span class="timeline__sub">(formerly iTexico)</span> · Guadalajara</div>
-              <p class="timeline__desc">Six years leading UX strategy and delivery across multiple client engagements. Notable clients:</p>
+              <div class="timeline__role" data-i18n="exp.imp.role">Senior Lead UI/UX Designer · Talent Lead</div>
+              <div class="timeline__company">Improving <span class="timeline__sub" data-i18n="exp.imp.sub">(formerly iTexico)</span> · Guadalajara</div>
+              <p class="timeline__desc" data-i18n="exp.imp.desc">Six years leading UX strategy and delivery across multiple client engagements. Notable clients:</p>
               <ul class="timeline__clients">
-                <li><strong>Capstone Logistics</strong> — Enterprise platform redesign · Atlanta, USA · 2022–2024</li>
-                <li><strong>Electrolit</strong> — Mobile brand app, full design process · Guadalajara · 2022</li>
-                <li><strong>Delphian Systems</strong> — Product revamp & UX research · Chicago · 2020–2022</li>
-                <li><strong>Buena Fruta</strong> — Mobile app research & prototype · California · 2020</li>
-                <li><strong>RealSynch</strong> — UX research & wireframes · Austin TX · 2020</li>
-                <li><strong>Sparefoot</strong> — A/B testing & product backlog · Austin TX · 2019–2020</li>
+                <li><strong>Capstone Logistics</strong> — <span data-i18n="exp.imp.c1">Enterprise platform redesign · Atlanta, USA · 2022–2024</span></li>
+                <li><strong>Electrolit</strong> — <span data-i18n="exp.imp.c2">Mobile brand app, full design process · Guadalajara · 2022</span></li>
+                <li><strong>Delphian Systems</strong> — <span data-i18n="exp.imp.c3">Product revamp & UX research · Chicago · 2020–2022</span></li>
+                <li><strong>Buena Fruta</strong> — <span data-i18n="exp.imp.c4">Mobile app research & prototype · California · 2020</span></li>
+                <li><strong>RealSynch</strong> — <span data-i18n="exp.imp.c5">UX research & wireframes · Austin TX · 2020</span></li>
+                <li><strong>Sparefoot</strong> — <span data-i18n="exp.imp.c6">A/B testing & product backlog · Austin TX · 2019–2020</span></li>
               </ul>
             </div>
           </div>
@@ -151,27 +158,27 @@
           <div class="timeline__item">
             <div class="timeline__period">Jun 2017 – Jun 2019</div>
             <div class="timeline__body">
-              <div class="timeline__role">Mid-Level UI/UX Designer</div>
+              <div class="timeline__role" data-i18n="exp.zoom.role">Mid-Level UI/UX Designer</div>
               <div class="timeline__company">ZoomCatalog · CDMX</div>
-              <p class="timeline__desc">Heuristic analyses, usability testing, and UX improvements for a catalog management product.</p>
+              <p class="timeline__desc" data-i18n="exp.zoom.desc">Heuristic analyses, usability testing, and UX improvements for a catalog management product.</p>
             </div>
           </div>
 
           <div class="timeline__item">
             <div class="timeline__period">Aug 2016 – Jun 2017</div>
             <div class="timeline__body">
-              <div class="timeline__role">Mid-Level UI/UX Designer</div>
+              <div class="timeline__role" data-i18n="exp.tepjf.role">Mid-Level UI/UX Designer</div>
               <div class="timeline__company">TEPJF — Electoral Tribunal of the Federal Judiciary · CDMX</div>
-              <p class="timeline__desc">Revamped an electoral system to align with user needs and legal requirements. Research with administrative, legal, and end users.</p>
+              <p class="timeline__desc" data-i18n="exp.tepjf.desc">Revamped an electoral system to align with user needs and legal requirements. Research with administrative, legal, and end users.</p>
             </div>
           </div>
 
           <div class="timeline__item timeline__item--condensed">
             <div class="timeline__period">1999 – 2016</div>
             <div class="timeline__body">
-              <div class="timeline__role">Web Designer · Front-End Designer · Jr. Web Designer</div>
+              <div class="timeline__role" data-i18n="exp.early.role">Web Designer · Front-End Designer · Jr. Web Designer</div>
               <div class="timeline__company">CIMMYT · NetaSystems · TV Azteca · TEPJF · Latinweb · El Universal · Intelisis · Imagina · INCan</div>
-              <p class="timeline__desc">25 years of progressive growth — from Jr. Web Designer to senior digital experience leader — through agencies, broadcasters, government institutions, and enterprise clients across Mexico and the US.</p>
+              <p class="timeline__desc" data-i18n="exp.early.desc">25 years of progressive growth — from Jr. Web Designer to senior digital experience leader — through agencies, broadcasters, government institutions, and enterprise clients across Mexico and the US.</p>
             </div>
           </div>
 
@@ -181,32 +188,32 @@
 
     <section id="about" class="section">
       <div class="section__inner">
-        <p class="section__label">About</p>
-        <h2>The designer<br/><em>behind the work</em></h2>
+        <p class="section__label" data-i18n="about.label">About</p>
+        <h2 data-i18n="about.h2">The designer<br/><em>behind the work</em></h2>
         <div class="about-grid">
           <div class="about-bio">
-            <p>I started as a visual artist. In 1999, I made the leap into digital — and never looked back. Over 25 years I've evolved from building websites with tables and Flash to leading UX strategy for enterprise platforms serving thousands of users daily.</p>
-            <p>My background in visual arts shapes how I approach problems: I look for the underlying structure before reaching for solutions. I'm equally comfortable facilitating a design sprint, digging into analytics, or pairing with a dev team on component architecture.</p>
-            <p>I hold a <strong>Bachelor in Visual Arts from UNAM</strong> and a <strong>Professional Scrum™ with UX certification</strong> from SCRUM.org. Most recently I've been expanding into data analysis and AI-assisted design workflows.</p>
+            <p data-i18n="about.p1">I started as a visual artist. In 1999, I made the leap into digital — and never looked back. Over 25 years I've evolved from building websites with tables and Flash to leading UX strategy for enterprise platforms serving thousands of users daily.</p>
+            <p data-i18n="about.p2">My background in visual arts shapes how I approach problems: I look for the underlying structure before reaching for solutions. I'm equally comfortable facilitating a design sprint, digging into analytics, or pairing with a dev team on component architecture.</p>
+            <p data-i18n="about.p3">I hold a <strong>Bachelor in Visual Arts from UNAM</strong> and a <strong>Professional Scrum™ with UX certification</strong> from SCRUM.org. Most recently I've been expanding into data analysis and AI-assisted design workflows.</p>
           </div>
           <div class="about-details">
 
             <div class="about-block">
-              <h4>Core expertise</h4>
+              <h4 data-i18n="about.expertise.title">Core expertise</h4>
               <ul>
-                <li>User Research & Usability Testing</li>
-                <li>Information Architecture</li>
-                <li>Interaction Design</li>
-                <li>Design Systems</li>
-                <li>Product Thinking & Backlog Management</li>
-                <li>Accessibility ADA</li>
-                <li>Data Visualization</li>
-                <li>Game UX</li>
+                <li data-i18n="about.expertise.1">User Research & Usability Testing</li>
+                <li data-i18n="about.expertise.2">Information Architecture</li>
+                <li data-i18n="about.expertise.3">Interaction Design</li>
+                <li data-i18n="about.expertise.4">Design Systems</li>
+                <li data-i18n="about.expertise.5">Product Thinking & Backlog Management</li>
+                <li data-i18n="about.expertise.6">Accessibility ADA</li>
+                <li data-i18n="about.expertise.7">Data Visualization</li>
+                <li data-i18n="about.expertise.8">Game UX</li>
               </ul>
             </div>
 
             <div class="about-block">
-              <h4>Tools</h4>
+              <h4 data-i18n="about.tools.title">Tools</h4>
               <ul>
                 <li>Figma · Adobe XD · Sketch</li>
                 <li>Miro · Mural</li>
@@ -217,13 +224,13 @@
             </div>
 
             <div class="about-block">
-              <h4>Recent certifications</h4>
+              <h4 data-i18n="about.certs.title">Recent certifications</h4>
               <ul class="certs">
-                <li><span class="cert-year">May 2025</span> Data Analysis for Storytelling — Pluralsight</li>
-                <li><span class="cert-year">Mar 2025</span> Python Data Essentials — Pluralsight</li>
-                <li><span class="cert-year">Jan 2025</span> Wireframes with Generative AI — Pluralsight</li>
-                <li><span class="cert-year">Dec 2024</span> Data Analytics on Google Cloud — Pluralsight</li>
-                <li><span class="cert-year">Nov 2024</span> Professional Scrum™ with UX — SCRUM.org</li>
+                <li><span class="cert-year">May 2025</span> <span data-i18n="about.certs.1">Data Analysis for Storytelling — Pluralsight</span></li>
+                <li><span class="cert-year">Mar 2025</span> <span data-i18n="about.certs.2">Python Data Essentials — Pluralsight</span></li>
+                <li><span class="cert-year">Jan 2025</span> <span data-i18n="about.certs.3">Wireframes with Generative AI — Pluralsight</span></li>
+                <li><span class="cert-year">Dec 2024</span> <span data-i18n="about.certs.4">Data Analytics on Google Cloud — Pluralsight</span></li>
+                <li><span class="cert-year">Nov 2024</span> <span data-i18n="about.certs.5">Professional Scrum™ with UX — SCRUM.org</span></li>
               </ul>
             </div>
 
@@ -234,9 +241,9 @@
 
     <section id="contact" class="section section--alt">
       <div class="section__inner section__inner--narrow">
-        <p class="section__label">Contact</p>
-        <h2>Let's talk.</h2>
-        <p class="section__intro">Available for senior UX roles, design leadership, and independent consultancy in complex digital systems.</p>
+        <p class="section__label" data-i18n="contact.label">Contact</p>
+        <h2 data-i18n="contact.h2">Let's talk.</h2>
+        <p class="section__intro" data-i18n="contact.intro">Available for senior UX roles, design leadership, and independent consultancy in complex digital systems.</p>
         <div class="contact-links">
           <a href="mailto:harepper@gmail.com" class="contact-link contact-link--primary">harepper@gmail.com</a>
           <div class="contact-social">
@@ -268,11 +275,208 @@
   </footer>
 
   <script>
+    // ── TRANSLATIONS ─────────────────────────────────────────────
+    const i18n = {
+      en: {
+        'nav.work':        'Work',
+        'nav.experience':  'Experience',
+        'nav.about':       'About',
+        'nav.contact':     'Contact',
+
+        'hero.eyebrow':    'Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México',
+        'hero.h1':         'Clarity<br/><em>from</em><br/>complexity.',
+        'hero.desc':       'Former visual artist turned experience strategist. I design digital products that make complex systems legible — for enterprise logistics, civic infrastructure, and global-scale platforms.',
+        'hero.cta1':       'See my work',
+        'hero.cta2':       'About me',
+
+        'work.label':      'Selected work',
+        'work.h2':         'Case studies',
+        'work.intro':      'Each project represents a complex design challenge — systems with high stakes, real users, and measurable outcomes.',
+        'work.c1.kicker':  'Enterprise UX · Logistics',
+        'work.c1.title':   'Capstone Logistics Platform',
+        'work.c1.desc':    'Led UX for a legacy enterprise logistics platform serving thousands of daily operations across the US. Collaborated with product owners to groom the backlog, redesigned core workflows, and embedded UX culture in a previously developer-driven team.',
+        'work.c1.client':  'Via Improving · Atlanta, USA',
+        'work.c2.kicker':  'Mobile · Brand App',
+        'work.c2.title':   'Electrolit Field Representative App',
+        'work.c2.desc':    'Designed a mobile application from scratch to help management track brand representatives in the field. Led the full process: user interviews, sketching, design, prototyping, and testing across mobile and desktop.',
+        'work.c2.client':  'Via Improving · Guadalajara, MX',
+        'work.c3.kicker':  'Government · IP Systems',
+        'work.c3.title':   'IMPI Digital Systems Consultancy',
+        'work.c3.desc':    'Independent UX consultancy for IMPI (Instituto Mexicano de la Propiedad Industrial). Improving clarity, accessibility, and operational efficiency of government-facing digital platforms under strict legal and institutional constraints.',
+        'work.c3.client':  'Independent · México',
+        'work.note':       'Additional work from Sparefoot, Delphian Systems, ZoomCatalog, and TEPJF available upon request.',
+
+        'exp.label':       'Career',
+        'exp.h2':          'Experience',
+        'exp.gl.role':     'Senior Lead UI/UX Designer',
+        'exp.gl.flag':     '· Google project',
+        'exp.gl.desc':     'Working on a large-scale product engagement with Google through GlobalLogic, one of the world\'s leading digital engineering companies.',
+        'exp.impi.role':   'UX Consultant',
+        'exp.impi.flag':   '· Independent',
+        'exp.impi.desc':   'Independent UX consultancy for government digital systems.',
+        'exp.imp.role':    'Senior Lead UI/UX Designer · Talent Lead',
+        'exp.imp.sub':     '(formerly iTexico)',
+        'exp.imp.desc':    'Six years leading UX strategy and delivery across multiple client engagements. Notable clients:',
+        'exp.imp.c1':      'Enterprise platform redesign · Atlanta, USA · 2022–2024',
+        'exp.imp.c2':      'Mobile brand app, full design process · Guadalajara · 2022',
+        'exp.imp.c3':      'Product revamp & UX research · Chicago · 2020–2022',
+        'exp.imp.c4':      'Mobile app research & prototype · California · 2020',
+        'exp.imp.c5':      'UX research & wireframes · Austin TX · 2020',
+        'exp.imp.c6':      'A/B testing & product backlog · Austin TX · 2019–2020',
+        'exp.zoom.role':   'Mid-Level UI/UX Designer',
+        'exp.zoom.desc':   'Heuristic analyses, usability testing, and UX improvements for a catalog management product.',
+        'exp.tepjf.role':  'Mid-Level UI/UX Designer',
+        'exp.tepjf.desc':  'Revamped an electoral system to align with user needs and legal requirements. Research with administrative, legal, and end users.',
+        'exp.early.role':  'Web Designer · Front-End Designer · Jr. Web Designer',
+        'exp.early.desc':  '25 years of progressive growth — from Jr. Web Designer to senior digital experience leader — through agencies, broadcasters, government institutions, and enterprise clients across Mexico and the US.',
+
+        'about.label':      'About',
+        'about.h2':         'The designer<br/><em>behind the work</em>',
+        'about.p1':         'I started as a visual artist. In 1999, I made the leap into digital — and never looked back. Over 25 years I\'ve evolved from building websites with tables and Flash to leading UX strategy for enterprise platforms serving thousands of users daily.',
+        'about.p2':         'My background in visual arts shapes how I approach problems: I look for the underlying structure before reaching for solutions. I\'m equally comfortable facilitating a design sprint, digging into analytics, or pairing with a dev team on component architecture.',
+        'about.p3':         'I hold a <strong>Bachelor in Visual Arts from UNAM</strong> and a <strong>Professional Scrum™ with UX certification</strong> from SCRUM.org. Most recently I\'ve been expanding into data analysis and AI-assisted design workflows.',
+        'about.expertise.title': 'Core expertise',
+        'about.expertise.1': 'User Research & Usability Testing',
+        'about.expertise.2': 'Information Architecture',
+        'about.expertise.3': 'Interaction Design',
+        'about.expertise.4': 'Design Systems',
+        'about.expertise.5': 'Product Thinking & Backlog Management',
+        'about.expertise.6': 'Accessibility ADA',
+        'about.expertise.7': 'Data Visualization',
+        'about.expertise.8': 'Game UX',
+        'about.tools.title': 'Tools',
+        'about.certs.title': 'Recent certifications',
+        'about.certs.1':     'Data Analysis for Storytelling — Pluralsight',
+        'about.certs.2':     'Python Data Essentials — Pluralsight',
+        'about.certs.3':     'Wireframes with Generative AI — Pluralsight',
+        'about.certs.4':     'Data Analytics on Google Cloud — Pluralsight',
+        'about.certs.5':     'Professional Scrum™ with UX — SCRUM.org',
+
+        'contact.label': 'Contact',
+        'contact.h2':    'Let\'s talk.',
+        'contact.intro': 'Available for senior UX roles, design leadership, and independent consultancy in complex digital systems.',
+      },
+
+      es: {
+        'nav.work':        'Trabajo',
+        'nav.experience':  'Experiencia',
+        'nav.about':       'Acerca',
+        'nav.contact':     'Contacto',
+
+        'hero.eyebrow':    'Senior Lead UI/UX Designer&ensp;·&ensp;25+ años&ensp;·&ensp;Zapopan, México',
+        'hero.h1':         'Claridad<br/><em>desde</em><br/>la complejidad.',
+        'hero.desc':       'Artista visual convertido en estratega de experiencia digital. Diseño productos que hacen legibles los sistemas complejos — para logística empresarial, infraestructura cívica y plataformas de escala global.',
+        'hero.cta1':       'Ver proyectos',
+        'hero.cta2':       'Acerca de mí',
+
+        'work.label':      'Trabajo seleccionado',
+        'work.h2':         'Casos de estudio',
+        'work.intro':      'Cada proyecto representa un reto de diseño complejo — sistemas de alta exigencia, usuarios reales y resultados medibles.',
+        'work.c1.kicker':  'UX Empresarial · Logística',
+        'work.c1.title':   'Plataforma Capstone Logistics',
+        'work.c1.desc':    'Lideré el UX de una plataforma logística empresarial legacy que servía miles de operaciones diarias en EE. UU. Colaboré con product owners para el backlog, rediseñé flujos clave e instalé cultura de UX en un equipo centrado en desarrollo.',
+        'work.c1.client':  'Vía Improving · Atlanta, EE. UU.',
+        'work.c2.kicker':  'Mobile · App de Marca',
+        'work.c2.title':   'App Electrolit para Representantes',
+        'work.c2.desc':    'Diseñé desde cero una aplicación móvil para rastrear representantes de marca en campo. Lideré el proceso completo: entrevistas, bocetos, diseño, prototipo y pruebas en móvil y escritorio.',
+        'work.c2.client':  'Vía Improving · Guadalajara, MX',
+        'work.c3.kicker':  'Gobierno · Sistemas de PI',
+        'work.c3.title':   'Consultoría IMPI Sistemas Digitales',
+        'work.c3.desc':    'Consultoría independiente de UX para el IMPI (Instituto Mexicano de la Propiedad Industrial). Mejora de claridad, accesibilidad y eficiencia operativa de plataformas digitales gubernamentales bajo restricciones legales e institucionales.',
+        'work.c3.client':  'Independiente · México',
+        'work.note':       'Trabajo adicional de Sparefoot, Delphian Systems, ZoomCatalog y TEPJF disponible bajo solicitud.',
+
+        'exp.label':       'Trayectoria',
+        'exp.h2':          'Experiencia',
+        'exp.gl.role':     'Senior Lead UI/UX Designer',
+        'exp.gl.flag':     '· Proyecto Google',
+        'exp.gl.desc':     'Trabajo en un proyecto de gran escala con Google a través de GlobalLogic, una de las principales empresas de ingeniería digital del mundo.',
+        'exp.impi.role':   'Consultor UX',
+        'exp.impi.flag':   '· Independiente',
+        'exp.impi.desc':   'Consultoría independiente de UX para sistemas digitales gubernamentales.',
+        'exp.imp.role':    'Senior Lead UI/UX Designer · Talent Lead',
+        'exp.imp.sub':     '(antes iTexico)',
+        'exp.imp.desc':    'Seis años liderando estrategia y entrega de UX en múltiples proyectos con clientes. Clientes destacados:',
+        'exp.imp.c1':      'Rediseño de plataforma empresarial · Atlanta, EE. UU. · 2022–2024',
+        'exp.imp.c2':      'App móvil de marca, proceso de diseño completo · Guadalajara · 2022',
+        'exp.imp.c3':      'Revamp de producto e investigación UX · Chicago · 2020–2022',
+        'exp.imp.c4':      'Investigación y prototipo de app móvil · California · 2020',
+        'exp.imp.c5':      'Investigación UX y wireframes · Austin TX · 2020',
+        'exp.imp.c6':      'Pruebas A/B y backlog de producto · Austin TX · 2019–2020',
+        'exp.zoom.role':   'UI/UX Designer Semi-Senior',
+        'exp.zoom.desc':   'Análisis heurístico, pruebas de usabilidad y mejoras de UX para un producto de gestión de catálogos.',
+        'exp.tepjf.role':  'UI/UX Designer Semi-Senior',
+        'exp.tepjf.desc':  'Rediseño de un sistema electoral para alinearlo con las necesidades del usuario y requisitos legales. Investigación con usuarios administrativos, legales y finales.',
+        'exp.early.role':  'Web Designer · Front-End Designer · Jr. Web Designer',
+        'exp.early.desc':  '25 años de crecimiento progresivo — de Jr. Web Designer a líder senior de experiencia digital — en agencias, medios, instituciones gubernamentales y clientes empresariales en México y EE. UU.',
+
+        'about.label':      'Acerca',
+        'about.h2':         'El diseñador<br/><em>detrás del trabajo</em>',
+        'about.p1':         'Comencé como artista visual. En 1999 di el salto a lo digital — y nunca miré atrás. En 25 años evolucioné de construir sitios con tablas y Flash a liderar estrategia de UX para plataformas empresariales que sirven a miles de usuarios diariamente.',
+        'about.p2':         'Mi formación en artes visuales moldea mi forma de atacar los problemas: busco la estructura subyacente antes de proponer soluciones. Me siento igual de cómodo facilitando un design sprint, analizando métricas o trabajando en par con un equipo de desarrollo en arquitectura de componentes.',
+        'about.p3':         'Soy <strong>Licenciado en Artes Visuales por la UNAM</strong> y cuento con la certificación <strong>Professional Scrum™ with UX</strong> de SCRUM.org. Recientemente he profundizado en análisis de datos y flujos de diseño asistidos por IA.',
+        'about.expertise.title': 'Especialidades',
+        'about.expertise.1': 'Investigación de usuarios y pruebas de usabilidad',
+        'about.expertise.2': 'Arquitectura de información',
+        'about.expertise.3': 'Diseño de interacción',
+        'about.expertise.4': 'Design Systems',
+        'about.expertise.5': 'Product Thinking y gestión de backlog',
+        'about.expertise.6': 'Accesibilidad ADA',
+        'about.expertise.7': 'Visualización de datos',
+        'about.expertise.8': 'Game UX',
+        'about.tools.title': 'Herramientas',
+        'about.certs.title': 'Certificaciones recientes',
+        'about.certs.1':     'Análisis de datos para storytelling — Pluralsight',
+        'about.certs.2':     'Fundamentos de Python — Pluralsight',
+        'about.certs.3':     'Wireframes con IA Generativa — Pluralsight',
+        'about.certs.4':     'Análisis de datos en Google Cloud — Pluralsight',
+        'about.certs.5':     'Professional Scrum™ con UX — SCRUM.org',
+
+        'contact.label': 'Contacto',
+        'contact.h2':    'Hablemos.',
+        'contact.intro': 'Disponible para roles senior de UX, liderazgo de diseño y consultoría independiente en sistemas digitales complejos.',
+      }
+    };
+
+    // ── APPLY LANGUAGE ───────────────────────────────────────────
+    let currentLang = localStorage.getItem('ha-lang') || 'en';
+
+    function applyLang(lang) {
+      const dict = i18n[lang];
+      document.querySelectorAll('[data-i18n]').forEach(el => {
+        const key = el.getAttribute('data-i18n');
+        if (dict[key] !== undefined) el.innerHTML = dict[key];
+      });
+      document.documentElement.setAttribute('lang', lang);
+      document.documentElement.setAttribute('data-lang', lang);
+
+      // Update switcher active state
+      document.getElementById('lang-en').classList.toggle('lang-active', lang === 'en');
+      document.getElementById('lang-es').classList.toggle('lang-active', lang === 'es');
+
+      // Update page title
+      document.title = lang === 'es'
+        ? 'Héctor Armenta | Senior Lead UI/UX Designer'
+        : 'Héctor Armenta | Senior Lead UI/UX Designer';
+
+      currentLang = lang;
+      localStorage.setItem('ha-lang', lang);
+    }
+
+    function toggleLang() {
+      applyLang(currentLang === 'en' ? 'es' : 'en');
+    }
+
+    // Apply on load
+    applyLang(currentLang);
+
+    // ── NAV SCROLL ───────────────────────────────────────────────
     const nav = document.getElementById('site-nav');
     window.addEventListener('scroll', () => {
       nav.classList.toggle('site-nav--scrolled', window.scrollY > 60);
     }, { passive: true });
 
+    // ── INTERSECTION OBSERVER ────────────────────────────────────
     const observer = new IntersectionObserver((entries) => {
       entries.forEach(e => {
         if (e.isIntersecting) {
