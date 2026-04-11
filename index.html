@@ -685,6 +685,8 @@
             <p class="cs-p">And the deadline? There's nothing quite like "the election is on July 1st" to clarify what's essential and what's not.</p>` }
       ]
     },
+
+    electrolit: {
       kicker: 'Mobile · Brand App',
       year:   '2022',
       title:  'Electrolit Rep Tracker',
@@ -1006,13 +1008,26 @@
   function initScroll() {
     const track = document.getElementById('cards-track');
     const dotsEl = document.getElementById('scroll-dots');
-    const cards  = track.querySelectorAll('.card');
-    dotsEl.innerHTML = Array.from({length: cards.length}, (_,i) =>
+    const cards  = Array.from(track.querySelectorAll('.card'));
+
+    // Set each card to exactly 1/3 of the visible track width
+    function setCardWidths() {
+      const gap       = 24; // 1.5rem in px
+      const padLeft   = 24; // 1.5rem
+      const available = track.parentElement.clientWidth - padLeft - 80 - (gap * 2);
+      const cardW     = Math.floor(available / 3);
+      cards.forEach(c => { c.style.minWidth = cardW + 'px'; c.style.maxWidth = cardW + 'px'; });
+    }
+
+    setCardWidths();
+    window.addEventListener('resize', () => { setCardWidths(); }, { passive: true });
+
+    dotsEl.innerHTML = cards.map((_,i) =>
       `<button class="scroll-dot${i===0?' active':''}" onclick="goToCard(${i})" aria-label="Card ${i+1}"></button>`
     ).join('');
     updateButtons();
     track.addEventListener('scroll', () => {
-      const w = (track.querySelector('.card').offsetWidth || 380) + 24;
+      const w = cards[0].offsetWidth + 24;
       activeIndex = Math.round(track.scrollLeft / w);
       updateDots(); updateButtons();
     }, {passive:true});
