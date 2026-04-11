@@ -4,9 +4,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Héctor Armenta | Senior Lead UI/UX Designer</title>
-  <meta name="description" content="Senior Lead UI/UX Designer with 25+ years crafting digital experiences for enterprise platforms, government systems, and global-scale products. Based in Zapopan, México." />
+  <meta name="description" content="Senior Lead UI/UX Designer with 25+ years crafting digital experiences for enterprise platforms, government systems, and global-scale products." />
   <meta property="og:title" content="Héctor Armenta | Senior Lead UI/UX Designer" />
-  <meta property="og:description" content="25+ years designing complex systems, enterprise platforms, and user-centered products." />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,6 +33,7 @@
     </div>
   </nav>
 
+  <!-- HERO -->
   <header class="hero">
     <div class="hero__background">
       <img src="img/hector-hero.jpg" alt="Héctor Armenta" class="hero__bg-image" />
@@ -43,77 +43,115 @@
     <div class="hero__content">
       <p class="hero__eyebrow" data-i18n="hero.eyebrow">Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México</p>
       <h1 data-i18n="hero.h1">Clarity<br/><em>from</em><br/>complexity.</h1>
-      <p class="hero__description" data-i18n="hero.desc">
-        Former visual artist turned experience strategist. I design digital products
-        that make complex systems legible — for enterprise logistics, civic infrastructure,
-        and global-scale platforms.
-      </p>
+      <p class="hero__description" data-i18n="hero.desc">Former visual artist turned experience strategist. I design digital products that make complex systems legible — for enterprise logistics, civic infrastructure, and global-scale platforms.</p>
       <div class="hero__actions">
         <a class="btn btn--primary" href="#case-studies" data-i18n="hero.cta1">See my work</a>
         <a class="btn btn--ghost" href="#about" data-i18n="hero.cta2">About me</a>
       </div>
     </div>
-    <div class="hero__scroll">
-      <a href="#case-studies" aria-label="Scroll to projects">Scroll</a>
-    </div>
+    <div class="hero__scroll"><a href="#case-studies" aria-label="Scroll">Scroll</a></div>
   </header>
 
   <main>
 
-    <section id="case-studies" class="section">
+    <!-- CASE STUDIES -->
+    <section id="case-studies" class="section section--work">
       <div class="section__inner">
-        <p class="section__label" data-i18n="work.label">Selected work</p>
-        <h2 data-i18n="work.h2">Case studies</h2>
-        <p class="section__intro" data-i18n="work.intro">
-          Each project represents a complex design challenge — systems with high stakes,
-          real users, and measurable outcomes.
-        </p>
-        <div class="cards">
+        <div class="work-header">
+          <div class="work-header__text">
+            <p class="section__label" data-i18n="work.label">Selected work</p>
+            <h2 data-i18n="work.h2">Case studies</h2>
+            <p class="section__intro" data-i18n="work.intro">Complex design challenges — high-stakes systems, real users, measurable outcomes.</p>
+          </div>
+          <div class="scroll-nav" id="scroll-nav">
+            <button class="scroll-btn" id="scroll-prev" aria-label="Previous" onclick="scrollCards(-1)">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+            <div class="scroll-dots" id="scroll-dots"></div>
+            <button class="scroll-btn" id="scroll-next" aria-label="Next" onclick="scrollCards(1)">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </div>
+      </div>
 
-          <article class="card card--featured">
+      <div class="cards-track-wrap">
+        <div class="cards-track" id="cards-track">
+
+          <article class="card card--featured" onclick="openCS('capstone')">
             <div class="card__meta">
               <span class="card__kicker" data-i18n="work.c1.kicker">Enterprise UX · Logistics</span>
               <span class="card__year">2022 – 2024</span>
             </div>
             <h3 data-i18n="work.c1.title">Capstone Logistics Platform</h3>
-            <p data-i18n="work.c1.desc">Led UX for a legacy enterprise logistics platform serving thousands of daily operations across the US. Collaborated with product owners to groom the backlog, redesigned core workflows, and embedded UX culture in a previously developer-driven team.</p>
+            <p data-i18n="work.c1.desc">Led UX for a legacy enterprise logistics platform serving thousands of daily operations across the US. First dedicated UX designer in a developer-driven org.</p>
             <ul class="card__tags">
-              <li>User Research</li><li>Wireframing</li><li>Design System</li><li>Backlog Management</li>
+              <li>User Research</li><li>Wireframing</li><li>Design System</li><li>Backlog Mgmt</li>
             </ul>
-            <div class="card__client" data-i18n="work.c1.client">Via Improving · Atlanta, USA</div>
+            <div class="card__footer">
+              <span class="card__client" data-i18n="work.c1.client">Via Improving · Atlanta, USA</span>
+              <span class="card__cta">View case study →</span>
+            </div>
           </article>
 
-          <article class="card">
+          <article class="card" onclick="openCS('electrolit')">
             <div class="card__meta">
               <span class="card__kicker" data-i18n="work.c2.kicker">Mobile · Brand App</span>
               <span class="card__year">2022</span>
             </div>
-            <h3 data-i18n="work.c2.title">Electrolit Field Representative App</h3>
-            <p data-i18n="work.c2.desc">Designed a mobile application from scratch to help management track brand representatives in the field. Led the full process: user interviews, sketching, design, prototyping, and testing across mobile and desktop.</p>
+            <h3 data-i18n="work.c2.title">Electrolit Rep Tracker</h3>
+            <p data-i18n="work.c2.desc">Designed a mobile app from scratch to help management track field brand representatives — full process from research to tested prototype in 6 weeks.</p>
             <ul class="card__tags">
-              <li>User Interviews</li><li>Mobile UX</li><li>Prototyping</li><li>Usability Testing</li>
+              <li>User Interviews</li><li>Mobile UX</li><li>Prototyping</li><li>Testing</li>
             </ul>
-            <div class="card__client" data-i18n="work.c2.client">Via Improving · Guadalajara, MX</div>
+            <div class="card__footer">
+              <span class="card__client" data-i18n="work.c2.client">Via Improving · Guadalajara, MX</span>
+              <span class="card__cta">View case study →</span>
+            </div>
           </article>
 
-          <article class="card">
+          <article class="card" onclick="openCS('impi')">
             <div class="card__meta">
               <span class="card__kicker" data-i18n="work.c3.kicker">Government · IP Systems</span>
               <span class="card__year">2025 – present</span>
             </div>
-            <h3 data-i18n="work.c3.title">IMPI Digital Systems Consultancy</h3>
-            <p data-i18n="work.c3.desc">Independent UX consultancy for IMPI (Instituto Mexicano de la Propiedad Industrial). Improving clarity, accessibility, and operational efficiency of government-facing digital platforms under strict legal and institutional constraints.</p>
+            <h3 data-i18n="work.c3.title">IMPI Digital Consultancy</h3>
+            <p data-i18n="work.c3.desc">Independent UX consultancy for Mexico's IP institution — accessibility remediation, service design, and critical citizen journey redesign.</p>
             <ul class="card__tags">
-              <li>UX Strategy</li><li>Accessibility ADA</li><li>Gov Systems</li><li>Stakeholder Research</li>
+              <li>UX Strategy</li><li>Accessibility ADA</li><li>Gov Systems</li><li>Research</li>
             </ul>
-            <div class="card__client" data-i18n="work.c3.client">Independent · México</div>
+            <div class="card__footer">
+              <span class="card__client" data-i18n="work.c3.client">Independent · México</span>
+              <span class="card__cta">View case study →</span>
+            </div>
           </article>
 
         </div>
-        <p class="section__note" data-i18n="work.note">Additional work from Sparefoot, Delphian Systems, ZoomCatalog, and TEPJF available upon request.</p>
+      </div>
+
+      <div class="section__inner">
+        <p class="section__note" data-i18n="work.note">Additional work from Sparefoot, Delphian Systems, ZoomCatalog and TEPJF available upon request.</p>
       </div>
     </section>
 
+    <!-- MODAL -->
+    <div class="cs-overlay" id="cs-overlay" onclick="handleOverlayClick(event)">
+      <div class="cs-modal" id="cs-modal">
+        <div class="cs-bar" id="cs-bar">
+          <div class="cs-bar__left">
+            <span class="cs-bar__kicker" id="cs-bar-kicker"></span>
+            <span class="cs-bar__sep">·</span>
+            <span class="cs-bar__title" id="cs-bar-title"></span>
+          </div>
+          <button class="cs-close" onclick="closeCS()" aria-label="Close">
+            <svg width="14" height="14" viewBox="0 0 14 14" fill="none"><path d="M1 1l12 12M13 1L1 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </button>
+        </div>
+        <div class="cs-body" id="cs-body"></div>
+      </div>
+    </div>
+
+    <!-- EXPERIENCE -->
     <section id="experience" class="section section--alt">
       <div class="section__inner">
         <p class="section__label" data-i18n="exp.label">Career</p>
@@ -145,8 +183,8 @@
               <div class="timeline__company">Improving <span class="timeline__sub" data-i18n="exp.imp.sub">(formerly iTexico)</span> · Guadalajara</div>
               <p class="timeline__desc" data-i18n="exp.imp.desc">Six years leading UX strategy and delivery across multiple client engagements. Notable clients:</p>
               <ul class="timeline__clients">
-                <li><strong>Capstone Logistics</strong> — <span data-i18n="exp.imp.c1">Enterprise platform redesign · Atlanta, USA · 2022–2024</span></li>
-                <li><strong>Electrolit</strong> — <span data-i18n="exp.imp.c2">Mobile brand app, full design process · Guadalajara · 2022</span></li>
+                <li><strong>Capstone Logistics</strong> — <span data-i18n="exp.imp.c1">Enterprise platform redesign · Atlanta · 2022–2024</span></li>
+                <li><strong>Electrolit</strong> — <span data-i18n="exp.imp.c2">Mobile brand app, full process · GDL · 2022</span></li>
                 <li><strong>Delphian Systems</strong> — <span data-i18n="exp.imp.c3">Product revamp & UX research · Chicago · 2020–2022</span></li>
                 <li><strong>Buena Fruta</strong> — <span data-i18n="exp.imp.c4">Mobile app research & prototype · California · 2020</span></li>
                 <li><strong>RealSynch</strong> — <span data-i18n="exp.imp.c5">UX research & wireframes · Austin TX · 2020</span></li>
@@ -168,7 +206,7 @@
             <div class="timeline__period">Aug 2016 – Jun 2017</div>
             <div class="timeline__body">
               <div class="timeline__role" data-i18n="exp.tepjf.role">Mid-Level UI/UX Designer</div>
-              <div class="timeline__company">TEPJF — Electoral Tribunal of the Federal Judiciary · CDMX</div>
+              <div class="timeline__company">TEPJF — Electoral Tribunal · CDMX</div>
               <p class="timeline__desc" data-i18n="exp.tepjf.desc">Revamped an electoral system to align with user needs and legal requirements. Research with administrative, legal, and end users.</p>
             </div>
           </div>
@@ -177,8 +215,8 @@
             <div class="timeline__period">1999 – 2016</div>
             <div class="timeline__body">
               <div class="timeline__role" data-i18n="exp.early.role">Web Designer · Front-End Designer · Jr. Web Designer</div>
-              <div class="timeline__company">CIMMYT · NetaSystems · TV Azteca · TEPJF · Latinweb · El Universal · Intelisis · Imagina · INCan</div>
-              <p class="timeline__desc" data-i18n="exp.early.desc">25 years of progressive growth — from Jr. Web Designer to senior digital experience leader — through agencies, broadcasters, government institutions, and enterprise clients across Mexico and the US.</p>
+              <div class="timeline__company">CIMMYT · NetaSystems · TV Azteca · Latinweb · El Universal · Intelisis · INCan</div>
+              <p class="timeline__desc" data-i18n="exp.early.desc">25 years of progressive growth from Jr. Web Designer to senior digital experience leader.</p>
             </div>
           </div>
 
@@ -186,6 +224,7 @@
       </div>
     </section>
 
+    <!-- ABOUT -->
     <section id="about" class="section">
       <div class="section__inner">
         <p class="section__label" data-i18n="about.label">About</p>
@@ -194,10 +233,9 @@
           <div class="about-bio">
             <p data-i18n="about.p1">I started as a visual artist. In 1999, I made the leap into digital — and never looked back. Over 25 years I've evolved from building websites with tables and Flash to leading UX strategy for enterprise platforms serving thousands of users daily.</p>
             <p data-i18n="about.p2">My background in visual arts shapes how I approach problems: I look for the underlying structure before reaching for solutions. I'm equally comfortable facilitating a design sprint, digging into analytics, or pairing with a dev team on component architecture.</p>
-            <p data-i18n="about.p3">I hold a <strong>Bachelor in Visual Arts from UNAM</strong> and a <strong>Professional Scrum™ with UX certification</strong> from SCRUM.org. Most recently I've been expanding into data analysis and AI-assisted design workflows.</p>
+            <p data-i18n="about.p3">I hold a <strong>Bachelor in Visual Arts from UNAM</strong> and a <strong>Professional Scrum™ with UX certification</strong> from SCRUM.org. Most recently expanding into data analysis and AI-assisted design workflows.</p>
           </div>
           <div class="about-details">
-
             <div class="about-block">
               <h4 data-i18n="about.expertise.title">Core expertise</h4>
               <ul>
@@ -211,7 +249,6 @@
                 <li data-i18n="about.expertise.8">Game UX</li>
               </ul>
             </div>
-
             <div class="about-block">
               <h4 data-i18n="about.tools.title">Tools</h4>
               <ul>
@@ -222,7 +259,6 @@
                 <li>Python · Data Analytics</li>
               </ul>
             </div>
-
             <div class="about-block">
               <h4 data-i18n="about.certs.title">Recent certifications</h4>
               <ul class="certs">
@@ -233,12 +269,12 @@
                 <li><span class="cert-year">Nov 2024</span> <span data-i18n="about.certs.5">Professional Scrum™ with UX — SCRUM.org</span></li>
               </ul>
             </div>
-
           </div>
         </div>
       </div>
     </section>
 
+    <!-- CONTACT -->
     <section id="contact" class="section section--alt">
       <div class="section__inner section__inner--narrow">
         <p class="section__label" data-i18n="contact.label">Contact</p>
@@ -275,219 +311,616 @@
   </footer>
 
   <script>
-    // ── TRANSLATIONS ─────────────────────────────────────────────
-    const i18n = {
-      en: {
-        'nav.work':        'Work',
-        'nav.experience':  'Experience',
-        'nav.about':       'About',
-        'nav.contact':     'Contact',
-
-        'hero.eyebrow':    'Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México',
-        'hero.h1':         'Clarity<br/><em>from</em><br/>complexity.',
-        'hero.desc':       'Former visual artist turned experience strategist. I design digital products that make complex systems legible — for enterprise logistics, civic infrastructure, and global-scale platforms.',
-        'hero.cta1':       'See my work',
-        'hero.cta2':       'About me',
-
-        'work.label':      'Selected work',
-        'work.h2':         'Case studies',
-        'work.intro':      'Each project represents a complex design challenge — systems with high stakes, real users, and measurable outcomes.',
-        'work.c1.kicker':  'Enterprise UX · Logistics',
-        'work.c1.title':   'Capstone Logistics Platform',
-        'work.c1.desc':    'Led UX for a legacy enterprise logistics platform serving thousands of daily operations across the US. Collaborated with product owners to groom the backlog, redesigned core workflows, and embedded UX culture in a previously developer-driven team.',
-        'work.c1.client':  'Via Improving · Atlanta, USA',
-        'work.c2.kicker':  'Mobile · Brand App',
-        'work.c2.title':   'Electrolit Field Representative App',
-        'work.c2.desc':    'Designed a mobile application from scratch to help management track brand representatives in the field. Led the full process: user interviews, sketching, design, prototyping, and testing across mobile and desktop.',
-        'work.c2.client':  'Via Improving · Guadalajara, MX',
-        'work.c3.kicker':  'Government · IP Systems',
-        'work.c3.title':   'IMPI Digital Systems Consultancy',
-        'work.c3.desc':    'Independent UX consultancy for IMPI (Instituto Mexicano de la Propiedad Industrial). Improving clarity, accessibility, and operational efficiency of government-facing digital platforms under strict legal and institutional constraints.',
-        'work.c3.client':  'Independent · México',
-        'work.note':       'Additional work from Sparefoot, Delphian Systems, ZoomCatalog, and TEPJF available upon request.',
-
-        'exp.label':       'Career',
-        'exp.h2':          'Experience',
-        'exp.gl.role':     'Senior Lead UI/UX Designer',
-        'exp.gl.flag':     '· Google project',
-        'exp.gl.desc':     'Working on a large-scale product engagement with Google through GlobalLogic, one of the world\'s leading digital engineering companies.',
-        'exp.impi.role':   'UX Consultant',
-        'exp.impi.flag':   '· Independent',
-        'exp.impi.desc':   'Independent UX consultancy for government digital systems.',
-        'exp.imp.role':    'Senior Lead UI/UX Designer · Talent Lead',
-        'exp.imp.sub':     '(formerly iTexico)',
-        'exp.imp.desc':    'Six years leading UX strategy and delivery across multiple client engagements. Notable clients:',
-        'exp.imp.c1':      'Enterprise platform redesign · Atlanta, USA · 2022–2024',
-        'exp.imp.c2':      'Mobile brand app, full design process · Guadalajara · 2022',
-        'exp.imp.c3':      'Product revamp & UX research · Chicago · 2020–2022',
-        'exp.imp.c4':      'Mobile app research & prototype · California · 2020',
-        'exp.imp.c5':      'UX research & wireframes · Austin TX · 2020',
-        'exp.imp.c6':      'A/B testing & product backlog · Austin TX · 2019–2020',
-        'exp.zoom.role':   'Mid-Level UI/UX Designer',
-        'exp.zoom.desc':   'Heuristic analyses, usability testing, and UX improvements for a catalog management product.',
-        'exp.tepjf.role':  'Mid-Level UI/UX Designer',
-        'exp.tepjf.desc':  'Revamped an electoral system to align with user needs and legal requirements. Research with administrative, legal, and end users.',
-        'exp.early.role':  'Web Designer · Front-End Designer · Jr. Web Designer',
-        'exp.early.desc':  '25 years of progressive growth — from Jr. Web Designer to senior digital experience leader — through agencies, broadcasters, government institutions, and enterprise clients across Mexico and the US.',
-
-        'about.label':      'About',
-        'about.h2':         'The designer<br/><em>behind the work</em>',
-        'about.p1':         'I started as a visual artist. In 1999, I made the leap into digital — and never looked back. Over 25 years I\'ve evolved from building websites with tables and Flash to leading UX strategy for enterprise platforms serving thousands of users daily.',
-        'about.p2':         'My background in visual arts shapes how I approach problems: I look for the underlying structure before reaching for solutions. I\'m equally comfortable facilitating a design sprint, digging into analytics, or pairing with a dev team on component architecture.',
-        'about.p3':         'I hold a <strong>Bachelor in Visual Arts from UNAM</strong> and a <strong>Professional Scrum™ with UX certification</strong> from SCRUM.org. Most recently I\'ve been expanding into data analysis and AI-assisted design workflows.',
-        'about.expertise.title': 'Core expertise',
-        'about.expertise.1': 'User Research & Usability Testing',
-        'about.expertise.2': 'Information Architecture',
-        'about.expertise.3': 'Interaction Design',
-        'about.expertise.4': 'Design Systems',
-        'about.expertise.5': 'Product Thinking & Backlog Management',
-        'about.expertise.6': 'Accessibility ADA',
-        'about.expertise.7': 'Data Visualization',
-        'about.expertise.8': 'Game UX',
-        'about.tools.title': 'Tools',
-        'about.certs.title': 'Recent certifications',
-        'about.certs.1':     'Data Analysis for Storytelling — Pluralsight',
-        'about.certs.2':     'Python Data Essentials — Pluralsight',
-        'about.certs.3':     'Wireframes with Generative AI — Pluralsight',
-        'about.certs.4':     'Data Analytics on Google Cloud — Pluralsight',
-        'about.certs.5':     'Professional Scrum™ with UX — SCRUM.org',
-
-        'contact.label': 'Contact',
-        'contact.h2':    'Let\'s talk.',
-        'contact.intro': 'Available for senior UX roles, design leadership, and independent consultancy in complex digital systems.',
+  // ─────────────────────────────────────────────────────────────
+  // CASE STUDY DATA — FAANG UX structure
+  // ─────────────────────────────────────────────────────────────
+  const CS = {
+    capstone: {
+      kicker: 'Enterprise UX · Logistics',
+      year:   '2022 – 2024',
+      title:  'Capstone Logistics Platform',
+      color:  '#4d7eff',
+      cover:  null, // → set to 'img/capstone-cover.jpg' when ready
+      meta: {
+        role:     'Lead UI/UX Designer',
+        timeline: 'Feb 2022 – Dec 2024',
+        team:     '1 Designer · 3 Devs · 1 PM',
+        tools:    'Figma · Jira · Miro · Storybook'
       },
+      tags: ['Enterprise UX','User Research','Design System','Backlog Mgmt','UX Culture'],
+      sections: [
+        { id:'overview', label:'Overview',
+          content:`
+            <h3 class="cs-h3">The challenge</h3>
+            <p class="cs-p cs-p--lead">A logistics company running thousands of daily US operations had never hired a UX designer. Their homegrown platform — built entirely by engineers — had no consistent navigation, no design patterns, and no user research informing any decision.</p>
+            <p class="cs-p">I joined as the first dedicated UX hire. My mandate wasn't just to "make it look better" — it was to establish user-centered design as a repeatable practice inside a developer-first culture while shipping meaningful improvements every sprint.</p>
+            <div class="cs-callout" style="border-color:#4d7eff30;background:#4d7eff08">
+              <span class="cs-callout__label" style="color:#4d7eff">Context</span>
+              <p class="cs-p">Platform served 200+ dispatchers across 12 US distribution centers. ~4,000 shipment records updated per day. Zero prior UX involvement.</p>
+            </div>` },
+        { id:'research', label:'Research',
+          content:`
+            <div class="cs-methods">
+              <span class="cs-pill">Contextual Inquiry</span>
+              <span class="cs-pill">Stakeholder Interviews</span>
+              <span class="cs-pill">Task Analysis</span>
+              <span class="cs-pill">Analytics Review</span>
+              <span class="cs-pill">Competitive Audit</span>
+            </div>
+            <div class="cs-insights">
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#4d7eff">01</span>
+                <p>Dispatchers kept a second Excel spreadsheet open at all times to compensate for data the platform didn't surface — invisible parallel workflows the system didn't account for.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#4d7eff">02</span>
+                <p>The #1 complaint wasn't speed — it was <em>confidence</em>. Operators didn't trust what the screen showed reflected reality. They would call warehouse managers to verify data they could see on screen.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#4d7eff">03</span>
+                <p>Onboarding new dispatchers averaged 3 weeks. No two people learned the same way — because there were no consistent patterns to learn.</p>
+              </div>
+            </div>
+            <div class="cs-img-ph" style="height:220px">
+              <span class="cs-img-ph__label">[ Research synthesis · Affinity map — Miro ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/capstone-research.jpg</span>
+            </div>` },
+        { id:'define', label:'Define',
+          content:`
+            <blockquote class="cs-quote" style="border-color:#4d7eff40">
+              <span class="cs-quote__mark" style="color:#4d7eff">"</span>
+              Dispatchers need a single source of truth that reflects real-time operational state — so they can make confident decisions under pressure without switching between tools.
+            </blockquote>
+            <div class="cs-persona" style="border-color:#4d7eff25">
+              <div class="cs-persona__avatar" style="background:#4d7eff18;color:#4d7eff">◎</div>
+              <div>
+                <strong class="cs-persona__name">Alex M. — Senior Dispatcher</strong>
+                <span class="cs-persona__detail">8 yrs experience · 200+ shipments/day · High context-switching · Low tolerance for ambiguity · Chrome power user</span>
+              </div>
+            </div>
+            <p class="cs-p">Secondary persona: <strong>Taylor, Ops Manager</strong> — needs aggregate visibility across dispatchers without interrupting their flow. Doesn't use the platform daily but needs reports that are accurate and instant.</p>` },
+        { id:'process', label:'Process',
+          content:`
+            <div class="cs-steps">
+              <div class="cs-step"><span class="cs-step__n" style="background:#4d7eff18;color:#4d7eff">01</span><div><strong>Heuristic Audit</strong><span>40+ screens evaluated against Nielsen's 10 heuristics</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#4d7eff18;color:#4d7eff">02</span><div><strong>IA Redesign</strong><span>New navigation model and information hierarchy</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#4d7eff18;color:#4d7eff">03</span><div><strong>Wireframes</strong><span>Low-fi flows for 8 critical dispatcher workflows</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#4d7eff18;color:#4d7eff">04</span><div><strong>Design System</strong><span>60+ component library in Figma, synced to Storybook</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#4d7eff18;color:#4d7eff">05</span><div><strong>Handoff & Pairing</strong><span>Annotated specs + weekly dev pairing sessions</span></div></div>
+            </div>
+            <div class="cs-decision" style="border-color:#4d7eff30">
+              <span style="color:#4d7eff">Key decision →</span> Moved from a tab-based interface to a task-priority dashboard that surfaced actionable items by urgency level. Average time-to-action went from 4 clicks to 1.
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ Wireframes — Dashboard redesign iterations v1 → v3 ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/capstone-wireframes.jpg</span>
+            </div>` },
+        { id:'solution', label:'Solution',
+          content:`
+            <div class="cs-img-ph" style="height:280px">
+              <span class="cs-img-ph__label">[ Final design — Dispatcher dashboard ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/capstone-final.jpg</span>
+            </div>
+            <ul class="cs-points">
+              <li><span style="color:#4d7eff">→</span> Unified real-time dashboard with exception alerts and priority queue</li>
+              <li><span style="color:#4d7eff">→</span> Dispatch flow reduced from 12 steps to 5 — validated with 6 dispatchers</li>
+              <li><span style="color:#4d7eff">→</span> Component library (60+ components) adopted across 3 dev teams</li>
+              <li><span style="color:#4d7eff">→</span> First UX rituals embedded in sprint process: design review, usability check-ins</li>
+              <li><span style="color:#4d7eff">→</span> Onboarding documentation redesigned as interactive walkthrough inside the app</li>
+            </ul>` },
+        { id:'impact', label:'Impact',
+          content:`
+            <div class="cs-metrics">
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#4d7eff">↓ 40%</span><span class="cs-metric__l">Task completion time</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#4d7eff">3×</span><span class="cs-metric__l">Faster onboarding</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#4d7eff">92%</span><span class="cs-metric__l">Dispatcher satisfaction score</span></div>
+            </div>
+            <p class="cs-p">The platform redesign became the foundation for a new product offering the company launched in Q1 2024. The component library is now maintained by a dedicated team of 3 and used across 2 additional internal tools.</p>
+            <p class="cs-p">The UX practice I established — including sprint rituals, research templates, and design principles documentation — outlasted my engagement and is still in use today.</p>` },
+        { id:'learnings', label:'Learnings',
+          content:`
+            <p class="cs-p cs-p--lead">Getting buy-in from a developer-led team required speaking their language first. Shipping small, visible UX wins early — a better error message here, a cleaner empty state there — built the trust that made larger structural changes possible.</p>
+            <p class="cs-p">If I were to do it again, I'd invest earlier in shared design principles documented as <em>team agreements</em>, not guidelines handed down from above. The language shift matters: "we decided" vs. "the designer says."</p>` }
+      ]
+    },
 
-      es: {
-        'nav.work':        'Trabajo',
-        'nav.experience':  'Experiencia',
-        'nav.about':       'Acerca',
-        'nav.contact':     'Contacto',
+    electrolit: {
+      kicker: 'Mobile · Brand App',
+      year:   '2022',
+      title:  'Electrolit Rep Tracker',
+      color:  '#36d399',
+      cover:  null,
+      meta: {
+        role:     'UI/UX Designer — End to end',
+        timeline: 'Mar – Apr 2022 (6 weeks)',
+        team:     '2 Designers · 2 Devs · 1 Client PM',
+        tools:    'Figma · Maze · Sketch · Zeplin'
+      },
+      tags: ['Mobile UX','User Interviews','Prototyping','Usability Testing','iOS & Android'],
+      sections: [
+        { id:'overview', label:'Overview',
+          content:`
+            <h3 class="cs-h3">The challenge</h3>
+            <p class="cs-p cs-p--lead">Electrolit's field brand representatives reported visits via WhatsApp voice notes and manual spreadsheets. Management had no real-time visibility into daily routes, compliance, or brand execution at point-of-sale locations.</p>
+            <p class="cs-p">The ask: design a mobile app from zero — research to tested prototype — in 6 weeks, ahead of the client's internal product launch window.</p>
+            <div class="cs-callout" style="border-color:#36d39930;background:#36d39908">
+              <span class="cs-callout__label" style="color:#36d399">Constraint</span>
+              <p class="cs-p">Field reps operate in areas with intermittent or no data connectivity. The app had to work offline-first, or it wouldn't work at all.</p>
+            </div>` },
+        { id:'research', label:'Research',
+          content:`
+            <div class="cs-methods">
+              <span class="cs-pill">User Interviews (reps & managers)</span>
+              <span class="cs-pill">Day-in-the-life shadowing</span>
+              <span class="cs-pill">Competitive Analysis</span>
+              <span class="cs-pill">Journey Mapping</span>
+            </div>
+            <div class="cs-insights">
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#36d399">01</span>
+                <p>Reps spent an average of 40 minutes per day on manual reporting — time directly subtracted from actual brand visits and relationship-building at stores.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#36d399">02</span>
+                <p>Managers were making distribution and inventory decisions based on data that was 2–3 days old. They needed same-day visibility to respond to market conditions.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#36d399">03</span>
+                <p>90% of reps used Android, not iOS. Several used budget devices with limited storage. Any app over 40MB would face adoption resistance from IT.</p>
+              </div>
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ User journey map — Field representative workday ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/electrolit-journey.jpg</span>
+            </div>` },
+        { id:'define', label:'Define',
+          content:`
+            <blockquote class="cs-quote" style="border-color:#36d39940">
+              <span class="cs-quote__mark" style="color:#36d399">"</span>
+              Field reps need to log a visit in under 60 seconds — with or without a data connection — so management can make daily brand decisions based on actual, real information.
+            </blockquote>
+            <div class="cs-persona" style="border-color:#36d39925">
+              <div class="cs-persona__avatar" style="background:#36d39918;color:#36d399">◎</div>
+              <div>
+                <strong class="cs-persona__name">Sofía R. — Brand Representative</strong>
+                <span class="cs-persona__detail">3 yrs experience · 15 store visits/day · Android user · Works in areas with poor signal · Highly time-pressured</span>
+              </div>
+            </div>
+            <div class="cs-persona" style="border-color:#36d39925;margin-top:12px">
+              <div class="cs-persona__avatar" style="background:#36d39918;color:#36d399">◈</div>
+              <div>
+                <strong class="cs-persona__name">Carlos V. — Regional Manager</strong>
+                <span class="cs-persona__detail">Needs daily coverage reports · Uses desktop + mobile · Decision-maker · Checks data in the morning before team calls</span>
+              </div>
+            </div>` },
+        { id:'process', label:'Process',
+          content:`
+            <div class="cs-steps">
+              <div class="cs-step"><span class="cs-step__n" style="background:#36d39918;color:#36d399">01</span><div><strong>Discover</strong><span>5 rep interviews + 2 manager sessions + 1 shadow day</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#36d39918;color:#36d399">02</span><div><strong>Define</strong><span>Journey map + problem statement + success metrics</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#36d39918;color:#36d399">03</span><div><strong>Sketch</strong><span>Paper sketches → 3 distinct concept directions</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#36d39918;color:#36d399">04</span><div><strong>Prototype</strong><span>Mid-fi Figma prototype — 12 screens, check-in flow + manager view</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#36d39918;color:#36d399">05</span><div><strong>Test</strong><span>Unmoderated Maze test with 8 actual field reps</span></div></div>
+            </div>
+            <div class="cs-decision" style="border-color:#36d39930">
+              <span style="color:#36d399">Key decision →</span> We chose a gesture-first, minimal-input model. Each visit check-in required only 3 taps. Form fields were replaced with smart defaults (pre-populated store info via GPS), photo capture, and a single status selector.
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ Prototype — Check-in flow v1 vs v2 comparison ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/electrolit-prototype.jpg</span>
+            </div>` },
+        { id:'solution', label:'Solution',
+          content:`
+            <div class="cs-img-ph" style="height:280px">
+              <span class="cs-img-ph__label">[ Final screens — iOS & Android, rep + manager views ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/electrolit-final.jpg</span>
+            </div>
+            <ul class="cs-points">
+              <li><span style="color:#36d399">→</span> 3-tap visit check-in: GPS auto-capture, photo, status — done in under 45 seconds in testing</li>
+              <li><span style="color:#36d399">→</span> Offline queue syncs automatically when connectivity returns — zero data loss</li>
+              <li><span style="color:#36d399">→</span> Manager dashboard with daily route heat map and store coverage percentage</li>
+              <li><span style="color:#36d399">→</span> App size under 18MB — within IT's hard limit for mass deployment</li>
+              <li><span style="color:#36d399">→</span> Push notification system for morning route assignments from managers</li>
+            </ul>` },
+        { id:'impact', label:'Impact',
+          content:`
+            <div class="cs-metrics">
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#36d399">↓ 90%</span><span class="cs-metric__l">Daily reporting time</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#36d399">100%</span><span class="cs-metric__l">Same-day management visibility</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#36d399">4.8★</span><span class="cs-metric__l">Maze usability test score</span></div>
+            </div>
+            <p class="cs-p">The app was greenlit for development <em>during</em> the testing phase — client approved before the sprint officially ended. We delivered full handoff including motion specs, edge-case annotations, and an accessibility checklist.</p>
+            <p class="cs-p">6-week engagement. Full process. Shipped to dev. Zero scope creep.</p>` },
+        { id:'learnings', label:'Learnings',
+          content:`
+            <p class="cs-p cs-p--lead">Six weeks is not long. The discipline that made this work was ruthless prioritization. We cut an entire reporting analytics module from v1 scope to protect the core check-in flow — the thing the client actually needed first.</p>
+            <p class="cs-p">Shipping a focused v1 well is always better than shipping a bloated v1 poorly. The reporting module became the v2 roadmap item that gave the client a reason to keep investing in the product.</p>` }
+      ]
+    },
 
-        'hero.eyebrow':    'Senior Lead UI/UX Designer&ensp;·&ensp;25+ años&ensp;·&ensp;Zapopan, México',
-        'hero.h1':         'Claridad<br/><em>desde</em><br/>la complejidad.',
-        'hero.desc':       'Artista visual convertido en estratega de experiencia digital. Diseño productos que hacen legibles los sistemas complejos — para logística empresarial, infraestructura cívica y plataformas de escala global.',
-        'hero.cta1':       'Ver proyectos',
-        'hero.cta2':       'Acerca de mí',
-
-        'work.label':      'Trabajo seleccionado',
-        'work.h2':         'Casos de estudio',
-        'work.intro':      'Cada proyecto representa un reto de diseño complejo — sistemas de alta exigencia, usuarios reales y resultados medibles.',
-        'work.c1.kicker':  'UX Empresarial · Logística',
-        'work.c1.title':   'Plataforma Capstone Logistics',
-        'work.c1.desc':    'Lideré el UX de una plataforma logística empresarial legacy que servía miles de operaciones diarias en EE. UU. Colaboré con product owners para el backlog, rediseñé flujos clave e instalé cultura de UX en un equipo centrado en desarrollo.',
-        'work.c1.client':  'Vía Improving · Atlanta, EE. UU.',
-        'work.c2.kicker':  'Mobile · App de Marca',
-        'work.c2.title':   'App Electrolit para Representantes',
-        'work.c2.desc':    'Diseñé desde cero una aplicación móvil para rastrear representantes de marca en campo. Lideré el proceso completo: entrevistas, bocetos, diseño, prototipo y pruebas en móvil y escritorio.',
-        'work.c2.client':  'Vía Improving · Guadalajara, MX',
-        'work.c3.kicker':  'Gobierno · Sistemas de PI',
-        'work.c3.title':   'Consultoría IMPI Sistemas Digitales',
-        'work.c3.desc':    'Consultoría independiente de UX para el IMPI (Instituto Mexicano de la Propiedad Industrial). Mejora de claridad, accesibilidad y eficiencia operativa de plataformas digitales gubernamentales bajo restricciones legales e institucionales.',
-        'work.c3.client':  'Independiente · México',
-        'work.note':       'Trabajo adicional de Sparefoot, Delphian Systems, ZoomCatalog y TEPJF disponible bajo solicitud.',
-
-        'exp.label':       'Trayectoria',
-        'exp.h2':          'Experiencia',
-        'exp.gl.role':     'Senior Lead UI/UX Designer',
-        'exp.gl.flag':     '· Proyecto Google',
-        'exp.gl.desc':     'Trabajo en un proyecto de gran escala con Google a través de GlobalLogic, una de las principales empresas de ingeniería digital del mundo.',
-        'exp.impi.role':   'Consultor UX',
-        'exp.impi.flag':   '· Independiente',
-        'exp.impi.desc':   'Consultoría independiente de UX para sistemas digitales gubernamentales.',
-        'exp.imp.role':    'Senior Lead UI/UX Designer · Talent Lead',
-        'exp.imp.sub':     '(antes iTexico)',
-        'exp.imp.desc':    'Seis años liderando estrategia y entrega de UX en múltiples proyectos con clientes. Clientes destacados:',
-        'exp.imp.c1':      'Rediseño de plataforma empresarial · Atlanta, EE. UU. · 2022–2024',
-        'exp.imp.c2':      'App móvil de marca, proceso de diseño completo · Guadalajara · 2022',
-        'exp.imp.c3':      'Revamp de producto e investigación UX · Chicago · 2020–2022',
-        'exp.imp.c4':      'Investigación y prototipo de app móvil · California · 2020',
-        'exp.imp.c5':      'Investigación UX y wireframes · Austin TX · 2020',
-        'exp.imp.c6':      'Pruebas A/B y backlog de producto · Austin TX · 2019–2020',
-        'exp.zoom.role':   'UI/UX Designer Semi-Senior',
-        'exp.zoom.desc':   'Análisis heurístico, pruebas de usabilidad y mejoras de UX para un producto de gestión de catálogos.',
-        'exp.tepjf.role':  'UI/UX Designer Semi-Senior',
-        'exp.tepjf.desc':  'Rediseño de un sistema electoral para alinearlo con las necesidades del usuario y requisitos legales. Investigación con usuarios administrativos, legales y finales.',
-        'exp.early.role':  'Web Designer · Front-End Designer · Jr. Web Designer',
-        'exp.early.desc':  '25 años de crecimiento progresivo — de Jr. Web Designer a líder senior de experiencia digital — en agencias, medios, instituciones gubernamentales y clientes empresariales en México y EE. UU.',
-
-        'about.label':      'Acerca',
-        'about.h2':         'El diseñador<br/><em>detrás del trabajo</em>',
-        'about.p1':         'Comencé como artista visual. En 1999 di el salto a lo digital — y nunca miré atrás. En 25 años evolucioné de construir sitios con tablas y Flash a liderar estrategia de UX para plataformas empresariales que sirven a miles de usuarios diariamente.',
-        'about.p2':         'Mi formación en artes visuales moldea mi forma de atacar los problemas: busco la estructura subyacente antes de proponer soluciones. Me siento igual de cómodo facilitando un design sprint, analizando métricas o trabajando en par con un equipo de desarrollo en arquitectura de componentes.',
-        'about.p3':         'Soy <strong>Licenciado en Artes Visuales por la UNAM</strong> y cuento con la certificación <strong>Professional Scrum™ with UX</strong> de SCRUM.org. Recientemente he profundizado en análisis de datos y flujos de diseño asistidos por IA.',
-        'about.expertise.title': 'Especialidades',
-        'about.expertise.1': 'Investigación de usuarios y pruebas de usabilidad',
-        'about.expertise.2': 'Arquitectura de información',
-        'about.expertise.3': 'Diseño de interacción',
-        'about.expertise.4': 'Design Systems',
-        'about.expertise.5': 'Product Thinking y gestión de backlog',
-        'about.expertise.6': 'Accesibilidad ADA',
-        'about.expertise.7': 'Visualización de datos',
-        'about.expertise.8': 'Game UX',
-        'about.tools.title': 'Herramientas',
-        'about.certs.title': 'Certificaciones recientes',
-        'about.certs.1':     'Análisis de datos para storytelling — Pluralsight',
-        'about.certs.2':     'Fundamentos de Python — Pluralsight',
-        'about.certs.3':     'Wireframes con IA Generativa — Pluralsight',
-        'about.certs.4':     'Análisis de datos en Google Cloud — Pluralsight',
-        'about.certs.5':     'Professional Scrum™ con UX — SCRUM.org',
-
-        'contact.label': 'Contacto',
-        'contact.h2':    'Hablemos.',
-        'contact.intro': 'Disponible para roles senior de UX, liderazgo de diseño y consultoría independiente en sistemas digitales complejos.',
-      }
-    };
-
-    // ── APPLY LANGUAGE ───────────────────────────────────────────
-    let currentLang = localStorage.getItem('ha-lang') || 'en';
-
-    function applyLang(lang) {
-      const dict = i18n[lang];
-      document.querySelectorAll('[data-i18n]').forEach(el => {
-        const key = el.getAttribute('data-i18n');
-        if (dict[key] !== undefined) el.innerHTML = dict[key];
-      });
-      document.documentElement.setAttribute('lang', lang);
-      document.documentElement.setAttribute('data-lang', lang);
-
-      // Update switcher active state
-      document.getElementById('lang-en').classList.toggle('lang-active', lang === 'en');
-      document.getElementById('lang-es').classList.toggle('lang-active', lang === 'es');
-
-      // Update page title
-      document.title = lang === 'es'
-        ? 'Héctor Armenta | Senior Lead UI/UX Designer'
-        : 'Héctor Armenta | Senior Lead UI/UX Designer';
-
-      currentLang = lang;
-      localStorage.setItem('ha-lang', lang);
+    impi: {
+      kicker: 'Government · IP Systems',
+      year:   '2025 – present',
+      title:  'IMPI Digital Consultancy',
+      color:  '#f4c542',
+      cover:  null,
+      meta: {
+        role:     'UX Consultant — Independent',
+        timeline: '2025 – Ongoing',
+        team:     'Solo + internal IMPI digital team',
+        tools:    'Figma · Mural · Maze · WCAG 2.1 tools'
+      },
+      tags: ['UX Strategy','Accessibility ADA','Service Design','Gov Systems','WCAG 2.1'],
+      sections: [
+        { id:'overview', label:'Overview',
+          content:`
+            <h3 class="cs-h3">The challenge</h3>
+            <p class="cs-p cs-p--lead">IMPI's citizen-facing digital platforms — handling trademark registrations, patent filings, and IP dispute processes — were built over a decade by separate technical teams. The result: fragmented experiences, zero accessibility compliance, and dangerously high abandonment on legally critical processes.</p>
+            <p class="cs-p">I was brought in as an independent UX consultant to lead experience audit, prioritize remediation, and redesign the most critical citizen journeys.</p>
+            <div class="cs-callout" style="border-color:#f4c54230;background:#f4c54208">
+              <span class="cs-callout__label" style="color:#f4c542">Stakes</span>
+              <p class="cs-p">These aren't e-commerce flows. A failed trademark filing can mean losing months of legal work and tens of thousands of pesos in fees. The cost of UX failure is legally and financially catastrophic for citizens.</p>
+            </div>` },
+        { id:'research', label:'Research',
+          content:`
+            <div class="cs-methods">
+              <span class="cs-pill">Heuristic Evaluation</span>
+              <span class="cs-pill">WCAG 2.1 Full Audit</span>
+              <span class="cs-pill">Stakeholder Interviews</span>
+              <span class="cs-pill">Citizen Journey Mapping</span>
+              <span class="cs-pill">Analytics Analysis</span>
+              <span class="cs-pill">Screen Reader Testing</span>
+            </div>
+            <div class="cs-insights">
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#f4c542">01</span>
+                <p>47% of trademark filing sessions were abandoned at the document upload step — a critical friction point with zero error recovery. The system accepted the upload, showed no confirmation, then silently failed on submission.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#f4c542">02</span>
+                <p>Primary filing flows had zero screen reader compatibility — a legal accessibility requirement the institution was not meeting, creating potential liability under Mexican disability law.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#f4c542">03</span>
+                <p>The word "solicitud" appeared in 6 different contexts with 4 different meanings across platforms. Users couldn't tell if they had already filed or needed to file something. Terminology was causing legal confusion.</p>
+              </div>
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ WCAG 2.1 audit map — violations by severity and flow ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/impi-audit.jpg</span>
+            </div>` },
+        { id:'define', label:'Define',
+          content:`
+            <blockquote class="cs-quote" style="border-color:#f4c54240">
+              <span class="cs-quote__mark" style="color:#f4c542">"</span>
+              Citizens filing intellectual property claims need confidence that their submission will be received and processed — with clear guidance at every step and recovery options when something goes wrong.
+            </blockquote>
+            <div class="cs-persona" style="border-color:#f4c54225">
+              <div class="cs-persona__avatar" style="background:#f4c54218;color:#f4c542">◎</div>
+              <div>
+                <strong class="cs-persona__name">Mariana F. — SME Owner, First-time Filer</strong>
+                <span class="cs-persona__detail">Non-technical · Has a lawyer but does the digital steps herself · Under legal deadline pressure · Anxious about making mistakes</span>
+              </div>
+            </div>
+            <div class="cs-persona" style="border-color:#f4c54225;margin-top:12px">
+              <div class="cs-persona__avatar" style="background:#f4c54218;color:#f4c542">◈</div>
+              <div>
+                <strong class="cs-persona__name">Roberto E. — IP Attorney, Power User</strong>
+                <span class="cs-persona__detail">Files 30–50 applications/month · Speed and reliability over beauty · Needs bulk actions and status tracking across clients</span>
+              </div>
+            </div>` },
+        { id:'process', label:'Process',
+          content:`
+            <div class="cs-steps">
+              <div class="cs-step"><span class="cs-step__n" style="background:#f4c54218;color:#f4c542">01</span><div><strong>Audit</strong><span>Full heuristic + WCAG 2.1 evaluation across 8 primary flows</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#f4c54218;color:#f4c542">02</span><div><strong>Prioritize</strong><span>Risk matrix: legal compliance severity × citizen impact × technical complexity</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#f4c54218;color:#f4c542">03</span><div><strong>Co-design</strong><span>Workshops with IMPI internal legal, IT, and communications teams</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#f4c54218;color:#f4c542">04</span><div><strong>Prototype</strong><span>Accessible high-fidelity flows with WCAG annotations in Figma</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#f4c54218;color:#f4c542">05</span><div><strong>Validate</strong><span>Moderated testing with 6 citizen segments + screen reader specialist</span></div></div>
+            </div>
+            <div class="cs-decision" style="border-color:#f4c54230">
+              <span style="color:#f4c542">Key decision →</span> Prioritized the trademark filing flow first — highest citizen volume, highest abandonment, highest legal risk. Remediation before redesign: fix what's demonstrably broken before adding anything new.
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ Service design map — Trademark filing citizen journey ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/impi-servicedesign.jpg</span>
+            </div>` },
+        { id:'solution', label:'Solution',
+          content:`
+            <div class="cs-img-ph" style="height:280px">
+              <span class="cs-img-ph__label">[ Before & after — Trademark filing flow redesign ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/impi-beforeafter.jpg</span>
+            </div>
+            <ul class="cs-points">
+              <li><span style="color:#f4c542">→</span> Redesigned document upload with inline validation, explicit confirmation states, and clear error recovery paths</li>
+              <li><span style="color:#f4c542">→</span> Full WCAG 2.1 AA compliance on primary filing flows — verified with actual screen reader testing</li>
+              <li><span style="color:#f4c542">→</span> Unified terminology glossary integrated as contextual tooltips — 47 terms standardized across all platforms</li>
+              <li><span style="color:#f4c542">→</span> Multi-step progress system showing citizens exactly where they are and what comes next in every process</li>
+              <li><span style="color:#f4c542">→</span> Bulk action interface for power users (attorneys) — filed 100+ applications in parallel requests</li>
+            </ul>` },
+        { id:'impact', label:'Impact',
+          content:`
+            <div class="cs-metrics">
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#f4c542">↓ 30%</span><span class="cs-metric__l">Projected abandonment reduction</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#f4c542">AA</span><span class="cs-metric__l">WCAG 2.1 compliance achieved</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#f4c542">47</span><span class="cs-metric__l">UI terminology terms unified</span></div>
+            </div>
+            <p class="cs-p">Phase 1 delivered Q1 2025 — trademark filing flow. Phase 2 currently in discovery: the internal case management system used by IMPI examiners, a complex workflow tool with over 80 distinct action states.</p>
+            <p class="cs-p">Engagement ongoing. This case study will be updated with post-launch data once the redesigned flows go live in H2 2025.</p>` },
+        { id:'learnings', label:'Learnings',
+          content:`
+            <p class="cs-p cs-p--lead">Government UX requires a fundamentally different pace of stakeholder alignment. A decision that takes a day in a startup takes 3 weeks when legal, IT, communications, and a director all have veto power — and they should, because the stakes are different.</p>
+            <p class="cs-p">The skills that mattered most here weren't design skills — they were facilitation, documentation, and political patience. Learning to frame every design decision in terms of legal risk, institutional reputation, or citizen service metrics changed how quickly proposals moved.</p>
+            <p class="cs-p">Accessibility is not a "nice-to-have" feature. It is the baseline. Starting there instead of treating it as a retrofit changes the entire design direction for the better.</p>` }
+      ]
     }
+  };
 
-    function toggleLang() {
-      applyLang(currentLang === 'en' ? 'es' : 'en');
-    }
+  // ─────────────────────────────────────────────────────────────
+  // MODAL ENGINE
+  // ─────────────────────────────────────────────────────────────
+  let activeTab = {};
 
-    // Apply on load
-    applyLang(currentLang);
+  function openCS(id) {
+    const d = CS[id];
+    if (!d) return;
 
-    // ── NAV SCROLL ───────────────────────────────────────────────
-    const nav = document.getElementById('site-nav');
-    window.addEventListener('scroll', () => {
-      nav.classList.toggle('site-nav--scrolled', window.scrollY > 60);
-    }, { passive: true });
+    // Bar
+    document.getElementById('cs-bar-kicker').textContent = d.kicker;
+    document.getElementById('cs-bar-title').textContent  = d.title;
 
-    // ── INTERSECTION OBSERVER ────────────────────────────────────
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) {
-          e.target.classList.add('is-visible');
-          observer.unobserve(e.target);
+    // Build body
+    const body = document.getElementById('cs-body');
+    body.innerHTML = `
+      <!-- Hero -->
+      <div class="cs-hero" style="--cc:${d.color}">
+        ${d.cover
+          ? `<img src="${d.cover}" class="cs-hero__img" alt="${d.title}" />`
+          : `<div class="cs-hero__ph"><span style="color:${d.color};font-size:3rem;opacity:.4">◈</span></div>`
         }
-      });
-    }, { threshold: 0.1 });
+        <div class="cs-hero__overlay">
+          <p class="cs-eyebrow" style="color:${d.color}">${d.kicker} · ${d.year}</p>
+          <h2 class="cs-title">${d.title}</h2>
+          <div class="cs-tag-list">${d.tags.map(t=>`<span>${t}</span>`).join('')}</div>
+        </div>
+      </div>
 
-    document.querySelectorAll('.card, .timeline__item, .about-block, .about-bio')
-      .forEach(el => observer.observe(el));
+      <!-- Meta -->
+      <div class="cs-meta">
+        <div class="cs-meta__item"><span class="cs-meta__k">Role</span><span class="cs-meta__v">${d.meta.role}</span></div>
+        <div class="cs-meta__item"><span class="cs-meta__k">Timeline</span><span class="cs-meta__v">${d.meta.timeline}</span></div>
+        <div class="cs-meta__item"><span class="cs-meta__k">Team</span><span class="cs-meta__v">${d.meta.team}</span></div>
+        <div class="cs-meta__item"><span class="cs-meta__k">Tools</span><span class="cs-meta__v">${d.meta.tools}</span></div>
+      </div>
+
+      <!-- Tabs -->
+      <div class="cs-tabs" id="cs-tabs-${id}" style="--cc:${d.color}">
+        ${d.sections.map((s,i) => `<button class="cs-tab${i===0?' cs-tab--active':''}" onclick="switchTab('${id}','${s.id}',this)" data-sid="${s.id}">${s.label}</button>`).join('')}
+      </div>
+
+      <!-- Section content -->
+      <div class="cs-content" id="cs-content-${id}">
+        ${d.sections.map((s,i) => `
+          <div class="cs-section${i===0?' cs-section--active':''}" id="cs-sec-${id}-${s.id}">
+            <div class="cs-section__label" style="--cc:${d.color}">${s.label}</div>
+            ${s.content}
+          </div>`).join('')}
+      </div>
+    `;
+
+    activeTab[id] = d.sections[0].id;
+
+    document.getElementById('cs-overlay').classList.add('open');
+    document.body.style.overflow = 'hidden';
+    body.scrollTop = 0;
+  }
+
+  function switchTab(csId, sectionId, btn) {
+    // Deactivate all tabs
+    document.querySelectorAll(`#cs-tabs-${csId} .cs-tab`).forEach(b => b.classList.remove('cs-tab--active'));
+    btn.classList.add('cs-tab--active');
+    // Hide all sections
+    document.querySelectorAll(`#cs-content-${csId} .cs-section`).forEach(s => s.classList.remove('cs-section--active'));
+    // Show target
+    const target = document.getElementById(`cs-sec-${csId}-${sectionId}`);
+    if (target) { target.classList.add('cs-section--active'); document.getElementById('cs-body').scrollTop = 220; }
+    activeTab[csId] = sectionId;
+  }
+
+  function closeCS() {
+    document.getElementById('cs-overlay').classList.remove('open');
+    document.body.style.overflow = '';
+  }
+
+  function handleOverlayClick(e) {
+    if (e.target === document.getElementById('cs-overlay')) closeCS();
+  }
+
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCS(); });
+
+  // ─────────────────────────────────────────────────────────────
+  // HORIZONTAL SCROLL
+  // ─────────────────────────────────────────────────────────────
+  let activeIndex = 0;
+
+  function initScroll() {
+    const track = document.getElementById('cards-track');
+    const dotsEl = document.getElementById('scroll-dots');
+    const cards  = track.querySelectorAll('.card');
+    dotsEl.innerHTML = Array.from({length: cards.length}, (_,i) =>
+      `<button class="scroll-dot${i===0?' active':''}" onclick="goToCard(${i})" aria-label="Card ${i+1}"></button>`
+    ).join('');
+    updateButtons();
+    track.addEventListener('scroll', () => {
+      const w = (track.querySelector('.card').offsetWidth || 380) + 24;
+      activeIndex = Math.round(track.scrollLeft / w);
+      updateDots(); updateButtons();
+    }, {passive:true});
+  }
+
+  function scrollCards(dir) {
+    const count = document.getElementById('cards-track').querySelectorAll('.card').length;
+    activeIndex = Math.max(0, Math.min(count - 1, activeIndex + dir));
+    smoothTo(document.getElementById('cards-track'), activeIndex * cardStep());
+    updateDots(); updateButtons();
+  }
+
+  function goToCard(i) {
+    activeIndex = i;
+    smoothTo(document.getElementById('cards-track'), i * cardStep());
+    updateDots(); updateButtons();
+  }
+
+  function cardStep() {
+    const c = document.getElementById('cards-track').querySelector('.card');
+    return (c ? c.offsetWidth : 380) + 24;
+  }
+
+  function smoothTo(el, target) {
+    const start = el.scrollLeft, dist = target - start;
+    let t0 = null;
+    const dur = 640;
+    function ease(t) { return t===1?1:1-Math.pow(2,-10*t); }
+    (function step(ts) {
+      if (!t0) t0 = ts;
+      const p = Math.min((ts-t0)/dur, 1);
+      el.scrollLeft = start + dist * ease(p);
+      if (p < 1) requestAnimationFrame(step);
+    })(performance.now());
+  }
+
+  function updateDots() {
+    document.querySelectorAll('.scroll-dot').forEach((d,i) => d.classList.toggle('active', i===activeIndex));
+  }
+
+  function updateButtons() {
+    const count = document.getElementById('cards-track').querySelectorAll('.card').length;
+    document.getElementById('scroll-prev').disabled = activeIndex === 0;
+    document.getElementById('scroll-next').disabled = activeIndex === count - 1;
+  }
+
+  // ─────────────────────────────────────────────────────────────
+  // I18N
+  // ─────────────────────────────────────────────────────────────
+  const i18n = {
+    en: {
+      'nav.work':'Work','nav.experience':'Experience','nav.about':'About','nav.contact':'Contact',
+      'hero.eyebrow':'Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México',
+      'hero.h1':'Clarity<br/><em>from</em><br/>complexity.',
+      'hero.desc':'Former visual artist turned experience strategist. I design digital products that make complex systems legible.',
+      'hero.cta1':'See my work','hero.cta2':'About me',
+      'work.label':'Selected work','work.h2':'Case studies',
+      'work.intro':'Complex design challenges — high-stakes systems, real users, measurable outcomes.',
+      'work.c1.kicker':'Enterprise UX · Logistics','work.c1.title':'Capstone Logistics Platform',
+      'work.c1.desc':'Led UX for a legacy enterprise logistics platform serving thousands of daily US operations. First dedicated designer in a developer-driven org.',
+      'work.c1.client':'Via Improving · Atlanta, USA',
+      'work.c2.kicker':'Mobile · Brand App','work.c2.title':'Electrolit Rep Tracker',
+      'work.c2.desc':'Mobile app from scratch — research to tested prototype in 6 weeks. Tracked brand reps in the field with offline-first architecture.',
+      'work.c2.client':'Via Improving · Guadalajara, MX',
+      'work.c3.kicker':'Government · IP Systems','work.c3.title':'IMPI Digital Consultancy',
+      'work.c3.desc':'Independent UX consultancy for Mexico\'s IP institution — accessibility remediation, service design, and critical citizen journey redesign.',
+      'work.c3.client':'Independent · México',
+      'work.note':'Additional work from Sparefoot, Delphian Systems, ZoomCatalog and TEPJF available upon request.',
+      'exp.label':'Career','exp.h2':'Experience',
+      'exp.gl.role':'Senior Lead UI/UX Designer','exp.gl.flag':'· Google project',
+      'exp.gl.desc':'Large-scale product engagement with Google through GlobalLogic, one of the world\'s leading digital engineering companies.',
+      'exp.impi.role':'UX Consultant','exp.impi.flag':'· Independent','exp.impi.desc':'Independent UX consultancy for government digital systems.',
+      'exp.imp.role':'Senior Lead UI/UX Designer · Talent Lead','exp.imp.sub':'(formerly iTexico)',
+      'exp.imp.desc':'Six years leading UX strategy across multiple client engagements. Notable clients:',
+      'exp.imp.c1':'Enterprise platform redesign · Atlanta · 2022–2024','exp.imp.c2':'Mobile brand app · GDL · 2022',
+      'exp.imp.c3':'Product revamp & research · Chicago · 2020–2022','exp.imp.c4':'Mobile app research · California · 2020',
+      'exp.imp.c5':'UX research & wireframes · Austin TX · 2020','exp.imp.c6':'A/B testing & backlog · Austin TX · 2019–2020',
+      'exp.zoom.role':'Mid-Level UI/UX Designer','exp.zoom.desc':'Heuristic analyses, usability testing, and UX improvements for a catalog management product.',
+      'exp.tepjf.role':'Mid-Level UI/UX Designer','exp.tepjf.desc':'Revamped an electoral system to align with user needs and legal requirements.',
+      'exp.early.role':'Web Designer · Front-End · Jr. Web Designer','exp.early.desc':'25 years of progressive growth from Jr. Web Designer to senior digital experience leader.',
+      'about.label':'About','about.h2':'The designer<br/><em>behind the work</em>',
+      'about.p1':'I started as a visual artist. In 1999, I made the leap into digital — and never looked back. Over 25 years I\'ve evolved from building websites with tables and Flash to leading UX strategy for enterprise platforms.',
+      'about.p2':'My background in visual arts shapes how I approach problems: I look for the underlying structure before reaching for solutions.',
+      'about.p3':'I hold a <strong>Bachelor in Visual Arts from UNAM</strong> and a <strong>Professional Scrum™ with UX certification</strong> from SCRUM.org.',
+      'about.expertise.title':'Core expertise','about.tools.title':'Tools','about.certs.title':'Recent certifications',
+      'about.expertise.1':'User Research & Usability Testing','about.expertise.2':'Information Architecture',
+      'about.expertise.3':'Interaction Design','about.expertise.4':'Design Systems',
+      'about.expertise.5':'Product Thinking & Backlog Management','about.expertise.6':'Accessibility ADA',
+      'about.expertise.7':'Data Visualization','about.expertise.8':'Game UX',
+      'about.certs.1':'Data Analysis for Storytelling — Pluralsight','about.certs.2':'Python Data Essentials — Pluralsight',
+      'about.certs.3':'Wireframes with Generative AI — Pluralsight','about.certs.4':'Data Analytics on Google Cloud — Pluralsight',
+      'about.certs.5':'Professional Scrum™ with UX — SCRUM.org',
+      'contact.label':'Contact','contact.h2':'Let\'s talk.',
+      'contact.intro':'Available for senior UX roles, design leadership, and independent consultancy in complex digital systems.',
+    },
+    es: {
+      'nav.work':'Trabajo','nav.experience':'Experiencia','nav.about':'Acerca','nav.contact':'Contacto',
+      'hero.eyebrow':'Senior Lead UI/UX Designer&ensp;·&ensp;25+ años&ensp;·&ensp;Zapopan, México',
+      'hero.h1':'Claridad<br/><em>desde</em><br/>la complejidad.',
+      'hero.desc':'Artista visual convertido en estratega de experiencia digital. Diseño productos que hacen legibles los sistemas complejos.',
+      'hero.cta1':'Ver proyectos','hero.cta2':'Acerca de mí',
+      'work.label':'Trabajo seleccionado','work.h2':'Casos de estudio',
+      'work.intro':'Retos de diseño complejos — sistemas de alto impacto, usuarios reales, resultados medibles.',
+      'work.c1.kicker':'UX Empresarial · Logística','work.c1.title':'Plataforma Capstone Logistics',
+      'work.c1.desc':'Lideré el UX de una plataforma logística legacy que servía miles de operaciones diarias en EE. UU. Primer diseñador dedicado en un equipo de desarrolladores.',
+      'work.c1.client':'Vía Improving · Atlanta, EE. UU.',
+      'work.c2.kicker':'Mobile · App de Marca','work.c2.title':'App Electrolit para Representantes',
+      'work.c2.desc':'App móvil desde cero — investigación a prototipo probado en 6 semanas. Rastreo de representantes de campo con arquitectura offline-first.',
+      'work.c2.client':'Vía Improving · Guadalajara, MX',
+      'work.c3.kicker':'Gobierno · Sistemas de PI','work.c3.title':'Consultoría IMPI',
+      'work.c3.desc':'Consultoría independiente de UX para el IMPI — remediación de accesibilidad, diseño de servicios y rediseño de flujos ciudadanos críticos.',
+      'work.c3.client':'Independiente · México',
+      'work.note':'Trabajo adicional de Sparefoot, Delphian Systems, ZoomCatalog y TEPJF disponible bajo solicitud.',
+      'exp.label':'Trayectoria','exp.h2':'Experiencia',
+      'exp.gl.role':'Senior Lead UI/UX Designer','exp.gl.flag':'· Proyecto Google',
+      'exp.gl.desc':'Proyecto de gran escala con Google a través de GlobalLogic, una de las principales empresas de ingeniería digital del mundo.',
+      'exp.impi.role':'Consultor UX','exp.impi.flag':'· Independiente','exp.impi.desc':'Consultoría independiente de UX para sistemas digitales gubernamentales.',
+      'exp.imp.role':'Senior Lead UI/UX Designer · Talent Lead','exp.imp.sub':'(antes iTexico)',
+      'exp.imp.desc':'Seis años liderando estrategia de UX en múltiples proyectos con clientes. Clientes destacados:',
+      'exp.imp.c1':'Rediseño de plataforma empresarial · Atlanta · 2022–2024','exp.imp.c2':'App móvil de marca · GDL · 2022',
+      'exp.imp.c3':'Revamp de producto · Chicago · 2020–2022','exp.imp.c4':'Investigación móvil · California · 2020',
+      'exp.imp.c5':'Investigación UX · Austin TX · 2020','exp.imp.c6':'Pruebas A/B · Austin TX · 2019–2020',
+      'exp.zoom.role':'UI/UX Designer Semi-Senior','exp.zoom.desc':'Análisis heurístico, pruebas de usabilidad y mejoras de UX para un producto de gestión de catálogos.',
+      'exp.tepjf.role':'UI/UX Designer Semi-Senior','exp.tepjf.desc':'Rediseño de un sistema electoral para alinearlo con las necesidades del usuario y requisitos legales.',
+      'exp.early.role':'Web Designer · Front-End · Jr. Web Designer','exp.early.desc':'25 años de crecimiento progresivo de Jr. Web Designer a líder senior de experiencia digital.',
+      'about.label':'Acerca','about.h2':'El diseñador<br/><em>detrás del trabajo</em>',
+      'about.p1':'Comencé como artista visual. En 1999 di el salto a lo digital — y nunca miré atrás. En 25 años evolucioné de construir sitios con tablas y Flash a liderar estrategia de UX para plataformas empresariales.',
+      'about.p2':'Mi formación en artes visuales moldea mi forma de atacar los problemas: busco la estructura subyacente antes de proponer soluciones.',
+      'about.p3':'Soy <strong>Licenciado en Artes Visuales por la UNAM</strong> y cuento con la certificación <strong>Professional Scrum™ with UX</strong> de SCRUM.org.',
+      'about.expertise.title':'Especialidades','about.tools.title':'Herramientas','about.certs.title':'Certificaciones recientes',
+      'about.expertise.1':'Investigación de usuarios y pruebas de usabilidad','about.expertise.2':'Arquitectura de información',
+      'about.expertise.3':'Diseño de interacción','about.expertise.4':'Design Systems',
+      'about.expertise.5':'Product Thinking y gestión de backlog','about.expertise.6':'Accesibilidad ADA',
+      'about.expertise.7':'Visualización de datos','about.expertise.8':'Game UX',
+      'about.certs.1':'Análisis de datos para storytelling — Pluralsight','about.certs.2':'Fundamentos de Python — Pluralsight',
+      'about.certs.3':'Wireframes con IA Generativa — Pluralsight','about.certs.4':'Análisis de datos en Google Cloud — Pluralsight',
+      'about.certs.5':'Professional Scrum™ con UX — SCRUM.org',
+      'contact.label':'Contacto','contact.h2':'Hablemos.',
+      'contact.intro':'Disponible para roles senior de UX, liderazgo de diseño y consultoría independiente en sistemas digitales complejos.',
+    }
+  };
+
+  let currentLang = localStorage.getItem('ha-lang') || 'en';
+  function applyLang(lang) {
+    const d = i18n[lang];
+    document.querySelectorAll('[data-i18n]').forEach(el => { const k=el.getAttribute('data-i18n'); if(d[k]) el.innerHTML=d[k]; });
+    document.documentElement.setAttribute('lang', lang);
+    document.documentElement.setAttribute('data-lang', lang);
+    document.getElementById('lang-en').classList.toggle('lang-active', lang==='en');
+    document.getElementById('lang-es').classList.toggle('lang-active', lang==='es');
+    currentLang = lang; localStorage.setItem('ha-lang', lang);
+  }
+  function toggleLang() { applyLang(currentLang==='en'?'es':'en'); }
+  applyLang(currentLang);
+
+  // NAV scroll
+  const nav = document.getElementById('site-nav');
+  window.addEventListener('scroll', () => nav.classList.toggle('site-nav--scrolled', window.scrollY > 60), {passive:true});
+
+  // Timeline + about reveal
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => { if(e.isIntersecting){ e.target.classList.add('is-visible'); obs.unobserve(e.target); }});
+  }, {threshold: 0.08});
+  document.querySelectorAll('.timeline__item, .about-block, .about-bio').forEach(el => obs.observe(el));
+
+  // Init scroll
+  if (document.readyState !== 'loading') initScroll();
+  else document.addEventListener('DOMContentLoaded', initScroll);
   </script>
 
 </body>
