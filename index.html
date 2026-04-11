@@ -84,12 +84,44 @@
               <span class="card__year">2022 – 2024</span>
             </div>
             <h3 data-i18n="work.c1.title">Capstone Logistics Platform</h3>
-            <p data-i18n="work.c1.desc">Led UX for a legacy enterprise logistics platform serving thousands of daily operations across the US. First dedicated UX designer in a developer-driven org.</p>
+            <p data-i18n="work.c1.desc">Led UX for a legacy enterprise logistics platform serving thousands of daily US operations. First dedicated designer in a developer-driven org — research, design system, and UX culture from scratch.</p>
             <ul class="card__tags">
-              <li>User Research</li><li>Wireframing</li><li>Design System</li><li>Backlog Mgmt</li>
+              <li>User Research</li><li>Design System</li><li>Storybook</li><li>Backlog Mgmt</li>
             </ul>
             <div class="card__footer">
               <span class="card__client" data-i18n="work.c1.client">Via Improving · Atlanta, USA</span>
+              <span class="card__cta">View case study →</span>
+            </div>
+          </article>
+
+          <article class="card" onclick="openCS('delphian')">
+            <div class="card__meta">
+              <span class="card__kicker" data-i18n="work.c4.kicker">IoT · UX + Product</span>
+              <span class="card__year">2020 – 2022</span>
+            </div>
+            <h3 data-i18n="work.c4.title">Delphian Systems — StrongBox</h3>
+            <p data-i18n="work.c4.desc">Revitalized a residential IoT smart lock app after a failed development cycle. Role evolved from UX Designer to hybrid UX/Product Manager — design system, research, and roadmap alignment.</p>
+            <ul class="card__tags">
+              <li>IoT UX</li><li>Product Mgmt</li><li>Design System</li><li>Mobile</li>
+            </ul>
+            <div class="card__footer">
+              <span class="card__client" data-i18n="work.c4.client">Via Improving · Chicago, USA</span>
+              <span class="card__cta">View case study →</span>
+            </div>
+          </article>
+
+          <article class="card" onclick="openCS('sief')">
+            <div class="card__meta">
+              <span class="card__kicker" data-i18n="work.c5.kicker">Government · Electoral System</span>
+              <span class="card__year">2018</span>
+            </div>
+            <h3 data-i18n="work.c5.title">SIEF — Electoral Tribunal of Mexico</h3>
+            <p data-i18n="work.c5.desc">Redesigned Mexico's federal electoral results system 6 months before the 2018 presidential elections — strict legal constraints, temporary users, and an unmovable deadline.</p>
+            <ul class="card__tags">
+              <li>Gov UX</li><li>Research</li><li>High Stakes</li><li>Legislation</li>
+            </ul>
+            <div class="card__footer">
+              <span class="card__client" data-i18n="work.c5.client">TEPJF · CDMX, México</span>
               <span class="card__cta">View case study →</span>
             </div>
           </article>
@@ -130,7 +162,7 @@
       </div>
 
       <div class="section__inner">
-        <p class="section__note" data-i18n="work.note">Additional work from Sparefoot, Delphian Systems, ZoomCatalog and TEPJF available upon request.</p>
+        <p class="section__note" data-i18n="work.note">Additional work: Rain 4 Rent, Buena Fruta, Sparefoot and ZoomCatalog available upon request.</p>
       </div>
     </section>
 
@@ -424,7 +456,235 @@
       ]
     },
 
-    electrolit: {
+    delphian: {
+      kicker: 'IoT · UX + Product Management',
+      year:   '2020 – 2022',
+      title:  'Delphian Systems — StrongBox',
+      color:  '#818cf8',
+      cover:  null,
+      meta: {
+        role:     'UX Designer → UX/Product Manager',
+        timeline: 'Oct 2020 – Feb 2022',
+        team:     'Multi-team: internal + 3rd-party vendors',
+        tools:    'Figma · Sketch · Jira · Azure DevOps'
+      },
+      tags: ['IoT UX','Product Management','Design System','Mobile','Residential Tech'],
+      sections: [
+        { id:'overview', label:'Overview',
+          content:`
+            <h3 class="cs-h3">The challenge</h3>
+            <p class="cs-p cs-p--lead">Delphian Systems owned unique patents in residential IoT lock technology — but their flagship product, StrongBox, was in crisis. The previous development team had mishandled the IP, design files were scattered across incompatible tools, and the product lacked any user-centered design approach.</p>
+            <p class="cs-p">The project had no consistent visual language, no design system, and no clear product vision. My role evolved rapidly from UX designer to a hybrid UX/Product Manager, working directly with the product owner to rescue and relaunch a product with real technological differentiation but zero UX foundation.</p>
+            <div class="cs-callout" style="border-color:#818cf830;background:#818cf808">
+              <span class="cs-callout__label" style="color:#818cf8">Context</span>
+              <p class="cs-p">StrongBox used biometric authentication and IoT connectivity for residential smart locks — technically ahead of market, but unusable as shipped. The UI relied on outdated patterns and was built without real user research.</p>
+            </div>` },
+        { id:'research', label:'Research',
+          content:`
+            <div class="cs-methods">
+              <span class="cs-pill">Asset Audit</span>
+              <span class="cs-pill">User Research Sessions</span>
+              <span class="cs-pill">Heuristic Evaluation</span>
+              <span class="cs-pill">Stakeholder Alignment</span>
+              <span class="cs-pill">Competitive Analysis</span>
+            </div>
+            <div class="cs-insights">
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#818cf8">01</span>
+                <p>A full asset audit revealed design files spread across Sketch, InVision, and undocumented Photoshop files — no single source of truth existed for the product's design.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#818cf8">02</span>
+                <p>User research with residential IoT lock owners revealed that <strong>security confidence</strong> and <strong>offline reliability</strong> were the top two concerns — neither was addressed in the existing product flow.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#818cf8">03</span>
+                <p>Third-party vendor teams were building features in parallel without shared design references, causing inconsistent UI implementations across the same product.</p>
+              </div>
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ StrongBox — App screens & design audit ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/delphian-research.jpg</span>
+            </div>` },
+        { id:'define', label:'Define',
+          content:`
+            <blockquote class="cs-quote" style="border-color:#818cf840">
+              <span class="cs-quote__mark" style="color:#818cf8">"</span>
+              Homeowners need to trust that their smart lock will always work — even without internet — and that setting it up feels as simple as any other app on their phone.
+            </blockquote>
+            <div class="cs-persona" style="border-color:#818cf825">
+              <div class="cs-persona__avatar" style="background:#818cf818;color:#818cf8">◎</div>
+              <div>
+                <strong class="cs-persona__name">Marcus, Homeowner — Early Adopter</strong>
+                <span class="cs-persona__detail">38 yrs · Tech-comfortable · Prioritizes family security · Frustrated by apps that require Wi-Fi to work</span>
+              </div>
+            </div>
+            <div class="cs-persona" style="border-color:#818cf825;margin-top:12px">
+              <div class="cs-persona__avatar" style="background:#818cf818;color:#818cf8">◈</div>
+              <div>
+                <strong class="cs-persona__name">Sandra, Property Manager</strong>
+                <span class="cs-persona__detail">Manages 12 units · Needs remote access control · Can't afford downtime or lockouts</span>
+              </div>
+            </div>` },
+        { id:'process', label:'Process',
+          content:`
+            <div class="cs-steps">
+              <div class="cs-step"><span class="cs-step__n" style="background:#818cf818;color:#818cf8">01</span><div><strong>Asset Consolidation</strong><span>Unified all design files into a single Figma workspace</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#818cf818;color:#818cf8">02</span><div><strong>Heuristic Evaluation</strong><span>Mapped all screens against Nielsen's 10 heuristics</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#818cf818;color:#818cf8">03</span><div><strong>Design System</strong><span>Built centralized component library for internal + vendor teams</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#818cf818;color:#818cf8">04</span><div><strong>Interface Redesign</strong><span>Full UX redesign focused on onboarding, access, and error states</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#818cf818;color:#818cf8">05</span><div><strong>Product Management</strong><span>Backlog grooming, sprint planning, vendor alignment</span></div></div>
+            </div>
+            <div class="cs-decision" style="border-color:#818cf830">
+              <span style="color:#818cf8">Key decision →</span> Building the design system before redesigning any screens. With multiple vendor teams implementing the UI in parallel, a shared component library was the only way to achieve visual consistency without a central design bottleneck.
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ StrongBox app — Redesigned onboarding + access flow ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/delphian-process.jpg</span>
+            </div>` },
+        { id:'solution', label:'Solution',
+          content:`
+            <div class="cs-img-ph" style="height:280px">
+              <span class="cs-img-ph__label">[ StrongBox — Final app design, biometric onboarding ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/delphian-final.jpg</span>
+            </div>
+            <ul class="cs-points">
+              <li><span style="color:#818cf8">→</span> Centralized design system adopted by 3 development teams — internal and third-party vendors</li>
+              <li><span style="color:#818cf8">→</span> Redesigned onboarding reducing setup time from 8 steps to 3 for biometric activation</li>
+              <li><span style="color:#818cf8">→</span> Offline-first error states designed for every connectivity scenario — lock, unlock, and credential management</li>
+              <li><span style="color:#818cf8">→</span> Established sprint ceremonies and backlog grooming rituals that unified product and dev direction</li>
+              <li><span style="color:#818cf8">→</span> Product roadmap realigned around user needs — 4 features deprioritized, 2 critical gaps added</li>
+            </ul>` },
+        { id:'impact', label:'Impact',
+          content:`
+            <div class="cs-metrics">
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#818cf8">3×</span><span class="cs-metric__l">Teams aligned to one design system</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#818cf8">↓ 63%</span><span class="cs-metric__l">Onboarding steps (8 → 3)</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#818cf8">UX/PM</span><span class="cs-metric__l">Hybrid role expanded</span></div>
+            </div>
+            <p class="cs-p">This project marks the first time in my career I formally crossed from UX into product management — maintaining the backlog, leading standups, and representing product vision to vendors alongside design delivery. A significant professional expansion that shaped how I approach complex, multi-team products.</p>` },
+        { id:'learnings', label:'Learnings',
+          content:`
+            <p class="cs-p cs-p--lead">When a project is in disarray, the instinct is to redesign everything immediately. The right move is to stop and build the foundation first — the design system, the shared vocabulary, the one source of truth — before touching a single screen.</p>
+            <p class="cs-p">Collaboration between stakeholders and multiple third-party vendors is one of the hardest coordination problems in product design. No tool fixes it — only clear ownership, documented decisions, and relentless communication do.</p>` }
+      ]
+    },
+
+    sief: {
+      kicker: 'Government · Electoral System',
+      year:   '2018',
+      title:  'SIEF — Electoral Tribunal of Mexico',
+      color:  '#34d399',
+      cover:  null,
+      meta: {
+        role:     'Lead UX Designer',
+        timeline: '2018 — 6 months to election day',
+        team:     'Solo UX + legal, admin & IT teams at TEPJF',
+        tools:    'Sketch · InVision · Miro · Interviews'
+      },
+      tags: ['Gov UX','Electoral System','High Stakes','Research','Legal Constraints'],
+      sections: [
+        { id:'overview', label:'Overview',
+          content:`
+            <h3 class="cs-h3">The challenge</h3>
+            <p class="cs-p cs-p--lead">Six months before Mexico's 2018 presidential elections — one of the most politically significant in the country's modern history — I was brought in to redesign SIEF: the digital system used by the Electoral Tribunal of the Federal Judiciary (TEPJF) to officially track and validate political party results and controversies.</p>
+            <p class="cs-p">The existing system was over a decade old, built on Visual Basic with outdated icons and no design methodology behind it. It was confusing, slow, and not fit for the volume of data it would need to process on election night.</p>
+            <div class="cs-callout" style="border-color:#34d39930;background:#34d39908">
+              <span class="cs-callout__label" style="color:#34d399">Stakes</span>
+              <p class="cs-p">This system is a cornerstone of Mexico's democratic process. Errors, confusion, or downtime during election validation are not UX problems — they are constitutional crises. The deadline was the election. There was no extension.</p>
+            </div>` },
+        { id:'research', label:'Research',
+          content:`
+            <div class="cs-methods">
+              <span class="cs-pill">Electoral Legislation Study</span>
+              <span class="cs-pill">Admin & Legal Interviews</span>
+              <span class="cs-pill">Contextual Interviews</span>
+              <span class="cs-pill">User Journey Mapping</span>
+              <span class="cs-pill">Heuristic Evaluation</span>
+            </div>
+            <div class="cs-insights">
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#34d399">01</span>
+                <p>The system's end-users were <strong>temporary workers hired specifically for the post-election period</strong> — they had never used the system before and would need to operate it under extreme time pressure on election night.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#34d399">02</span>
+                <p>Legal teams revealed that every UI action in the system had a corresponding electoral law requirement — terminology, sequencing, and confirmation steps were legally mandated, not just UX decisions.</p>
+              </div>
+              <div class="cs-insight">
+                <span class="cs-insight__n" style="color:#34d399">03</span>
+                <p>The system needed to process <strong>enormous volumes of political party controversy data</strong> in parallel, under tight time constraints, with zero tolerance for data entry errors that could affect official results.</p>
+              </div>
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ SIEF — Original system vs. redesign comparison ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/sief-research.jpg</span>
+            </div>` },
+        { id:'define', label:'Define',
+          content:`
+            <blockquote class="cs-quote" style="border-color:#34d39940">
+              <span class="cs-quote__mark" style="color:#34d399">"</span>
+              Temporary operators with no prior system experience need to process high volumes of legal data accurately and quickly — on the most politically sensitive night of Mexico's electoral calendar.
+            </blockquote>
+            <div class="cs-persona" style="border-color:#34d39925">
+              <div class="cs-persona__avatar" style="background:#34d39918;color:#34d399">◎</div>
+              <div>
+                <strong class="cs-persona__name">Carmen, Temporary Electoral Operator</strong>
+                <span class="cs-persona__detail">Hired for election period only · No system training prior · High pressure environment · Data entry under supervision of legal observers</span>
+              </div>
+            </div>
+            <div class="cs-persona" style="border-color:#34d39925;margin-top:12px">
+              <div class="cs-persona__avatar" style="background:#34d39918;color:#34d399">◈</div>
+              <div>
+                <strong class="cs-persona__name">Licenciado Ramos, Legal Supervisor</strong>
+                <span class="cs-persona__detail">Validates data entries · Ensures constitutional compliance · Cannot accept UI ambiguity in any workflow step</span>
+              </div>
+            </div>` },
+        { id:'process', label:'Process',
+          content:`
+            <div class="cs-steps">
+              <div class="cs-step"><span class="cs-step__n" style="background:#34d39918;color:#34d399">01</span><div><strong>Legislation Deep Dive</strong><span>Studied electoral code with legal & admin TEPJF teams</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#34d39918;color:#34d399">02</span><div><strong>Contextual Interviews</strong><span>Sessions with available temp users to map workflows & pain points</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#34d39918;color:#34d399">03</span><div><strong>Journey Mapping</strong><span>Mapped electoral validation process end-to-end with legal sign-off</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#34d39918;color:#34d399">04</span><div><strong>Wireframes & Iteration</strong><span>Multiple rounds with stakeholders, legal, and admin teams</span></div></div>
+              <div class="cs-step"><span class="cs-step__n" style="background:#34d39918;color:#34d399">05</span><div><strong>High-fidelity Mockups</strong><span>Approved by legal, IT, and administration before election deadline</span></div></div>
+            </div>
+            <div class="cs-decision" style="border-color:#34d39930">
+              <span style="color:#34d399">Key constraint →</span> Every design decision had to be validated by three separate TEPJF departments — legal, administrative, and IT — before moving forward. Design by committee with constitutional stakes. The process required diplomatic precision alongside UX craft.
+            </div>
+            <div class="cs-img-ph" style="height:200px">
+              <span class="cs-img-ph__label">[ SIEF — Wireframes & journey map, controversy tracking flow ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/sief-process.jpg</span>
+            </div>` },
+        { id:'solution', label:'Solution',
+          content:`
+            <div class="cs-img-ph" style="height:280px">
+              <span class="cs-img-ph__label">[ SIEF — Final high-fidelity design, election results dashboard ]</span>
+              <span class="cs-img-ph__sub">→ Replace with img/sief-final.jpg</span>
+            </div>
+            <ul class="cs-points">
+              <li><span style="color:#34d399">→</span> Complete visual overhaul replacing Visual Basic default components with a modern, accessible interface</li>
+              <li><span style="color:#34d399">→</span> Redesigned data entry flows reducing cognitive load for first-time operators with zero training time</li>
+              <li><span style="color:#34d399">→</span> Legal terminology preserved exactly as required by electoral code — no ambiguity in any label or action</li>
+              <li><span style="color:#34d399">→</span> High-volume parallel data processing flows with clear state indicators for supervisors</li>
+              <li><span style="color:#34d399">→</span> System approved by legal, admin and IT teams — delivered on time for election day deployment</li>
+            </ul>` },
+        { id:'impact', label:'Impact',
+          content:`
+            <div class="cs-metrics">
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#34d399">2018</span><span class="cs-metric__l">Presidential election — system deployed</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#34d399">3</span><span class="cs-metric__l">TEPJF departments signed off</span></div>
+              <div class="cs-metric"><span class="cs-metric__v" style="color:#34d399">0</span><span class="cs-metric__l">Deadline extensions — shipped on time</span></div>
+            </div>
+            <p class="cs-p">The redesigned SIEF system was deployed for Mexico's 2018 presidential election — the most participated election in Mexican history with over 56 million votes cast. The system processed political party controversies and official results during the post-election validation period without reported UX-related incidents.</p>
+            <p class="cs-p">This project remains one of the highest-stakes design engagements of my career — not in terms of budget, but in terms of democratic consequence.</p>` },
+        { id:'learnings', label:'Learnings',
+          content:`
+            <p class="cs-p cs-p--lead">Designing for government and legal contexts forces a discipline that product work rarely demands: every word in the interface is a legal artifact. "Submit" vs. "Register" vs. "Confirm" are not style choices — they carry constitutional weight.</p>
+            <p class="cs-p">Working with temporary users who can't be fully trained before using your system is a fascinating UX challenge: the design has to be so clear that it's learnable during use, not before. That constraint produces some of the cleanest, most purposeful UI decisions I've ever made.</p>
+            <p class="cs-p">And the deadline? There's nothing quite like "the election is on July 1st" to clarify what's essential and what's not.</p>` }
+      ]
+    },
       kicker: 'Mobile · Brand App',
       year:   '2022',
       title:  'Electrolit Rep Tracker',
@@ -820,7 +1080,13 @@
       'work.c3.kicker':'Government · IP Systems','work.c3.title':'IMPI Digital Consultancy',
       'work.c3.desc':'Independent UX consultancy for Mexico\'s IP institution — accessibility remediation, service design, and critical citizen journey redesign.',
       'work.c3.client':'Independent · México',
-      'work.note':'Additional work from Sparefoot, Delphian Systems, ZoomCatalog and TEPJF available upon request.',
+      'work.c4.kicker':'IoT · UX + Product','work.c4.title':'Delphian Systems — StrongBox',
+      'work.c4.desc':'Revitalized a residential IoT smart lock app after a failed development cycle. Role evolved from UX Designer to hybrid UX/Product Manager.',
+      'work.c4.client':'Via Improving · Chicago, USA',
+      'work.c5.kicker':'Government · Electoral System','work.c5.title':'SIEF — Electoral Tribunal of Mexico',
+      'work.c5.desc':'Redesigned Mexico\'s federal electoral results system 6 months before the 2018 presidential elections — strict legal constraints, temporary users, unmovable deadline.',
+      'work.c5.client':'TEPJF · CDMX, México',
+      'work.note':'Additional work: Rain 4 Rent, Buena Fruta, Sparefoot and ZoomCatalog available upon request.',
       'exp.label':'Career','exp.h2':'Experience',
       'exp.gl.role':'Senior Lead UI/UX Designer','exp.gl.flag':'· Google project',
       'exp.gl.desc':'Large-scale product engagement with Google through GlobalLogic, one of the world\'s leading digital engineering companies.',
@@ -865,7 +1131,13 @@
       'work.c3.kicker':'Gobierno · Sistemas de PI','work.c3.title':'Consultoría IMPI',
       'work.c3.desc':'Consultoría independiente de UX para el IMPI — remediación de accesibilidad, diseño de servicios y rediseño de flujos ciudadanos críticos.',
       'work.c3.client':'Independiente · México',
-      'work.note':'Trabajo adicional de Sparefoot, Delphian Systems, ZoomCatalog y TEPJF disponible bajo solicitud.',
+      'work.c4.kicker':'IoT · UX + Producto','work.c4.title':'Delphian Systems — StrongBox',
+      'work.c4.desc':'Revitalicé una app de cerradura IoT residencial tras un ciclo fallido. El rol evolucionó de UX Designer a UX/Product Manager híbrido — design system, investigación y roadmap.',
+      'work.c4.client':'Vía Improving · Chicago, EE. UU.',
+      'work.c5.kicker':'Gobierno · Sistema Electoral','work.c5.title':'SIEF — Tribunal Electoral de México',
+      'work.c5.desc':'Rediseñé el sistema federal de resultados electorales de México 6 meses antes de las elecciones presidenciales 2018 — restricciones legales, usuarios temporales, deadline inamovible.',
+      'work.c5.client':'TEPJF · CDMX, México',
+      'work.note':'Trabajo adicional: Rain 4 Rent, Buena Fruta, Sparefoot y ZoomCatalog disponibles bajo solicitud.',
       'exp.label':'Trayectoria','exp.h2':'Experiencia',
       'exp.gl.role':'Senior Lead UI/UX Designer','exp.gl.flag':'· Proyecto Google',
       'exp.gl.desc':'Proyecto de gran escala con Google a través de GlobalLogic, una de las principales empresas de ingeniería digital del mundo.',
