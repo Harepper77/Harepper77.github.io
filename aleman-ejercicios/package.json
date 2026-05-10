@@ -1,0 +1,15 @@
+{
+  "name": "aleman-ejercicios-tools",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "seed:generate": "node tools/generate-firestore-seed.mjs",
+    "seed:import": "node tools/import-firestore-seed.mjs",
+    "seed:dry-run": "node tools/import-firestore-seed.mjs --dry-run"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "firebase-admin": "^13.0.2"
+  }
+}

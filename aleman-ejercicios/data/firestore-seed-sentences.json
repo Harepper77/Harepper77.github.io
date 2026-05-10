@@ -1,0 +1,5471 @@
+{
+  "generatedAt": "2026-05-10T21:01:19.360Z",
+  "collection": "sentences",
+  "verbs": [
+    "essen",
+    "trinken",
+    "lesen",
+    "schreiben",
+    "sehen",
+    "kaufen",
+    "verkaufen",
+    "nehmen",
+    "geben",
+    "gehen",
+    "kommen",
+    "fahren",
+    "laufen",
+    "anrufen",
+    "aufräumen",
+    "zuhören",
+    "öffnen",
+    "schließen",
+    "fragen",
+    "antworten",
+    "spielen",
+    "sprechen",
+    "arbeiten",
+    "reparieren",
+    "lernen",
+    "studieren",
+    "anmachen",
+    "ausmachen",
+    "stellen",
+    "stehen",
+    "legen",
+    "liegen",
+    "tanzen",
+    "unterrichten",
+    "besuchen",
+    "bauen",
+    "wollen",
+    "können",
+    "dürfen",
+    "müssen",
+    "sollen",
+    "mögen",
+    "gefallen",
+    "brauchen",
+    "denken",
+    "wissen",
+    "bezahlen",
+    "machen",
+    "erzählen",
+    "singen",
+    "fliegen",
+    "sich setzen",
+    "sich treffen mit",
+    "sich interessieren für",
+    "haben",
+    "ausleihen",
+    "rennen",
+    "schlafen",
+    "tragen",
+    "bringen",
+    "kochen",
+    "backen",
+    "helfen",
+    "schicken"
+  ],
+  "count": 286,
+  "docs": [
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann isst <u>den Apfel</u>.",
+      "target": "den Apfel",
+      "answer": "acusativo",
+      "explanation": "essen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre come la manzana. (presente)",
+      "verb": "essen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "essen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau aß <u>den Kuchen</u>.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "essen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer come el pastel. (pretérito)",
+      "verb": "essen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "essen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind hat <u>eine Suppe</u> gegessen.",
+      "target": "eine Suppe",
+      "answer": "acusativo",
+      "explanation": "essen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño come una sopa. (perfecto)",
+      "verb": "essen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "essen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer wird <u>den Apfel</u> essen.",
+      "target": "den Apfel",
+      "answer": "acusativo",
+      "explanation": "essen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro come la manzana. (futuro I)",
+      "verb": "essen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "essen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau trinkt <u>das Wasser</u>.",
+      "target": "das Wasser",
+      "answer": "acusativo",
+      "explanation": "trinken usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer bebe el agua. (presente)",
+      "verb": "trinken",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "trinken",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind trank <u>das Wasser</u>.",
+      "target": "das Wasser",
+      "answer": "acusativo",
+      "explanation": "trinken usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño bebe el agua. (pretérito)",
+      "verb": "trinken",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "trinken",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer hat <u>das Wasser</u> getrunken.",
+      "target": "das Wasser",
+      "answer": "acusativo",
+      "explanation": "trinken usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro bebe el agua. (perfecto)",
+      "verb": "trinken",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "trinken",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin wird <u>das Wasser</u> trinken.",
+      "target": "das Wasser",
+      "answer": "acusativo",
+      "explanation": "trinken usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra bebe el agua. (futuro I)",
+      "verb": "trinken",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "trinken",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind liest <u>eine E-Mail</u>.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "lesen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño lee un correo. (presente)",
+      "verb": "lesen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "lesen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer las <u>das Buch</u>.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "lesen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro lee el libro. (pretérito)",
+      "verb": "lesen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "lesen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin hat <u>den Brief</u> gelesen.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "lesen usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra lee la carta. (perfecto)",
+      "verb": "lesen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "lesen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund wird <u>eine E-Mail</u> lesen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "lesen usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo lee un correo. (futuro I)",
+      "verb": "lesen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "lesen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer schreibt <u>den Brief</u>.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "schreiben usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro escribe la carta. (presente)",
+      "verb": "schreiben",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schreiben",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin schrieb <u>eine E-Mail</u>.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "schreiben usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra escribe un correo. (pretérito)",
+      "verb": "schreiben",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schreiben",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund hat <u>die Aufgabe</u> geschrieben.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "schreiben usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo escribe la tarea. (perfecto)",
+      "verb": "schreiben",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schreiben",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin wird <u>den Brief</u> schreiben.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "schreiben usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga escribe la carta. (futuro I)",
+      "verb": "schreiben",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schreiben",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin sieht <u>das Haus</u>.",
+      "target": "das Haus",
+      "answer": "acusativo",
+      "explanation": "sehen usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra ve la casa. (presente)",
+      "verb": "sehen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "sehen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund sah <u>das Fenster</u>.",
+      "target": "das Fenster",
+      "answer": "acusativo",
+      "explanation": "sehen usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo ve la ventana. (pretérito)",
+      "verb": "sehen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "sehen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin hat <u>den Film</u> gesehen.",
+      "target": "den Film",
+      "answer": "acusativo",
+      "explanation": "sehen usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga ve la película. (perfecto)",
+      "verb": "sehen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "sehen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar wird <u>das Haus</u> sehen.",
+      "target": "das Haus",
+      "answer": "acusativo",
+      "explanation": "sehen usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino ve la casa. (futuro I)",
+      "verb": "sehen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "sehen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund kauft <u>den Computer</u>.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "kaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo compra la computadora. (presente)",
+      "verb": "kaufen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kaufen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin kaufte <u>die Tasche</u>.",
+      "target": "die Tasche",
+      "answer": "acusativo",
+      "explanation": "kaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga compra la bolsa. (pretérito)",
+      "verb": "kaufen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kaufen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar hat <u>das Fahrrad</u> gekauft.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "kaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino compra la bicicleta. (perfecto)",
+      "verb": "kaufen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kaufen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter wird <u>den Computer</u> kaufen.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "kaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre compra la computadora. (futuro I)",
+      "verb": "kaufen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kaufen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin verkauft <u>das Fahrrad</u>.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "verkaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga vende la bicicleta. (presente)",
+      "verb": "verkaufen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "verkaufen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar verkaufte <u>den Computer</u>.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "verkaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino vende la computadora. (pretérito)",
+      "verb": "verkaufen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "verkaufen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter hat <u>die Tasche</u> verkauft.",
+      "target": "die Tasche",
+      "answer": "acusativo",
+      "explanation": "verkaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre vende la bolsa. (perfecto)",
+      "verb": "verkaufen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "verkaufen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder wird <u>das Fahrrad</u> verkaufen.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "verkaufen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano vende la bicicleta. (futuro I)",
+      "verb": "verkaufen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "verkaufen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar nimmt <u>das Buch</u>.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "nehmen usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino toma el libro. (presente)",
+      "verb": "nehmen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "nehmen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter nahm <u>die Tasche</u>.",
+      "target": "die Tasche",
+      "answer": "acusativo",
+      "explanation": "nehmen usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre toma la bolsa. (pretérito)",
+      "verb": "nehmen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "nehmen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder hat <u>den Schlüssel</u> genommen.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "nehmen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano toma la llave. (perfecto)",
+      "verb": "nehmen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "nehmen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester wird <u>das Buch</u> nehmen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "nehmen usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana toma el libro. (futuro I)",
+      "verb": "nehmen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "nehmen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter öffnet <u>eine E-Mail</u>.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "öffnen usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre abre un correo. (presente)",
+      "verb": "öffnen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "öffnen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder öffnete <u>die Tür</u>.",
+      "target": "die Tür",
+      "answer": "acusativo",
+      "explanation": "öffnen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano abre la puerta. (pretérito)",
+      "verb": "öffnen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "öffnen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester hat <u>das Fenster</u> geöffnet.",
+      "target": "das Fenster",
+      "answer": "acusativo",
+      "explanation": "öffnen usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana abre la ventana. (perfecto)",
+      "verb": "öffnen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "öffnen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student wird <u>eine E-Mail</u> öffnen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "öffnen usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante abre un correo. (futuro I)",
+      "verb": "öffnen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "öffnen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder schließt <u>die Tür</u>.",
+      "target": "die Tür",
+      "answer": "acusativo",
+      "explanation": "schließen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano cierra la puerta. (presente)",
+      "verb": "schließen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schließen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester schloss <u>das Fenster</u>.",
+      "target": "das Fenster",
+      "answer": "acusativo",
+      "explanation": "schließen usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana cierra la ventana. (pretérito)",
+      "verb": "schließen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schließen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student hat <u>die Tasche</u> geschlossen.",
+      "target": "die Tasche",
+      "answer": "acusativo",
+      "explanation": "schließen usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante cierra la bolsa. (perfecto)",
+      "verb": "schließen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schließen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann wird <u>die Tür</u> schließen.",
+      "target": "die Tür",
+      "answer": "acusativo",
+      "explanation": "schließen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre cierra la puerta. (futuro I)",
+      "verb": "schließen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schließen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester repariert <u>den Computer</u>.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "reparieren usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana repara la computadora. (presente)",
+      "verb": "reparieren",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "reparieren",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student reparierte <u>das Fenster</u>.",
+      "target": "das Fenster",
+      "answer": "acusativo",
+      "explanation": "reparieren usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante repara la ventana. (pretérito)",
+      "verb": "reparieren",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "reparieren",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann hat <u>das Fahrrad</u> repariert.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "reparieren usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre repara la bicicleta. (perfecto)",
+      "verb": "reparieren",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "reparieren",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau wird <u>den Computer</u> reparieren.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "reparieren usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer repara la computadora. (futuro I)",
+      "verb": "reparieren",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "reparieren",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student macht <u>den Computer</u> an.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "anmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante enciende la computadora. (presente)",
+      "verb": "anmachen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "anmachen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann machte <u>das Licht</u> an.",
+      "target": "das Licht",
+      "answer": "acusativo",
+      "explanation": "anmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre enciende la luz. (pretérito)",
+      "verb": "anmachen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "anmachen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau hat <u>den Computer</u> angemacht.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "anmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer enciende la computadora. (perfecto)",
+      "verb": "anmachen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "anmachen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind wird <u>das Licht</u> anmachen.",
+      "target": "das Licht",
+      "answer": "acusativo",
+      "explanation": "anmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño enciende la luz. (futuro I)",
+      "verb": "anmachen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "anmachen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann macht <u>das Licht</u> aus.",
+      "target": "das Licht",
+      "answer": "acusativo",
+      "explanation": "ausmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre apaga la luz. (presente)",
+      "verb": "ausmachen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausmachen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau machte <u>den Computer</u> aus.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "ausmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer apaga la computadora. (pretérito)",
+      "verb": "ausmachen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausmachen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind hat <u>das Licht</u> ausgemacht.",
+      "target": "das Licht",
+      "answer": "acusativo",
+      "explanation": "ausmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño apaga la luz. (perfecto)",
+      "verb": "ausmachen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausmachen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer wird <u>den Computer</u> ausmachen.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "ausmachen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro apaga la computadora. (futuro I)",
+      "verb": "ausmachen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausmachen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau trägt <u>den Schlüssel</u>.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "tragen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer lleva la llave. (presente)",
+      "verb": "tragen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "tragen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind trug <u>das Buch</u>.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "tragen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño lleva el libro. (pretérito)",
+      "verb": "tragen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "tragen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer hat <u>die Tasche</u> getragen.",
+      "target": "die Tasche",
+      "answer": "acusativo",
+      "explanation": "tragen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro lleva la bolsa. (perfecto)",
+      "verb": "tragen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "tragen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin wird <u>den Schlüssel</u> tragen.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "tragen usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra lleva la llave. (futuro I)",
+      "verb": "tragen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "tragen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind bringt <u>das Wasser</u>.",
+      "target": "das Wasser",
+      "answer": "acusativo",
+      "explanation": "bringen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño trae el agua. (presente)",
+      "verb": "bringen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer brachte <u>den Kuchen</u>.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "bringen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro trae el pastel. (pretérito)",
+      "verb": "bringen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin hat <u>eine Suppe</u> gebracht.",
+      "target": "eine Suppe",
+      "answer": "acusativo",
+      "explanation": "bringen usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra trae una sopa. (perfecto)",
+      "verb": "bringen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund wird <u>das Wasser</u> bringen.",
+      "target": "das Wasser",
+      "answer": "acusativo",
+      "explanation": "bringen usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo trae el agua. (futuro I)",
+      "verb": "bringen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer kocht <u>eine Suppe</u>.",
+      "target": "eine Suppe",
+      "answer": "acusativo",
+      "explanation": "kochen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro cocina una sopa. (presente)",
+      "verb": "kochen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kochen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin kochte <u>eine Suppe</u>.",
+      "target": "eine Suppe",
+      "answer": "acusativo",
+      "explanation": "kochen usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra cocina una sopa. (pretérito)",
+      "verb": "kochen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kochen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund hat <u>eine Suppe</u> gekocht.",
+      "target": "eine Suppe",
+      "answer": "acusativo",
+      "explanation": "kochen usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo cocina una sopa. (perfecto)",
+      "verb": "kochen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kochen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin wird <u>eine Suppe</u> kochen.",
+      "target": "eine Suppe",
+      "answer": "acusativo",
+      "explanation": "kochen usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga cocina una sopa. (futuro I)",
+      "verb": "kochen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "kochen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin backt <u>den Kuchen</u>.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "backen usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra hornea el pastel. (presente)",
+      "verb": "backen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "backen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund backte <u>den Kuchen</u>.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "backen usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo hornea el pastel. (pretérito)",
+      "verb": "backen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "backen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin hat <u>den Kuchen</u> gebacken.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "backen usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga hornea el pastel. (perfecto)",
+      "verb": "backen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "backen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar wird <u>den Kuchen</u> backen.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "backen usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino hornea el pastel. (futuro I)",
+      "verb": "backen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "backen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund bezahlt <u>die Rechnung</u>.",
+      "target": "die Rechnung",
+      "answer": "acusativo",
+      "explanation": "bezahlen usa aquí objeto directo: Wen oder was?",
+      "translation": "El amigo paga la cuenta. (presente)",
+      "verb": "bezahlen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bezahlen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin bezahlte <u>die Rechnung</u>.",
+      "target": "die Rechnung",
+      "answer": "acusativo",
+      "explanation": "bezahlen usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga paga la cuenta. (pretérito)",
+      "verb": "bezahlen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bezahlen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar hat <u>die Rechnung</u> bezahlt.",
+      "target": "die Rechnung",
+      "answer": "acusativo",
+      "explanation": "bezahlen usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino paga la cuenta. (perfecto)",
+      "verb": "bezahlen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bezahlen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter wird <u>die Rechnung</u> bezahlen.",
+      "target": "die Rechnung",
+      "answer": "acusativo",
+      "explanation": "bezahlen usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre paga la cuenta. (futuro I)",
+      "verb": "bezahlen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bezahlen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin macht <u>die Aufgabe</u>.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "machen usa aquí objeto directo: Wen oder was?",
+      "translation": "La amiga hace la tarea. (presente)",
+      "verb": "machen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "machen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar machte <u>die Aufgabe</u>.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "machen usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino hace la tarea. (pretérito)",
+      "verb": "machen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "machen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter hat <u>die Aufgabe</u> gemacht.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "machen usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre hace la tarea. (perfecto)",
+      "verb": "machen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "machen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder wird <u>die Aufgabe</u> machen.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "machen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano hace la tarea. (futuro I)",
+      "verb": "machen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "machen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar hat <u>das Fahrrad</u>.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "haben usa aquí objeto directo: Wen oder was?",
+      "translation": "El vecino tiene la bicicleta. (presente)",
+      "verb": "haben",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "haben",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter hatte <u>die Tasche</u>.",
+      "target": "die Tasche",
+      "answer": "acusativo",
+      "explanation": "haben usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre tiene la bolsa. (pretérito)",
+      "verb": "haben",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "haben",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder hat <u>den Schlüssel</u> gehabt.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "haben usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano tiene la llave. (perfecto)",
+      "verb": "haben",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "haben",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester wird <u>das Fahrrad</u> haben.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "haben usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana tiene la bicicleta. (futuro I)",
+      "verb": "haben",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "haben",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter braucht <u>den Schlüssel</u>.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "brauchen usa aquí objeto directo: Wen oder was?",
+      "translation": "La madre necesita la llave. (presente)",
+      "verb": "brauchen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "brauchen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder brauchte <u>den Computer</u>.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "brauchen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano necesita la computadora. (pretérito)",
+      "verb": "brauchen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "brauchen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester hat <u>das Buch</u> gebraucht.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "brauchen usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana necesita el libro. (perfecto)",
+      "verb": "brauchen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "brauchen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student wird <u>den Schlüssel</u> brauchen.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "brauchen usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante necesita la llave. (futuro I)",
+      "verb": "brauchen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "brauchen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder räumt <u>den Tisch</u> auf.",
+      "target": "den Tisch",
+      "answer": "acusativo",
+      "explanation": "aufräumen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hermano ordena la mesa. (presente)",
+      "verb": "aufräumen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "aufräumen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester räumte <u>das Zimmer</u> auf.",
+      "target": "das Zimmer",
+      "answer": "acusativo",
+      "explanation": "aufräumen usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana ordena el cuarto. (pretérito)",
+      "verb": "aufräumen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "aufräumen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student hat <u>den Tisch</u> aufgeräumt.",
+      "target": "den Tisch",
+      "answer": "acusativo",
+      "explanation": "aufräumen usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante ordena la mesa. (perfecto)",
+      "verb": "aufräumen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "aufräumen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann wird <u>das Zimmer</u> aufräumen.",
+      "target": "das Zimmer",
+      "answer": "acusativo",
+      "explanation": "aufräumen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre ordena el cuarto. (futuro I)",
+      "verb": "aufräumen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "aufräumen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester leiht <u>das Fahrrad</u> aus.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "ausleihen usa aquí objeto directo: Wen oder was?",
+      "translation": "La hermana presta la bicicleta. (presente)",
+      "verb": "ausleihen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausleihen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student lieh <u>den Computer</u> aus.",
+      "target": "den Computer",
+      "answer": "acusativo",
+      "explanation": "ausleihen usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante presta la computadora. (pretérito)",
+      "verb": "ausleihen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausleihen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann hat <u>das Buch</u> ausgeliehen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "ausleihen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre presta el libro. (perfecto)",
+      "verb": "ausleihen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausleihen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau wird <u>das Fahrrad</u> ausleihen.",
+      "target": "das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "ausleihen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer presta la bicicleta. (futuro I)",
+      "verb": "ausleihen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "ausleihen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student baut <u>den Tisch</u>.",
+      "target": "den Tisch",
+      "answer": "acusativo",
+      "explanation": "bauen usa aquí objeto directo: Wen oder was?",
+      "translation": "El estudiante construye la mesa. (presente)",
+      "verb": "bauen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bauen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann baute <u>das Haus</u>.",
+      "target": "das Haus",
+      "answer": "acusativo",
+      "explanation": "bauen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre construye la casa. (pretérito)",
+      "verb": "bauen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bauen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau hat <u>den Tisch</u> gebaut.",
+      "target": "den Tisch",
+      "answer": "acusativo",
+      "explanation": "bauen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer construye la mesa. (perfecto)",
+      "verb": "bauen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bauen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind wird <u>das Haus</u> bauen.",
+      "target": "das Haus",
+      "answer": "acusativo",
+      "explanation": "bauen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño construye la casa. (futuro I)",
+      "verb": "bauen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bauen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann erzählt <u>die Geschichte</u>.",
+      "target": "die Geschichte",
+      "answer": "acusativo",
+      "explanation": "erzählen usa aquí objeto directo: Wen oder was?",
+      "translation": "El hombre cuenta la historia. (presente)",
+      "verb": "erzählen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "erzählen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau erzählte <u>die Geschichte</u>.",
+      "target": "die Geschichte",
+      "answer": "acusativo",
+      "explanation": "erzählen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer cuenta la historia. (pretérito)",
+      "verb": "erzählen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "erzählen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind hat <u>die Geschichte</u> erzählt.",
+      "target": "die Geschichte",
+      "answer": "acusativo",
+      "explanation": "erzählen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño cuenta la historia. (perfecto)",
+      "verb": "erzählen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "erzählen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer wird <u>die Geschichte</u> erzählen.",
+      "target": "die Geschichte",
+      "answer": "acusativo",
+      "explanation": "erzählen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro cuenta la historia. (futuro I)",
+      "verb": "erzählen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "erzählen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau weiß <u>die Sprache</u>.",
+      "target": "die Sprache",
+      "answer": "acusativo",
+      "explanation": "wissen usa aquí objeto directo: Wen oder was?",
+      "translation": "La mujer sabe el idioma. (presente)",
+      "verb": "wissen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "wissen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind wusste <u>die Aufgabe</u>.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "wissen usa aquí objeto directo: Wen oder was?",
+      "translation": "El niño sabe la tarea. (pretérito)",
+      "verb": "wissen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "wissen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer hat <u>die Sprache</u> gewusst.",
+      "target": "die Sprache",
+      "answer": "acusativo",
+      "explanation": "wissen usa aquí objeto directo: Wen oder was?",
+      "translation": "El maestro sabe el idioma. (perfecto)",
+      "verb": "wissen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "wissen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin wird <u>die Aufgabe</u> wissen.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "wissen usa aquí objeto directo: Wen oder was?",
+      "translation": "La maestra sabe la tarea. (futuro I)",
+      "verb": "wissen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "wissen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Frau fragt <u>den Freund</u>.",
+      "target": "den Freund",
+      "answer": "acusativo",
+      "explanation": "fragen usa aquí una persona como objeto directo: Wen?",
+      "translation": "La mujer pregunta a el amigo. (presente)",
+      "verb": "fragen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "persona",
+        "fragen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind fragte <u>die Freundin</u>.",
+      "target": "die Freundin",
+      "answer": "acusativo",
+      "explanation": "fragen usa aquí una persona como objeto directo: Wen?",
+      "translation": "El niño pregunta a la amiga. (pretérito)",
+      "verb": "fragen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "persona",
+        "fragen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer hat <u>den Nachbarn</u> gefragt.",
+      "target": "den Nachbarn",
+      "answer": "acusativo",
+      "explanation": "fragen usa aquí una persona como objeto directo: Wen?",
+      "translation": "El maestro pregunta a el vecino. (perfecto)",
+      "verb": "fragen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "persona",
+        "fragen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin wird <u>die Mutter</u> fragen.",
+      "target": "die Mutter",
+      "answer": "acusativo",
+      "explanation": "fragen usa aquí una persona como objeto directo: Wen?",
+      "translation": "La maestra pregunta a la madre. (futuro I)",
+      "verb": "fragen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "persona",
+        "fragen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind ruft <u>die Freundin</u> an.",
+      "target": "die Freundin",
+      "answer": "acusativo",
+      "explanation": "anrufen usa aquí una persona como objeto directo: Wen?",
+      "translation": "El niño llama a la amiga. (presente)",
+      "verb": "anrufen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "persona",
+        "anrufen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer rief <u>den Nachbarn</u> an.",
+      "target": "den Nachbarn",
+      "answer": "acusativo",
+      "explanation": "anrufen usa aquí una persona como objeto directo: Wen?",
+      "translation": "El maestro llama a el vecino. (pretérito)",
+      "verb": "anrufen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "persona",
+        "anrufen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin hat <u>die Mutter</u> angerufen.",
+      "target": "die Mutter",
+      "answer": "acusativo",
+      "explanation": "anrufen usa aquí una persona como objeto directo: Wen?",
+      "translation": "La maestra llama a la madre. (perfecto)",
+      "verb": "anrufen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "persona",
+        "anrufen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund wird <u>den Bruder</u> anrufen.",
+      "target": "den Bruder",
+      "answer": "acusativo",
+      "explanation": "anrufen usa aquí una persona como objeto directo: Wen?",
+      "translation": "El amigo llama a el hermano. (futuro I)",
+      "verb": "anrufen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "persona",
+        "anrufen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer besucht <u>den Nachbarn</u>.",
+      "target": "den Nachbarn",
+      "answer": "acusativo",
+      "explanation": "besuchen usa aquí una persona como objeto directo: Wen?",
+      "translation": "El maestro visita a el vecino. (presente)",
+      "verb": "besuchen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "persona",
+        "besuchen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin besuchte <u>die Mutter</u>.",
+      "target": "die Mutter",
+      "answer": "acusativo",
+      "explanation": "besuchen usa aquí una persona como objeto directo: Wen?",
+      "translation": "La maestra visita a la madre. (pretérito)",
+      "verb": "besuchen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "persona",
+        "besuchen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund hat <u>den Bruder</u> besucht.",
+      "target": "den Bruder",
+      "answer": "acusativo",
+      "explanation": "besuchen usa aquí una persona como objeto directo: Wen?",
+      "translation": "El amigo visita a el hermano. (perfecto)",
+      "verb": "besuchen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "persona",
+        "besuchen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin wird <u>die Schwester</u> besuchen.",
+      "target": "die Schwester",
+      "answer": "acusativo",
+      "explanation": "besuchen usa aquí una persona como objeto directo: Wen?",
+      "translation": "La amiga visita a la hermana. (futuro I)",
+      "verb": "besuchen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "persona",
+        "besuchen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin unterrichtet <u>die Mutter</u>.",
+      "target": "die Mutter",
+      "answer": "acusativo",
+      "explanation": "unterrichten usa aquí una persona como objeto directo: Wen?",
+      "translation": "La maestra enseña a la madre. (presente)",
+      "verb": "unterrichten",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "persona",
+        "unterrichten",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund unterrichtete <u>den Bruder</u>.",
+      "target": "den Bruder",
+      "answer": "acusativo",
+      "explanation": "unterrichten usa aquí una persona como objeto directo: Wen?",
+      "translation": "El amigo enseña a el hermano. (pretérito)",
+      "verb": "unterrichten",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "persona",
+        "unterrichten",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin hat <u>die Schwester</u> unterrichtet.",
+      "target": "die Schwester",
+      "answer": "acusativo",
+      "explanation": "unterrichten usa aquí una persona como objeto directo: Wen?",
+      "translation": "La amiga enseña a la hermana. (perfecto)",
+      "verb": "unterrichten",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "persona",
+        "unterrichten",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar wird <u>den Studenten</u> unterrichten.",
+      "target": "den Studenten",
+      "answer": "acusativo",
+      "explanation": "unterrichten usa aquí una persona como objeto directo: Wen?",
+      "translation": "El vecino enseña a el estudiante. (futuro I)",
+      "verb": "unterrichten",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "persona",
+        "unterrichten",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Lehrer</u> geht in den Park.",
+      "target": "der Lehrer",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El maestro va al parque. (presente)",
+      "verb": "gehen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "gehen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Lehrerin</u> ging in die Schule.",
+      "target": "die Lehrerin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La maestra va a la escuela. (pretérito)",
+      "verb": "gehen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "gehen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Freund</u> ist ins Büro gegangen.",
+      "target": "der Freund",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El amigo va a la oficina. (perfecto)",
+      "verb": "gehen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "gehen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Freundin</u> wird nach Hause gehen.",
+      "target": "die Freundin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La amiga va a casa. (futuro I)",
+      "verb": "gehen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "gehen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Lehrerin</u> kommt in die Schule.",
+      "target": "die Lehrerin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La maestra viene a la escuela. (presente)",
+      "verb": "kommen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "kommen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Freund</u> kam ins Büro.",
+      "target": "der Freund",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El amigo viene a la oficina. (pretérito)",
+      "verb": "kommen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "kommen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Freundin</u> ist nach Hause gekommen.",
+      "target": "die Freundin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La amiga viene a casa. (perfecto)",
+      "verb": "kommen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "kommen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Nachbar</u> wird zum Bahnhof kommen.",
+      "target": "der Nachbar",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El vecino viene a la estación de tren. (futuro I)",
+      "verb": "kommen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "kommen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Freund</u> fährt ins Büro.",
+      "target": "der Freund",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El amigo va en vehículo a la oficina. (presente)",
+      "verb": "fahren",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fahren",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Freundin</u> fuhr nach Hause.",
+      "target": "die Freundin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La amiga va en vehículo a casa. (pretérito)",
+      "verb": "fahren",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fahren",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Nachbar</u> ist zum Bahnhof gefahren.",
+      "target": "der Nachbar",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El vecino va en vehículo a la estación de tren. (perfecto)",
+      "verb": "fahren",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fahren",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Mutter</u> wird in die Stadt fahren.",
+      "target": "die Mutter",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La madre va en vehículo a la ciudad. (futuro I)",
+      "verb": "fahren",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fahren",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Freundin</u> läuft nach Hause.",
+      "target": "die Freundin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La amiga camina/corre a casa. (presente)",
+      "verb": "laufen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "laufen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Nachbar</u> lief zum Bahnhof.",
+      "target": "der Nachbar",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El vecino camina/corre a la estación de tren. (pretérito)",
+      "verb": "laufen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "laufen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Mutter</u> ist in die Stadt gelaufen.",
+      "target": "die Mutter",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La madre camina/corre a la ciudad. (perfecto)",
+      "verb": "laufen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "laufen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Bruder</u> wird in den Park laufen.",
+      "target": "der Bruder",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hermano camina/corre al parque. (futuro I)",
+      "verb": "laufen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "laufen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Nachbar</u> arbeitet im Büro.",
+      "target": "der Nachbar",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El vecino trabaja en la oficina. (presente)",
+      "verb": "arbeiten",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "arbeiten",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Mutter</u> arbeitete im Büro.",
+      "target": "die Mutter",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La madre trabaja en la oficina. (pretérito)",
+      "verb": "arbeiten",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "arbeiten",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Bruder</u> hat im Büro gearbeitet.",
+      "target": "der Bruder",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hermano trabaja en la oficina. (perfecto)",
+      "verb": "arbeiten",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "arbeiten",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Schwester</u> wird im Büro arbeiten.",
+      "target": "die Schwester",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La hermana trabaja en la oficina. (futuro I)",
+      "verb": "arbeiten",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "arbeiten",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Mutter</u> lernt in der Schule.",
+      "target": "die Mutter",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La madre aprende en la escuela. (presente)",
+      "verb": "lernen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "lernen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Bruder</u> lernte in der Schule.",
+      "target": "der Bruder",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hermano aprende en la escuela. (pretérito)",
+      "verb": "lernen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "lernen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Schwester</u> hat in der Schule gelernt.",
+      "target": "die Schwester",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La hermana aprende en la escuela. (perfecto)",
+      "verb": "lernen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "lernen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Student</u> wird in der Schule lernen.",
+      "target": "der Student",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El estudiante aprende en la escuela. (futuro I)",
+      "verb": "lernen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "lernen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Bruder</u> studiert an der Universität.",
+      "target": "der Bruder",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hermano estudia en la universidad. (presente)",
+      "verb": "studieren",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "studieren",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Schwester</u> studierte an der Universität.",
+      "target": "die Schwester",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La hermana estudia en la universidad. (pretérito)",
+      "verb": "studieren",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "studieren",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Student</u> hat an der Universität studiert.",
+      "target": "der Student",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El estudiante estudia en la universidad. (perfecto)",
+      "verb": "studieren",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "studieren",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Mann</u> wird an der Universität studieren.",
+      "target": "der Mann",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hombre estudia en la universidad. (futuro I)",
+      "verb": "studieren",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "studieren",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Schwester</u> steht an der Tür.",
+      "target": "die Schwester",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La hermana está de pie en la puerta. (presente)",
+      "verb": "stehen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "stehen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Student</u> stand an der Tür.",
+      "target": "der Student",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El estudiante está de pie en la puerta. (pretérito)",
+      "verb": "stehen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "stehen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Mann</u> hat an der Tür gestanden.",
+      "target": "der Mann",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hombre está de pie en la puerta. (perfecto)",
+      "verb": "stehen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "stehen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Frau</u> wird an der Tür stehen.",
+      "target": "die Frau",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La mujer está de pie en la puerta. (futuro I)",
+      "verb": "stehen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "stehen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Student</u> tanzt im Wohnzimmer.",
+      "target": "der Student",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El estudiante baila en la sala. (presente)",
+      "verb": "tanzen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "tanzen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Mann</u> tanzte im Wohnzimmer.",
+      "target": "der Mann",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hombre baila en la sala. (pretérito)",
+      "verb": "tanzen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "tanzen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Frau</u> hat im Wohnzimmer getanzt.",
+      "target": "die Frau",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La mujer baila en la sala. (perfecto)",
+      "verb": "tanzen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "tanzen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Das Kind</u> wird im Wohnzimmer tanzen.",
+      "target": "das Kind",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El niño baila en la sala. (futuro I)",
+      "verb": "tanzen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "tanzen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Mann</u> spielt im Park.",
+      "target": "der Mann",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El hombre juega en el parque. (presente)",
+      "verb": "spielen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "spielen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Frau</u> spielte im Park.",
+      "target": "die Frau",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La mujer juega en el parque. (pretérito)",
+      "verb": "spielen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "spielen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Das Kind</u> hat im Park gespielt.",
+      "target": "das Kind",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El niño juega en el parque. (perfecto)",
+      "verb": "spielen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "spielen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Lehrer</u> wird im Park spielen.",
+      "target": "der Lehrer",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El maestro juega en el parque. (futuro I)",
+      "verb": "spielen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "spielen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Frau</u> spricht mit dem Lehrer.",
+      "target": "die Frau",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La mujer habla con el maestro. (presente)",
+      "verb": "sprechen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "sprechen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Das Kind</u> sprach mit dem Lehrer.",
+      "target": "das Kind",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El niño habla con el maestro. (pretérito)",
+      "verb": "sprechen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "sprechen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Lehrer</u> hat mit dem Lehrer gesprochen.",
+      "target": "der Lehrer",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El maestro habla con el maestro. (perfecto)",
+      "verb": "sprechen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "sprechen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Lehrerin</u> wird mit dem Lehrer sprechen.",
+      "target": "die Lehrerin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La maestra habla con el maestro. (futuro I)",
+      "verb": "sprechen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "sprechen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Das Kind</u> singt im Chor.",
+      "target": "das Kind",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El niño canta en el coro. (presente)",
+      "verb": "singen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "singen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Lehrer</u> sang im Chor.",
+      "target": "der Lehrer",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El maestro canta en el coro. (pretérito)",
+      "verb": "singen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "singen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Lehrerin</u> hat im Chor gesungen.",
+      "target": "die Lehrerin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La maestra canta en el coro. (perfecto)",
+      "verb": "singen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "singen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Freund</u> wird im Chor singen.",
+      "target": "der Freund",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El amigo canta en el coro. (futuro I)",
+      "verb": "singen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "singen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Lehrer</u> fliegt in den Park.",
+      "target": "der Lehrer",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El maestro vuela al parque. (presente)",
+      "verb": "fliegen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fliegen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Lehrerin</u> flog in die Schule.",
+      "target": "die Lehrerin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La maestra vuela a la escuela. (pretérito)",
+      "verb": "fliegen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fliegen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Freund</u> ist ins Büro geflogen.",
+      "target": "der Freund",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El amigo vuela a la oficina. (perfecto)",
+      "verb": "fliegen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fliegen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Freundin</u> wird nach Hause fliegen.",
+      "target": "die Freundin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La amiga vuela a casa. (futuro I)",
+      "verb": "fliegen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "fliegen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Lehrerin</u> rennt in die Schule.",
+      "target": "die Lehrerin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La maestra corre a la escuela. (presente)",
+      "verb": "rennen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "rennen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Freund</u> rannte ins Büro.",
+      "target": "der Freund",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El amigo corre a la oficina. (pretérito)",
+      "verb": "rennen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "rennen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Freundin</u> ist nach Hause gerannt.",
+      "target": "die Freundin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La amiga corre a casa. (perfecto)",
+      "verb": "rennen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "rennen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Nachbar</u> wird zum Bahnhof rennen.",
+      "target": "der Nachbar",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El vecino corre a la estación de tren. (futuro I)",
+      "verb": "rennen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "rennen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Freund</u> schläft im Bett.",
+      "target": "der Freund",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El amigo duerme en la cama. (presente)",
+      "verb": "schlafen",
+      "tense": "präsens",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "schlafen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Freundin</u> schlief im Bett.",
+      "target": "die Freundin",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La amiga duerme en la cama. (pretérito)",
+      "verb": "schlafen",
+      "tense": "präteritum",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "schlafen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Der Nachbar</u> hat im Bett geschlafen.",
+      "target": "der Nachbar",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "El vecino duerme en la cama. (perfecto)",
+      "verb": "schlafen",
+      "tense": "perfekt",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "schlafen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "<u>Die Mutter</u> wird im Bett schlafen.",
+      "target": "die Mutter",
+      "answer": "nominativo",
+      "explanation": "La parte subrayada es el sujeto: Wer?",
+      "translation": "La madre duerme en la cama. (futuro I)",
+      "verb": "schlafen",
+      "tense": "futur",
+      "tags": [
+        "nominativo",
+        "sujeto",
+        "schlafen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin will <u>eine E-Mail</u> lesen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Con wollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La maestra quiere un correo. (presente)",
+      "verb": "wollen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "modal",
+        "wollen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund wollte <u>das Buch</u> lesen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Con wollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El amigo quiere el libro. (pretérito)",
+      "verb": "wollen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "modal",
+        "wollen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin hat <u>den Brief</u> lesen wollen.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Con wollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La amiga quiere la carta. (perfecto)",
+      "verb": "wollen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "modal",
+        "wollen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar wird <u>eine E-Mail</u> lesen wollen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Con wollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El vecino quiere un correo. (futuro I)",
+      "verb": "wollen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "modal",
+        "wollen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund kann <u>das Buch</u> lesen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Con können, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El amigo puede el libro. (presente)",
+      "verb": "können",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "modal",
+        "können",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin konnte <u>den Brief</u> lesen.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Con können, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La amiga puede la carta. (pretérito)",
+      "verb": "können",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "modal",
+        "können",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar hat <u>eine E-Mail</u> lesen können.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Con können, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El vecino puede un correo. (perfecto)",
+      "verb": "können",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "modal",
+        "können",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter wird <u>das Buch</u> lesen können.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Con können, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La madre puede el libro. (futuro I)",
+      "verb": "können",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "modal",
+        "können",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin darf <u>den Brief</u> lesen.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Con dürfen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La amiga tiene permiso para la carta. (presente)",
+      "verb": "dürfen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "modal",
+        "dürfen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar durfte <u>eine E-Mail</u> lesen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Con dürfen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El vecino tiene permiso para un correo. (pretérito)",
+      "verb": "dürfen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "modal",
+        "dürfen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter hat <u>das Buch</u> lesen dürfen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Con dürfen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La madre tiene permiso para el libro. (perfecto)",
+      "verb": "dürfen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "modal",
+        "dürfen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder wird <u>den Brief</u> lesen dürfen.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Con dürfen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El hermano tiene permiso para la carta. (futuro I)",
+      "verb": "dürfen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "modal",
+        "dürfen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar muss <u>eine E-Mail</u> lesen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Con müssen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El vecino debe un correo. (presente)",
+      "verb": "müssen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "modal",
+        "müssen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter musste <u>das Buch</u> lesen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Con müssen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La madre debe el libro. (pretérito)",
+      "verb": "müssen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "modal",
+        "müssen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder hat <u>den Brief</u> lesen müssen.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Con müssen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El hermano debe la carta. (perfecto)",
+      "verb": "müssen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "modal",
+        "müssen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester wird <u>eine E-Mail</u> lesen müssen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Con müssen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La hermana debe un correo. (futuro I)",
+      "verb": "müssen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "modal",
+        "müssen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter soll <u>das Buch</u> lesen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Con sollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La madre debe el libro. (presente)",
+      "verb": "sollen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "modal",
+        "sollen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder sollte <u>den Brief</u> lesen.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Con sollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El hermano debe la carta. (pretérito)",
+      "verb": "sollen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "modal",
+        "sollen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester hat <u>eine E-Mail</u> lesen sollen.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Con sollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La hermana debe un correo. (perfecto)",
+      "verb": "sollen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "modal",
+        "sollen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student wird <u>das Buch</u> lesen sollen.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Con sollen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El estudiante debe el libro. (futuro I)",
+      "verb": "sollen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "modal",
+        "sollen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Bruder mag <u>den Schlüssel</u>.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "Con mögen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El hermano le gusta la llave. (presente)",
+      "verb": "mögen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "modal",
+        "mögen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Schwester mochte <u>die Tür</u>.",
+      "target": "die Tür",
+      "answer": "acusativo",
+      "explanation": "Con mögen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "La hermana le gusta la puerta. (pretérito)",
+      "verb": "mögen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "modal",
+        "mögen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Student hat <u>das Fenster</u> gemocht.",
+      "target": "das Fenster",
+      "answer": "acusativo",
+      "explanation": "Con mögen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El estudiante le gusta la ventana. (perfecto)",
+      "verb": "mögen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "modal",
+        "mögen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Mann wird <u>das Licht</u> mögen.",
+      "target": "das Licht",
+      "answer": "acusativo",
+      "explanation": "Con mögen, el sustantivo funciona como objeto directo: Wen oder was?",
+      "translation": "El hombre le gusta la luz. (futuro I)",
+      "verb": "mögen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "modal",
+        "mögen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Das Kind trifft sich <u>mit der Mutter</u>.",
+      "target": "mit der Mutter",
+      "answer": "dativo",
+      "explanation": "mit rige dativo en esta expresión.",
+      "translation": "El niño se reúne con la madre. (presente)",
+      "verb": "sich treffen mit",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "verbo-reflexivo",
+        "sich treffen mit",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Lehrer traf sich <u>mit dem Bruder</u>.",
+      "target": "mit dem Bruder",
+      "answer": "dativo",
+      "explanation": "mit rige dativo en esta expresión.",
+      "translation": "El maestro se reúne con el hermano. (pretérito)",
+      "verb": "sich treffen mit",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "verbo-reflexivo",
+        "sich treffen mit",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Lehrerin hat sich <u>mit der Schwester</u> getroffen.",
+      "target": "mit der Schwester",
+      "answer": "dativo",
+      "explanation": "mit rige dativo en esta expresión.",
+      "translation": "La maestra se reúne con la hermana. (perfecto)",
+      "verb": "sich treffen mit",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "verbo-reflexivo",
+        "sich treffen mit",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Freund wird sich <u>mit dem Studenten</u> treffen.",
+      "target": "mit dem Studenten",
+      "answer": "dativo",
+      "explanation": "mit rige dativo en esta expresión.",
+      "translation": "El amigo se reúne con el estudiante. (futuro I)",
+      "verb": "sich treffen mit",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "verbo-reflexivo",
+        "sich treffen mit",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Lehrer interessiert sich <u>für den Bruder</u>.",
+      "target": "für den Bruder",
+      "answer": "acusativo",
+      "explanation": "für rige acusativo en esta expresión.",
+      "translation": "El maestro se interesa por el hermano. (presente)",
+      "verb": "sich interessieren für",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "verbo-reflexivo",
+        "sich interessieren für",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Lehrerin interessierte sich <u>für die Schwester</u>.",
+      "target": "für die Schwester",
+      "answer": "acusativo",
+      "explanation": "für rige acusativo en esta expresión.",
+      "translation": "La maestra se interesa por la hermana. (pretérito)",
+      "verb": "sich interessieren für",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "verbo-reflexivo",
+        "sich interessieren für",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Freund hat sich <u>für den Studenten</u> interessiert.",
+      "target": "für den Studenten",
+      "answer": "acusativo",
+      "explanation": "für rige acusativo en esta expresión.",
+      "translation": "El amigo se interesa por el estudiante. (perfecto)",
+      "verb": "sich interessieren für",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "verbo-reflexivo",
+        "sich interessieren für",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Freundin wird sich <u>für den Mann</u> interessieren.",
+      "target": "für den Mann",
+      "answer": "acusativo",
+      "explanation": "für rige acusativo en esta expresión.",
+      "translation": "La amiga se interesa por el hombre. (futuro I)",
+      "verb": "sich interessieren für",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "verbo-reflexivo",
+        "sich interessieren für",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Freund denkt <u>an den Film</u>.",
+      "target": "an den Film",
+      "answer": "acusativo",
+      "explanation": "denken an usa acusativo para la cosa en la que se piensa: Woran?",
+      "translation": "El amigo piensa en la película. (presente)",
+      "verb": "denken",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "preposición",
+        "denken",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Freundin dachte <u>an die Tasche</u>.",
+      "target": "an die Tasche",
+      "answer": "acusativo",
+      "explanation": "denken an usa acusativo para la cosa en la que se piensa: Woran?",
+      "translation": "La amiga piensa en la bolsa. (pretérito)",
+      "verb": "denken",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "preposición",
+        "denken",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Nachbar hat <u>an das Fahrrad</u> gedacht.",
+      "target": "an das Fahrrad",
+      "answer": "acusativo",
+      "explanation": "denken an usa acusativo para la cosa en la que se piensa: Woran?",
+      "translation": "El vecino piensa en la bicicleta. (perfecto)",
+      "verb": "denken",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "preposición",
+        "denken",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Mutter wird <u>an den Schlüssel</u> denken.",
+      "target": "an den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "denken an usa acusativo para la cosa en la que se piensa: Woran?",
+      "translation": "La madre piensa en la llave. (futuro I)",
+      "verb": "denken",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "preposición",
+        "denken",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Freundin stellt das Buch <u>auf den Tisch</u>.",
+      "target": "auf den Tisch",
+      "answer": "acusativo",
+      "explanation": "stellen expresa movimiento o colocación hacia un lugar: wohin?",
+      "translation": "La amiga coloca el libro sobre la mesa.",
+      "verb": "stellen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "stellen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Nachbar stellt den Brief <u>in die Tasche</u>.",
+      "target": "in die Tasche",
+      "answer": "acusativo",
+      "explanation": "stellen expresa movimiento o colocación hacia un lugar: wohin?",
+      "translation": "El vecino coloca la carta en la bolsa.",
+      "verb": "stellen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "stellen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Mutter stellt den Schlüssel <u>neben die Tür</u>.",
+      "target": "neben die Tür",
+      "answer": "acusativo",
+      "explanation": "stellen expresa movimiento o colocación hacia un lugar: wohin?",
+      "translation": "La madre coloca la llave junto a la puerta.",
+      "verb": "stellen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "stellen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Bruder stellt das Licht <u>an die Wand</u>.",
+      "target": "an die Wand",
+      "answer": "acusativo",
+      "explanation": "stellen expresa movimiento o colocación hacia un lugar: wohin?",
+      "translation": "El hermano coloca la luz en la pared.",
+      "verb": "stellen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "stellen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Freundin setzt sich <u>auf den Stuhl</u>.",
+      "target": "auf den Stuhl",
+      "answer": "acusativo",
+      "explanation": "sich setzen expresa movimiento hacia un lugar: wohin?",
+      "translation": "La amiga se sienta en la silla.",
+      "verb": "sich setzen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "reflexivo",
+        "sich setzen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Nachbar setzt sich <u>auf das Sofa</u>.",
+      "target": "auf das Sofa",
+      "answer": "acusativo",
+      "explanation": "sich setzen expresa movimiento hacia un lugar: wohin?",
+      "translation": "El vecino se sienta en el sofá.",
+      "verb": "sich setzen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "reflexivo",
+        "sich setzen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Mutter setzt sich <u>an den Tisch</u>.",
+      "target": "an den Tisch",
+      "answer": "acusativo",
+      "explanation": "sich setzen expresa movimiento hacia un lugar: wohin?",
+      "translation": "La madre se sienta a la mesa.",
+      "verb": "sich setzen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "reflexivo",
+        "sich setzen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Bruder setzt sich <u>neben die Freundin</u>.",
+      "target": "neben die Freundin",
+      "answer": "acusativo",
+      "explanation": "sich setzen expresa movimiento hacia un lugar: wohin?",
+      "translation": "El hermano se sienta junto a la amiga.",
+      "verb": "sich setzen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "reflexivo",
+        "sich setzen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Kind hilft <u>der Freundin</u>.",
+      "target": "der Freundin",
+      "answer": "dativo",
+      "explanation": "helfen rige dativo en esta oración: Wem?",
+      "translation": "El niño ayuda a la amiga. (presente)",
+      "verb": "helfen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "helfen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer half <u>dem Nachbarn</u>.",
+      "target": "dem Nachbarn",
+      "answer": "dativo",
+      "explanation": "helfen rige dativo en esta oración: Wem?",
+      "translation": "El maestro ayuda a el vecino. (pretérito)",
+      "verb": "helfen",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "helfen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin hat <u>der Mutter</u> geholfen.",
+      "target": "der Mutter",
+      "answer": "dativo",
+      "explanation": "helfen rige dativo en esta oración: Wem?",
+      "translation": "La maestra ayuda a la madre. (perfecto)",
+      "verb": "helfen",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "helfen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund wird <u>dem Bruder</u> helfen.",
+      "target": "dem Bruder",
+      "answer": "dativo",
+      "explanation": "helfen rige dativo en esta oración: Wem?",
+      "translation": "El amigo ayuda a el hermano. (futuro I)",
+      "verb": "helfen",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "helfen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Lehrer antwortet <u>dem Nachbarn</u>.",
+      "target": "dem Nachbarn",
+      "answer": "dativo",
+      "explanation": "antworten rige dativo en esta oración: Wem?",
+      "translation": "El maestro responde a el vecino. (presente)",
+      "verb": "antworten",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "antworten",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin antwortete <u>der Mutter</u>.",
+      "target": "der Mutter",
+      "answer": "dativo",
+      "explanation": "antworten rige dativo en esta oración: Wem?",
+      "translation": "La maestra responde a la madre. (pretérito)",
+      "verb": "antworten",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "antworten",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund hat <u>dem Bruder</u> geantwortet.",
+      "target": "dem Bruder",
+      "answer": "dativo",
+      "explanation": "antworten rige dativo en esta oración: Wem?",
+      "translation": "El amigo responde a el hermano. (perfecto)",
+      "verb": "antworten",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "antworten",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin wird <u>der Schwester</u> antworten.",
+      "target": "der Schwester",
+      "answer": "dativo",
+      "explanation": "antworten rige dativo en esta oración: Wem?",
+      "translation": "La amiga responde a la hermana. (futuro I)",
+      "verb": "antworten",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "antworten",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lehrerin hört <u>der Mutter</u> zu.",
+      "target": "der Mutter",
+      "answer": "dativo",
+      "explanation": "zuhören rige dativo en esta oración: Wem?",
+      "translation": "La maestra escucha a la madre. (presente)",
+      "verb": "zuhören",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "zuhören",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund hörte <u>dem Bruder</u> zu.",
+      "target": "dem Bruder",
+      "answer": "dativo",
+      "explanation": "zuhören rige dativo en esta oración: Wem?",
+      "translation": "El amigo escucha a el hermano. (pretérito)",
+      "verb": "zuhören",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "zuhören",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin hat <u>der Schwester</u> zugehört.",
+      "target": "der Schwester",
+      "answer": "dativo",
+      "explanation": "zuhören rige dativo en esta oración: Wem?",
+      "translation": "La amiga escucha a la hermana. (perfecto)",
+      "verb": "zuhören",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "zuhören",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar wird <u>dem Studenten</u> zuhören.",
+      "target": "dem Studenten",
+      "answer": "dativo",
+      "explanation": "zuhören rige dativo en esta oración: Wem?",
+      "translation": "El vecino escucha a el estudiante. (futuro I)",
+      "verb": "zuhören",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "zuhören",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Freund gefällt <u>dem Bruder</u>.",
+      "target": "dem Bruder",
+      "answer": "dativo",
+      "explanation": "gefallen rige dativo en esta oración: Wem?",
+      "translation": "El amigo le gusta a el hermano. (presente)",
+      "verb": "gefallen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "gefallen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Freundin gefiel <u>der Schwester</u>.",
+      "target": "der Schwester",
+      "answer": "dativo",
+      "explanation": "gefallen rige dativo en esta oración: Wem?",
+      "translation": "La amiga le gusta a la hermana. (pretérito)",
+      "verb": "gefallen",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "gefallen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Nachbar hat <u>dem Studenten</u> gefallen.",
+      "target": "dem Studenten",
+      "answer": "dativo",
+      "explanation": "gefallen rige dativo en esta oración: Wem?",
+      "translation": "El vecino le gusta a el estudiante. (perfecto)",
+      "verb": "gefallen",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "gefallen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Mutter wird <u>dem Mann</u> gefallen.",
+      "target": "dem Mann",
+      "answer": "dativo",
+      "explanation": "gefallen rige dativo en esta oración: Wem?",
+      "translation": "La madre le gusta a el hombre. (futuro I)",
+      "verb": "gefallen",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "verbo-dativo",
+        "gefallen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Mann gibt <strong>der Lehrerin</strong> <strong>das Buch</strong>.",
+      "target": "der Lehrerin",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El hombre da el libro a la maestra. (presente)",
+      "verb": "geben",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "receptor",
+        "geben",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Mann gibt <strong>der Lehrerin</strong> <strong>das Buch</strong>.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El hombre da el libro a la maestra. (presente)",
+      "verb": "geben",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "geben",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Frau gab <strong>dem Freund</strong> <strong>den Brief</strong>.",
+      "target": "dem Freund",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "La mujer da la carta a el amigo. (pretérito)",
+      "verb": "geben",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "receptor",
+        "geben",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Frau gab <strong>dem Freund</strong> <strong>den Brief</strong>.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "La mujer da la carta a el amigo. (pretérito)",
+      "verb": "geben",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "geben",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Das Kind hat <strong>der Freundin</strong> <strong>den Schlüssel</strong> gegeben.",
+      "target": "der Freundin",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El niño da la llave a la amiga. (perfecto)",
+      "verb": "geben",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "receptor",
+        "geben",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Das Kind hat <strong>der Freundin</strong> <strong>den Schlüssel</strong> gegeben.",
+      "target": "den Schlüssel",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El niño da la llave a la amiga. (perfecto)",
+      "verb": "geben",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "geben",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Lehrer wird <strong>dem Nachbarn</strong> <strong>das Buch</strong> geben.",
+      "target": "dem Nachbarn",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El maestro da el libro a el vecino. (futuro I)",
+      "verb": "geben",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "receptor",
+        "geben",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Lehrer wird <strong>dem Nachbarn</strong> <strong>das Buch</strong> geben.",
+      "target": "das Buch",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El maestro da el libro a el vecino. (futuro I)",
+      "verb": "geben",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "geben",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Frau schickt <strong>dem Freund</strong> <strong>die Aufgabe</strong>.",
+      "target": "dem Freund",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "La mujer envía la tarea a el amigo. (presente)",
+      "verb": "schicken",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "receptor",
+        "schicken",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Frau schickt <strong>dem Freund</strong> <strong>die Aufgabe</strong>.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "La mujer envía la tarea a el amigo. (presente)",
+      "verb": "schicken",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schicken",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Das Kind schickte <strong>der Freundin</strong> <strong>den Brief</strong>.",
+      "target": "der Freundin",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El niño envía la carta a la amiga. (pretérito)",
+      "verb": "schicken",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "receptor",
+        "schicken",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Das Kind schickte <strong>der Freundin</strong> <strong>den Brief</strong>.",
+      "target": "den Brief",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El niño envía la carta a la amiga. (pretérito)",
+      "verb": "schicken",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schicken",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Lehrer hat <strong>dem Nachbarn</strong> <strong>eine E-Mail</strong> geschickt.",
+      "target": "dem Nachbarn",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El maestro envía un correo a el vecino. (perfecto)",
+      "verb": "schicken",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "receptor",
+        "schicken",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Lehrer hat <strong>dem Nachbarn</strong> <strong>eine E-Mail</strong> geschickt.",
+      "target": "eine E-Mail",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El maestro envía un correo a el vecino. (perfecto)",
+      "verb": "schicken",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schicken",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Lehrerin wird <strong>der Mutter</strong> <strong>die Aufgabe</strong> schicken.",
+      "target": "der Mutter",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "La maestra envía la tarea a la madre. (futuro I)",
+      "verb": "schicken",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "receptor",
+        "schicken",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Lehrerin wird <strong>der Mutter</strong> <strong>die Aufgabe</strong> schicken.",
+      "target": "die Aufgabe",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "La maestra envía la tarea a la madre. (futuro I)",
+      "verb": "schicken",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "schicken",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Das Kind bringt <strong>der Freundin</strong> <strong>den Kuchen</strong>.",
+      "target": "der Freundin",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El niño trae el pastel a la amiga. (presente)",
+      "verb": "bringen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "receptor",
+        "bringen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Das Kind bringt <strong>der Freundin</strong> <strong>den Kuchen</strong>.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El niño trae el pastel a la amiga. (presente)",
+      "verb": "bringen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "präsens"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Lehrer brachte <strong>dem Nachbarn</strong> <strong>eine Suppe</strong>.",
+      "target": "dem Nachbarn",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El maestro trae una sopa a el vecino. (pretérito)",
+      "verb": "bringen",
+      "tense": "präteritum",
+      "tags": [
+        "dativo",
+        "receptor",
+        "bringen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Lehrer brachte <strong>dem Nachbarn</strong> <strong>eine Suppe</strong>.",
+      "target": "eine Suppe",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El maestro trae una sopa a el vecino. (pretérito)",
+      "verb": "bringen",
+      "tense": "präteritum",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "präteritum"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Lehrerin hat <strong>der Mutter</strong> <strong>das Wasser</strong> gebracht.",
+      "target": "der Mutter",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "La maestra trae el agua a la madre. (perfecto)",
+      "verb": "bringen",
+      "tense": "perfekt",
+      "tags": [
+        "dativo",
+        "receptor",
+        "bringen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Die Lehrerin hat <strong>der Mutter</strong> <strong>das Wasser</strong> gebracht.",
+      "target": "das Wasser",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "La maestra trae el agua a la madre. (perfecto)",
+      "verb": "bringen",
+      "tense": "perfekt",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "perfekt"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Freund wird <strong>dem Bruder</strong> <strong>den Kuchen</strong> bringen.",
+      "target": "dem Bruder",
+      "answer": "dativo",
+      "explanation": "Es la persona que recibe algo: Wem?",
+      "translation": "El amigo trae el pastel a el hermano. (futuro I)",
+      "verb": "bringen",
+      "tense": "futur",
+      "tags": [
+        "dativo",
+        "receptor",
+        "bringen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "Der Freund wird <strong>dem Bruder</strong> <strong>den Kuchen</strong> bringen.",
+      "target": "den Kuchen",
+      "answer": "acusativo",
+      "explanation": "Es la cosa dada, enviada o traída: Wen oder was?",
+      "translation": "El amigo trae el pastel a el hermano. (futuro I)",
+      "verb": "bringen",
+      "tense": "futur",
+      "tags": [
+        "acusativo",
+        "objeto-directo",
+        "bringen",
+        "futur"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Mann legt das Buch <u>auf den Tisch</u>.",
+      "target": "auf den Tisch",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "El hombre pone el libro sobre la mesa.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Das Buch liegt <u>auf dem Tisch</u>.",
+      "target": "auf dem Tisch",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "El libro está sobre la mesa.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Frau legt den Brief <u>in die Tasche</u>.",
+      "target": "in die Tasche",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "La mujer pone la carta en la bolsa.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Brief liegt <u>in der Tasche</u>.",
+      "target": "in der Tasche",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "La carta está en la bolsa.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Das Kind legt den Schlüssel <u>neben die Tür</u>.",
+      "target": "neben die Tür",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "El niño pone la llave junto a la puerta.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Schlüssel liegt <u>neben der Tür</u>.",
+      "target": "neben der Tür",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "La llave está junto a la puerta.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Lehrer legt das Licht <u>an die Wand</u>.",
+      "target": "an die Wand",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "El maestro pone la luz en la pared.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Das Licht liegt <u>an der Wand</u>.",
+      "target": "an der Wand",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "La luz está en la pared.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Lehrerin legt den Computer <u>auf den Schreibtisch</u>.",
+      "target": "auf den Schreibtisch",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "La maestra pone la computadora sobre el escritorio.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Computer liegt <u>auf dem Schreibtisch</u>.",
+      "target": "auf dem Schreibtisch",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "La computadora está sobre el escritorio.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Freund legt das Lied <u>unter das Bett</u>.",
+      "target": "unter das Bett",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "El amigo pone la canción debajo de la cama.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Das Lied liegt <u>unter dem Bett</u>.",
+      "target": "unter dem Bett",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "La canción está debajo de la cama.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Freundin legt eine Suppe <u>in den Topf</u>.",
+      "target": "in den Topf",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "La amiga pone una sopa en la olla.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Eine Suppe liegt <u>im Topf</u>.",
+      "target": "im Topf",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "Una sopa está en la olla.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Nachbar legt eine E-Mail <u>in den Ordner</u>.",
+      "target": "in den Ordner",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un lugar con Wechselpräposition: wohin?",
+      "translation": "El vecino pone un correo en la carpeta.",
+      "verb": "legen",
+      "tense": "präsens",
+      "tags": [
+        "acusativo",
+        "wechselpräposition",
+        "legen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Eine E-Mail liegt <u>im Ordner</u>.",
+      "target": "im Ordner",
+      "answer": "dativo",
+      "explanation": "Ubicación fija con Wechselpräposition: wo?",
+      "translation": "Un correo está en la carpeta.",
+      "verb": "liegen",
+      "tense": "präsens",
+      "tags": [
+        "dativo",
+        "wechselpräposition",
+        "liegen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Mann geht <u>in den Park</u>.",
+      "target": "in den Park",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un destino: wohin?",
+      "translation": "El hombre va al parque.",
+      "verb": "gehen",
+      "tense": "präsens",
+      "tags": [
+        "dirección",
+        "gehen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Frau geht <u>in die Schule</u>.",
+      "target": "in die Schule",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un destino: wohin?",
+      "translation": "La mujer va a la escuela.",
+      "verb": "gehen",
+      "tense": "präsens",
+      "tags": [
+        "dirección",
+        "gehen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Das Kind geht <u>ins Büro</u>.",
+      "target": "ins Büro",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un destino: wohin?",
+      "translation": "El niño va a la oficina.",
+      "verb": "gehen",
+      "tense": "präsens",
+      "tags": [
+        "dirección",
+        "gehen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Lehrer geht <u>nach Hause</u>.",
+      "target": "nach Hause",
+      "answer": "dativo",
+      "explanation": "nach rige dativo y marca destino.",
+      "translation": "El maestro va a casa.",
+      "verb": "gehen",
+      "tense": "präsens",
+      "tags": [
+        "dirección",
+        "gehen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Die Lehrerin geht <u>zum Bahnhof</u>.",
+      "target": "zum Bahnhof",
+      "answer": "dativo",
+      "explanation": "zu rige dativo y marca destino.",
+      "translation": "La maestra va a la estación de tren.",
+      "verb": "gehen",
+      "tense": "präsens",
+      "tags": [
+        "dirección",
+        "gehen"
+      ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "acc-dat",
+      "sentence": "Der Freund geht <u>in die Stadt</u>.",
+      "target": "in die Stadt",
+      "answer": "acusativo",
+      "explanation": "Movimiento hacia un destino: wohin?",
+      "translation": "El amigo va a la ciudad.",
+      "verb": "gehen",
+      "tense": "präsens",
+      "tags": [
+        "dirección",
+        "gehen"
+      ]
+    }
+  ]
+}
