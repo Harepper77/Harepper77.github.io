@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-11T03:57:04.271Z",
+  "generatedAt": "2026-05-11T14:41:15.289Z",
   "collection": "sentences",
   "verbs": [
     "essen",
@@ -67,7 +67,7 @@
     "helfen",
     "schicken"
   ],
-  "count": 386,
+  "count": 530,
   "docs": [
     {
       "active": true,
@@ -7566,6 +7566,2790 @@
         "dirección",
         "gehen"
       ]
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>des Mannes</u> ist bekannt.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de el hombre es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-0"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>der Frau</u> liegt auf dem Tisch.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de la mujer está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-1"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>des Kindes</u> ist neu.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de el niño es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-2"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>des Lehrers</u> liegt auf dem Tisch.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de el maestro está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-3"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>der Lehrerin</u> ist schön.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de la maestra es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-4"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>des Freundes</u> ist sauber.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de el amigo está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-5"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>der Freundin</u> ist neu.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de la amiga es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-6"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>des Nachbarn</u> ist schwer.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de el vecino es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-7"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>der Mutter</u> ist interessant.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de la madre es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-8"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>des Bruders</u> liegt in der Tasche.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de el hermano está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-9"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>der Schwester</u> ist neu.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de la hermana es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-10"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>des Studenten</u> ist sauber.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de el estudiante está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-11"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>der Frau</u> ist bekannt.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de la mujer es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-12"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>des Kindes</u> liegt auf dem Tisch.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de el niño está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-13"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>des Lehrers</u> ist neu.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de el maestro es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-14"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>der Lehrerin</u> liegt auf dem Tisch.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de la maestra está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-15"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>des Freundes</u> ist schön.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de el amigo es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-16"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>der Freundin</u> ist sauber.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de la amiga está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-17"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>des Nachbarn</u> ist neu.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de el vecino es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-18"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>der Mutter</u> ist schwer.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de la madre es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-19"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>des Bruders</u> ist interessant.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de el hermano es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-20"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>der Schwester</u> liegt in der Tasche.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de la hermana está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-21"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>des Studenten</u> ist neu.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de el estudiante es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-22"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>des Mannes</u> ist sauber.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de el hombre está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-23"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>des Kindes</u> ist bekannt.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de el niño es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-24"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>des Lehrers</u> liegt auf dem Tisch.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de el maestro está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-25"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>der Lehrerin</u> ist neu.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de la maestra es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-26"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>des Freundes</u> liegt auf dem Tisch.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de el amigo está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-27"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>der Freundin</u> ist schön.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de la amiga es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-28"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>des Nachbarn</u> ist sauber.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de el vecino está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-29"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>der Mutter</u> ist neu.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de la madre es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-30"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>des Bruders</u> ist schwer.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de el hermano es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-31"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>der Schwester</u> ist interessant.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de la hermana es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-32"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>des Studenten</u> liegt in der Tasche.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de el estudiante está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-33"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>des Mannes</u> ist neu.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de el hombre es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-34"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>der Frau</u> ist sauber.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de la mujer está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-35"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>des Lehrers</u> ist bekannt.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de el maestro es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-36"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>der Lehrerin</u> liegt auf dem Tisch.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de la maestra está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-37"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>des Freundes</u> ist neu.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de el amigo es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-38"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>der Freundin</u> liegt auf dem Tisch.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de la amiga está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-39"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>des Nachbarn</u> ist schön.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de el vecino es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-40"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>der Mutter</u> ist sauber.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de la madre está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-41"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>des Bruders</u> ist neu.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de el hermano es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-42"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>der Schwester</u> ist schwer.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de la hermana es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-43"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>des Studenten</u> ist interessant.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de el estudiante es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-44"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>des Mannes</u> liegt in der Tasche.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de el hombre está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-45"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>der Frau</u> ist neu.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de la mujer es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-46"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>des Kindes</u> ist sauber.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de el niño está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-47"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>der Lehrerin</u> ist bekannt.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de la maestra es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-48"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>des Freundes</u> liegt auf dem Tisch.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de el amigo está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-49"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>der Freundin</u> ist neu.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de la amiga es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-50"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>des Nachbarn</u> liegt auf dem Tisch.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de el vecino está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-51"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>der Mutter</u> ist schön.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de la madre es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-52"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>des Bruders</u> ist sauber.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de el hermano está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-53"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>der Schwester</u> ist neu.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de la hermana es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-54"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>des Studenten</u> ist schwer.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de el estudiante es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-55"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>des Mannes</u> ist interessant.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de el hombre es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-56"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>der Frau</u> liegt in der Tasche.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de la mujer está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-57"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>des Kindes</u> ist neu.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de el niño es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-58"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>des Lehrers</u> ist sauber.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de el maestro está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-59"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>des Freundes</u> ist bekannt.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de el amigo es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-60"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>der Freundin</u> liegt auf dem Tisch.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de la amiga está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-61"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>des Nachbarn</u> ist neu.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de el vecino es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-62"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>der Mutter</u> liegt auf dem Tisch.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de la madre está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-63"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>des Bruders</u> ist schön.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de el hermano es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-64"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>der Schwester</u> ist sauber.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de la hermana está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-65"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>des Studenten</u> ist neu.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de el estudiante es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-66"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>des Mannes</u> ist schwer.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de el hombre es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-67"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>der Frau</u> ist interessant.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de la mujer es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-68"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>des Kindes</u> liegt in der Tasche.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de el niño está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-69"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>des Lehrers</u> ist neu.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de el maestro es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-70"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>der Lehrerin</u> ist sauber.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de la maestra está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-71"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>der Freundin</u> ist bekannt.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de la amiga es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-72"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>des Nachbarn</u> liegt auf dem Tisch.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de el vecino está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-73"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>der Mutter</u> ist neu.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de la madre es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-74"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>des Bruders</u> liegt auf dem Tisch.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de el hermano está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-75"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>der Schwester</u> ist schön.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de la hermana es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-76"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>des Studenten</u> ist sauber.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de el estudiante está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-77"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>des Mannes</u> ist neu.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de el hombre es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-78"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>der Frau</u> ist schwer.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de la mujer es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-79"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>des Kindes</u> ist interessant.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de el niño es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-80"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>des Lehrers</u> liegt in der Tasche.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de el maestro está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-81"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>der Lehrerin</u> ist neu.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de la maestra es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-82"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>des Freundes</u> ist sauber.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de el amigo está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-83"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Name <u>des Nachbarn</u> ist bekannt.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "des Nachbarn expresa posesión o pertenencia: Wessen?",
+      "translation": "El nombre de el vecino es conocido.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-84"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Tasche <u>der Mutter</u> liegt auf dem Tisch.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "der Mutter expresa posesión o pertenencia: Wessen?",
+      "translation": "La bolsa de la madre está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-85"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fahrrad <u>des Bruders</u> ist neu.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "des Bruders expresa posesión o pertenencia: Wessen?",
+      "translation": "La bicicleta de el hermano es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-86"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Schlüssel <u>der Schwester</u> liegt auf dem Tisch.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "der Schwester expresa posesión o pertenencia: Wessen?",
+      "translation": "La llave de la hermana está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-87"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Wohnung <u>des Studenten</u> ist schön.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "des Studenten expresa posesión o pertenencia: Wessen?",
+      "translation": "El departamento de el estudiante es bonito.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-88"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Zimmer <u>des Mannes</u> ist sauber.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "des Mannes expresa posesión o pertenencia: Wessen?",
+      "translation": "El cuarto de el hombre está limpio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-89"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Computer <u>der Frau</u> ist neu.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "der Frau expresa posesión o pertenencia: Wessen?",
+      "translation": "La computadora de la mujer es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-90"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Aufgabe <u>des Kindes</u> ist schwer.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "des Kindes expresa posesión o pertenencia: Wessen?",
+      "translation": "La tarea de el niño es difícil.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-91"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Buch <u>des Lehrers</u> ist interessant.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "des Lehrers expresa posesión o pertenencia: Wessen?",
+      "translation": "El libro de el maestro es interesante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-92"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Der Brief <u>der Lehrerin</u> liegt in der Tasche.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "der Lehrerin expresa posesión o pertenencia: Wessen?",
+      "translation": "La carta de la maestra está en la bolsa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-93"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Die Lampe <u>des Freundes</u> ist neu.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "des Freundes expresa posesión o pertenencia: Wessen?",
+      "translation": "La lámpara de el amigo es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-94"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "ask-case",
+      "sentence": "Das Fenster <u>der Freundin</u> ist sauber.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "der Freundin expresa posesión o pertenencia: Wessen?",
+      "translation": "La ventana de la amiga está limpia.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-ask-95"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Schlüssel</strong> <strong>des Freundes</strong> ist wichtig.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La llave de el amigo es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-0"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Wohnung</strong> <strong>der Freundin</strong> ist groß.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El departamento de la amiga es grande.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-1"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Zimmer</strong> <strong>des Nachbarn</strong> ist klein.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El cuarto de el vecino es pequeño.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-2"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Computer</strong> <strong>der Mutter</strong> steht im Büro.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La computadora de la madre está en la oficina.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-3"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Aufgabe</strong> <strong>des Bruders</strong> ist wichtig.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La tarea de el hermano es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-4"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Buch</strong> <strong>der Schwester</strong> liegt auf dem Tisch.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El libro de la hermana está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-5"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Brief</strong> <strong>des Studenten</strong> ist wichtig.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La carta de el estudiante es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-6"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Lampe</strong> <strong>des Mannes</strong> steht im Zimmer.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La lámpara de el hombre está en el cuarto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-7"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fenster</strong> <strong>der Frau</strong> ist offen.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La ventana de la mujer está abierta.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-8"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Name</strong> <strong>des Kindes</strong> ist kurz.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El nombre de el niño es corto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-9"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Tasche</strong> <strong>des Lehrers</strong> ist neu.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bolsa de el maestro es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-10"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fahrrad</strong> <strong>der Lehrerin</strong> steht im Hof.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bicicleta de la maestra está en el patio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-11"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Schlüssel</strong> <strong>des Freundes</strong> ist wichtig.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La llave de el amigo es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-12"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Wohnung</strong> <strong>der Freundin</strong> ist groß.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El departamento de la amiga es grande.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-13"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Zimmer</strong> <strong>des Nachbarn</strong> ist klein.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El cuarto de el vecino es pequeño.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-14"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Computer</strong> <strong>der Mutter</strong> steht im Büro.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La computadora de la madre está en la oficina.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-15"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Aufgabe</strong> <strong>des Bruders</strong> ist wichtig.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La tarea de el hermano es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-16"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Buch</strong> <strong>der Schwester</strong> liegt auf dem Tisch.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El libro de la hermana está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-17"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Brief</strong> <strong>des Studenten</strong> ist wichtig.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La carta de el estudiante es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-18"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Lampe</strong> <strong>des Mannes</strong> steht im Zimmer.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La lámpara de el hombre está en el cuarto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-19"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fenster</strong> <strong>der Frau</strong> ist offen.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La ventana de la mujer está abierta.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-20"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Name</strong> <strong>des Kindes</strong> ist kurz.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El nombre de el niño es corto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-21"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Tasche</strong> <strong>des Lehrers</strong> ist neu.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bolsa de el maestro es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-22"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fahrrad</strong> <strong>der Lehrerin</strong> steht im Hof.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bicicleta de la maestra está en el patio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-23"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Schlüssel</strong> <strong>des Freundes</strong> ist wichtig.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La llave de el amigo es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-24"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Wohnung</strong> <strong>der Freundin</strong> ist groß.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El departamento de la amiga es grande.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-25"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Zimmer</strong> <strong>des Nachbarn</strong> ist klein.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El cuarto de el vecino es pequeño.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-26"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Computer</strong> <strong>der Mutter</strong> steht im Büro.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La computadora de la madre está en la oficina.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-27"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Aufgabe</strong> <strong>des Bruders</strong> ist wichtig.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La tarea de el hermano es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-28"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Buch</strong> <strong>der Schwester</strong> liegt auf dem Tisch.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El libro de la hermana está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-29"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Brief</strong> <strong>des Studenten</strong> ist wichtig.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La carta de el estudiante es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-30"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Lampe</strong> <strong>des Mannes</strong> steht im Zimmer.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La lámpara de el hombre está en el cuarto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-31"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fenster</strong> <strong>der Frau</strong> ist offen.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La ventana de la mujer está abierta.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-32"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Name</strong> <strong>des Kindes</strong> ist kurz.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El nombre de el niño es corto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-33"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Tasche</strong> <strong>des Lehrers</strong> ist neu.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bolsa de el maestro es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-34"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fahrrad</strong> <strong>der Lehrerin</strong> steht im Hof.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bicicleta de la maestra está en el patio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-35"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Schlüssel</strong> <strong>des Freundes</strong> ist wichtig.",
+      "target": "des Freundes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La llave de el amigo es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-36"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Wohnung</strong> <strong>der Freundin</strong> ist groß.",
+      "target": "der Freundin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El departamento de la amiga es grande.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-37"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Zimmer</strong> <strong>des Nachbarn</strong> ist klein.",
+      "target": "des Nachbarn",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El cuarto de el vecino es pequeño.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-38"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Computer</strong> <strong>der Mutter</strong> steht im Büro.",
+      "target": "der Mutter",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La computadora de la madre está en la oficina.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-39"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Aufgabe</strong> <strong>des Bruders</strong> ist wichtig.",
+      "target": "des Bruders",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La tarea de el hermano es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-40"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Buch</strong> <strong>der Schwester</strong> liegt auf dem Tisch.",
+      "target": "der Schwester",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El libro de la hermana está sobre la mesa.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-41"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Brief</strong> <strong>des Studenten</strong> ist wichtig.",
+      "target": "des Studenten",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La carta de el estudiante es importante.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-42"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Lampe</strong> <strong>des Mannes</strong> steht im Zimmer.",
+      "target": "des Mannes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La lámpara de el hombre está en el cuarto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-43"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fenster</strong> <strong>der Frau</strong> ist offen.",
+      "target": "der Frau",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La ventana de la mujer está abierta.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-44"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Der Name</strong> <strong>des Kindes</strong> ist kurz.",
+      "target": "des Kindes",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "El nombre de el niño es corto.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-45"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Die Tasche</strong> <strong>des Lehrers</strong> ist neu.",
+      "target": "des Lehrers",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bolsa de el maestro es nueva.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-46"
+    },
+    {
+      "active": true,
+      "level": "A1-A2",
+      "createdBy": "codex-seed",
+      "type": "identify-case",
+      "sentence": "<strong>Das Fahrrad</strong> <strong>der Lehrerin</strong> steht im Hof.",
+      "target": "der Lehrerin",
+      "answer": "genitivo",
+      "explanation": "Indica de quién es algo: Wessen?",
+      "translation": "La bicicleta de la maestra está en el patio.",
+      "verb": "sein",
+      "tense": "präsens",
+      "tags": [
+        "genitivo",
+        "posesión",
+        "identify-case",
+        "extra-genitivo"
+      ],
+      "sortGroup": "genitive-identify-47"
     }
   ]
 }

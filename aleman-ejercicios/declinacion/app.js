@@ -337,6 +337,35 @@ const shuffle = (items) => {
 
 const pick = (items, count) => shuffle(items).slice(0, count);
 
+const balancedPickByAnswer = (items, count, preferredAnswers) => {
+  const groups = items.reduce((acc, item) => {
+    acc[item.answer] ||= [];
+    acc[item.answer].push(item);
+    return acc;
+  }, {});
+  const selected = [];
+  const used = new Set();
+
+  preferredAnswers.forEach((answer) => {
+    if (selected.length >= count) return;
+    const candidates = shuffle(groups[answer] || []).filter((item) => !used.has(item.sentence + item.target));
+    const item = candidates[0];
+    if (!item) return;
+    selected.push(item);
+    used.add(item.sentence + item.target);
+  });
+
+  shuffle(items).forEach((item) => {
+    if (selected.length >= count) return;
+    const key = item.sentence + item.target;
+    if (used.has(key)) return;
+    selected.push(item);
+    used.add(key);
+  });
+
+  return selected;
+};
+
 const toQuestion = ([sentence, answer, explanation, translation]) => ({
   sentence,
   answer,
@@ -511,7 +540,7 @@ const render = () => {
   accDatList.innerHTML = "";
   state.questions = [];
 
-  pick(pool.ask, askCount).forEach((item, index) => {
+  balancedPickByAnswer(pool.ask, askCount, ["genitivo", "nominativo", "acusativo", "dativo"]).forEach((item, index) => {
     const id = `ask-${index}`;
     state.questions.push(id);
     askList.append(makeQuestionCard({
@@ -524,7 +553,7 @@ const render = () => {
     }));
   });
 
-  pick(pool.identify, identifyCount).forEach((item, index) => {
+  balancedPickByAnswer(pool.identify, identifyCount, ["genitivo", "dativo", "acusativo", "nominativo"]).forEach((item, index) => {
     const id = `identify-${index}`;
     state.questions.push(id);
     identifyList.append(makeQuestionCard({

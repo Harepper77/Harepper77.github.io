@@ -581,6 +581,57 @@ movementPlaces.forEach((place, index) => {
   });
 });
 
+const genitiveNouns = [
+  { nom: "der Name", es: "el nombre", predicates: [{ de: "ist bekannt", es: "es conocido" }, { de: "ist kurz", es: "es corto" }] },
+  { nom: "die Tasche", es: "la bolsa", predicates: [{ de: "ist neu", es: "es nueva" }, { de: "liegt auf dem Tisch", es: "está sobre la mesa" }] },
+  { nom: "das Fahrrad", es: "la bicicleta", predicates: [{ de: "ist neu", es: "es nueva" }, { de: "steht im Hof", es: "está en el patio" }] },
+  { nom: "der Schlüssel", es: "la llave", predicates: [{ de: "ist wichtig", es: "es importante" }, { de: "liegt auf dem Tisch", es: "está sobre la mesa" }] },
+  { nom: "die Wohnung", es: "el departamento", predicates: [{ de: "ist schön", es: "es bonito" }, { de: "ist groß", es: "es grande" }] },
+  { nom: "das Zimmer", es: "el cuarto", predicates: [{ de: "ist klein", es: "es pequeño" }, { de: "ist sauber", es: "está limpio" }] },
+  { nom: "der Computer", es: "la computadora", predicates: [{ de: "ist neu", es: "es nueva" }, { de: "steht im Büro", es: "está en la oficina" }] },
+  { nom: "die Aufgabe", es: "la tarea", predicates: [{ de: "ist wichtig", es: "es importante" }, { de: "ist schwer", es: "es difícil" }] },
+  { nom: "das Buch", es: "el libro", predicates: [{ de: "ist interessant", es: "es interesante" }, { de: "liegt auf dem Tisch", es: "está sobre la mesa" }] },
+  { nom: "der Brief", es: "la carta", predicates: [{ de: "ist wichtig", es: "es importante" }, { de: "liegt in der Tasche", es: "está en la bolsa" }] },
+  { nom: "die Lampe", es: "la lámpara", predicates: [{ de: "ist neu", es: "es nueva" }, { de: "steht im Zimmer", es: "está en el cuarto" }] },
+  { nom: "das Fenster", es: "la ventana", predicates: [{ de: "ist offen", es: "está abierta" }, { de: "ist sauber", es: "está limpia" }] },
+];
+
+for (let index = 0; index < 96; index += 1) {
+  const noun = genitiveNouns[index % genitiveNouns.length];
+  const owner = people[(index + Math.floor(index / genitiveNouns.length)) % people.length];
+  const predicate = noun.predicates[index % noun.predicates.length];
+  add({
+    type: "ask-case",
+    sentence: `${noun.nom[0].toUpperCase()}${noun.nom.slice(1)} <u>${owner.gen}</u> ${predicate.de}.`,
+    target: owner.gen,
+    answer: "genitivo",
+    explanation: `${owner.gen} expresa posesión o pertenencia: Wessen?`,
+    translation: `${noun.es[0].toUpperCase()}${noun.es.slice(1)} de ${owner.es} ${predicate.es}.`,
+    verb: "sein",
+    tense: "präsens",
+    tags: ["genitivo", "posesión", "extra-genitivo"],
+    sortGroup: `genitive-ask-${index}`,
+  });
+}
+
+for (let index = 0; index < 48; index += 1) {
+  const noun = genitiveNouns[(index + 3) % genitiveNouns.length];
+  const owner = people[(index + 5) % people.length];
+  const predicate = noun.predicates[index % noun.predicates.length];
+  add({
+    type: "identify-case",
+    sentence: `<strong>${noun.nom[0].toUpperCase()}${noun.nom.slice(1)}</strong> <strong>${owner.gen}</strong> ${predicate.de}.`,
+    target: owner.gen,
+    answer: "genitivo",
+    explanation: "Indica de quién es algo: Wessen?",
+    translation: `${noun.es[0].toUpperCase()}${noun.es.slice(1)} de ${owner.es} ${predicate.es}.`,
+    verb: "sein",
+    tense: "präsens",
+    tags: ["genitivo", "posesión", "identify-case", "extra-genitivo"],
+    sortGroup: `genitive-identify-${index}`,
+  });
+}
+
 const seed = {
   generatedAt: new Date().toISOString(),
   collection: "sentences",
