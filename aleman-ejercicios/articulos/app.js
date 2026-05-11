@@ -84,7 +84,6 @@ const makeEditableCell = (cell) => `
     >
     <strong>${cell.column.noun}</strong>
   </div>
-  <span class="noun-hint">${cell.answer} ${cell.column.noun}</span>
   <span class="cell-feedback" aria-live="polite"></span>
 `;
 
@@ -147,7 +146,7 @@ const checkAll = () => {
     cell.classList.toggle("is-wrong", !isCorrect);
     feedback.textContent = isCorrect
       ? "Correcto"
-      : `Respuesta: ${input.dataset.answer}`;
+      : "Revisa este artículo";
 
     if (isCorrect) correct += 1;
   });
@@ -158,8 +157,14 @@ const checkAll = () => {
 const showAnswers = () => {
   document.querySelectorAll(".answer-input").forEach((input) => {
     input.value = input.dataset.answer;
+    const cell = input.closest(".article-cell");
+    const feedback = cell.querySelector(".cell-feedback");
+    cell.classList.add("is-correct");
+    cell.classList.remove("is-wrong");
+    feedback.textContent = `Respuesta: ${input.dataset.answer}`;
   });
-  checkAll();
+  const inputs = document.querySelectorAll(".answer-input");
+  updateScore(inputs.length, inputs.length);
 };
 
 document.querySelector("#check-all").addEventListener("click", checkAll);
