@@ -155,16 +155,25 @@ const checkAll = () => {
 };
 
 const showAnswers = () => {
+  let correct = 0;
+  const inputs = [...document.querySelectorAll(".answer-input")];
+
   document.querySelectorAll(".answer-input").forEach((input) => {
-    input.value = input.dataset.answer;
     const cell = input.closest(".article-cell");
     const feedback = cell.querySelector(".cell-feedback");
-    cell.classList.add("is-correct");
-    cell.classList.remove("is-wrong");
-    feedback.textContent = `Respuesta: ${input.dataset.answer}`;
+    const userWasCorrect = normalize(input.value) === input.dataset.answer;
+
+    cell.classList.toggle("is-correct", userWasCorrect);
+    cell.classList.toggle("is-wrong", !userWasCorrect);
+    feedback.textContent = userWasCorrect
+      ? "Correcto"
+      : `Respuesta: ${input.dataset.answer}`;
+    input.value = input.dataset.answer;
+
+    if (userWasCorrect) correct += 1;
   });
-  const inputs = document.querySelectorAll(".answer-input");
-  updateScore(inputs.length, inputs.length);
+
+  updateScore(correct, inputs.length);
 };
 
 document.querySelector("#check-all").addEventListener("click", checkAll);
