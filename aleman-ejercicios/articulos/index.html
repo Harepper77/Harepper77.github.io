@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artículos en alemán</title>
+  <meta name="description" content="Practica artículos definidos en alemán por caso, género y plural con una tabla aleatoria." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="app-header">
+      <a class="home-link" href="../">HA</a>
+      <div class="header-copy">
+        <p class="eyebrow">Deutsch A1-A2</p>
+        <h1>Artículos</h1>
+        <p>Completa los artículos definidos según caso, género y plural. Cada recarga deja nuevas pistas y nuevos campos editables.</p>
+      </div>
+      <div class="score-panel" aria-live="polite">
+        <span class="score-panel__label">Resultado</span>
+        <strong id="score">0 / 0</strong>
+      </div>
+    </header>
+
+    <section class="toolbar" aria-label="Controles del ejercicio">
+      <button class="button button--primary" id="check-all" type="button">Revisar</button>
+      <button class="button" id="new-table" type="button">Nueva tabla</button>
+      <button class="button" id="show-answers" type="button">Mostrar respuestas</button>
+      <span class="source-status">30% pistas · 70% editable</span>
+    </section>
+
+    <section class="section-block" aria-labelledby="table-title">
+      <div class="section-heading">
+        <p class="section-kicker">Artículos definidos</p>
+        <h2 id="table-title">Tabla de declinación</h2>
+        <p>Escribe solo el artículo: der, die, das, den, dem o des.</p>
+      </div>
+
+      <div class="table-wrap">
+        <table class="article-table" aria-describedby="table-title">
+          <thead>
+            <tr>
+              <th scope="col">Caso</th>
+              <th scope="col">Maskulin</th>
+              <th scope="col">Feminin</th>
+              <th scope="col">Neutrum</th>
+              <th scope="col">Plural</th>
+            </tr>
+          </thead>
+          <tbody id="article-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
