@@ -264,6 +264,34 @@ const prepositionalSentence = (subject, verb, prepositionalTarget, tense) => {
   return `${subject.cap} ${data[tense]} ${prepositionalTarget}.`;
 };
 
+const extraAccusativeScenarios = [
+  { subject: people[0], verb: "essen", object: objectByAcc("den Apfel"), tail: "am Morgen", tailEs: "por la mañana" },
+  { subject: people[1], verb: "trinken", object: objectByAcc("das Wasser"), tail: "nach dem Sport", tailEs: "después del deporte" },
+  { subject: people[2], verb: "lesen", object: objectByAcc("das Buch"), tail: "im Zug", tailEs: "en el tren" },
+  { subject: people[3], verb: "schreiben", object: objectByAcc("eine E-Mail"), tail: "im Büro", tailEs: "en la oficina" },
+  { subject: people[4], verb: "sehen", object: objectByAcc("den Film"), tail: "am Abend", tailEs: "por la noche" },
+  { subject: people[5], verb: "kaufen", object: objectByAcc("den Kuchen"), tail: "in der Bäckerei", tailEs: "en la panadería" },
+  { subject: people[6], verb: "verkaufen", object: objectByAcc("das Fahrrad"), tail: "am Samstag", tailEs: "el sábado" },
+  { subject: people[7], verb: "nehmen", object: objectByAcc("den Schlüssel"), tail: "aus der Tasche", tailEs: "de la bolsa" },
+  { subject: people[8], verb: "öffnen", object: objectByAcc("die Tür"), tail: "langsam", tailEs: "lentamente" },
+  { subject: people[9], verb: "schließen", object: objectByAcc("das Fenster"), tail: "wegen des Regens", tailEs: "por la lluvia" },
+  { subject: people[10], verb: "reparieren", object: objectByAcc("den Computer"), tail: "zu Hause", tailEs: "en casa" },
+  { subject: people[11], verb: "anmachen", object: objectByAcc("das Licht"), tail: "im Zimmer", tailEs: "en el cuarto" },
+  { subject: people[0], verb: "ausmachen", object: objectByAcc("das Licht"), tail: "vor dem Schlafen", tailEs: "antes de dormir" },
+  { subject: people[1], verb: "aufräumen", object: objectByAcc("das Zimmer"), tail: "am Wochenende", tailEs: "el fin de semana" },
+  { subject: people[2], verb: "tragen", object: objectByAcc("die Tasche"), tail: "zur Schule", tailEs: "a la escuela" },
+  { subject: people[3], verb: "bringen", object: objectByAcc("eine Suppe"), tail: "zum Tisch", tailEs: "a la mesa" },
+  { subject: people[4], verb: "kochen", object: objectByAcc("eine Suppe"), tail: "für die Familie", tailEs: "para la familia" },
+  { subject: people[5], verb: "backen", object: objectByAcc("den Kuchen"), tail: "für den Besuch", tailEs: "para la visita" },
+  { subject: people[6], verb: "bezahlen", object: objectByAcc("die Rechnung"), tail: "im Restaurant", tailEs: "en el restaurante" },
+  { subject: people[7], verb: "machen", object: objectByAcc("die Aufgabe"), tail: "nach der Schule", tailEs: "después de la escuela" },
+  { subject: people[8], verb: "haben", object: objectByAcc("den Schlüssel"), tail: "in der Hand", tailEs: "en la mano" },
+  { subject: people[9], verb: "brauchen", object: objectByAcc("den Computer"), tail: "für die Arbeit", tailEs: "para el trabajo" },
+  { subject: people[10], verb: "ausleihen", object: objectByAcc("das Buch"), tail: "in der Bibliothek", tailEs: "en la biblioteca" },
+  { subject: people[11], verb: "bauen", object: objectByAcc("das Haus"), tail: "auf dem Land", tailEs: "en el campo" },
+  { subject: people[0], verb: "erzählen", object: objectByAcc("die Geschichte"), tail: "nach dem Essen", tailEs: "después de comer" },
+];
+
 const sentenceEs = (subject, verb, objectEs, tense) => {
   const label = tenseLabels[tense];
   return `${subject.es[0].toUpperCase()}${subject.es.slice(1)} ${conjugations[verb].es} ${objectEs}. (${label})`;
@@ -422,6 +450,24 @@ placementExamples.slice(0, 4).forEach((place, index) => {
     verb: "stellen",
     tense: "präsens",
     tags: ["acusativo", "wechselpräposition", "stellen"],
+  });
+});
+
+extraAccusativeScenarios.forEach((scenario, scenarioIndex) => {
+  tenses.forEach((tense) => {
+    const objectWithTail = `<u>${scenario.object.acc}</u> ${scenario.tail}`;
+    add({
+      type: "ask-case",
+      sentence: sentenceForTense(scenario.subject, scenario.verb, objectWithTail, tense),
+      target: scenario.object.acc,
+      answer: "acusativo",
+      explanation: `${scenario.verb} usa aquí objeto directo: Wen oder was?`,
+      translation: `${scenario.subject.es[0].toUpperCase()}${scenario.subject.es.slice(1)} ${conjugations[scenario.verb].es} ${scenario.object.es} ${scenario.tailEs}. (${tenseLabels[tense]})`,
+      verb: scenario.verb,
+      tense,
+      tags: ["acusativo", "objeto-directo", "extra-pool", scenario.verb, tense],
+      sortGroup: `extra-${scenarioIndex}`,
+    });
   });
 });
 

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Declinación en alemán</title>
+  <meta name="description" content="Practica nominativo, acusativo, dativo y genitivo con ejercicios aleatorios de nivel básico en alemán." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="app-header">
+      <a class="home-link" href="../">HA</a>
+      <div class="header-copy">
+        <p class="eyebrow">Deutsch A1-A2</p>
+        <h1>Declinación en alemán</h1>
+        <p>Practica nominativo, acusativo, dativo y genitivo con frases nuevas cada vez que abres la página.</p>
+      </div>
+      <div class="score-panel" aria-live="polite">
+        <span class="score-panel__label">Resultado</span>
+        <strong id="score">0 / 0</strong>
+      </div>
+    </header>
+
+    <section class="toolbar" aria-label="Controles del ejercicio">
+      <button class="button button--primary" id="check-all" type="button">Revisar</button>
+      <button class="button" id="new-exercise" type="button">Nuevas oraciones</button>
+      <span class="source-status" id="source-status">Banco local</span>
+      <label class="select-label" for="question-count">Cantidad</label>
+      <select id="question-count" class="select">
+        <option value="9">9 preguntas</option>
+        <option value="12" selected>12 preguntas</option>
+        <option value="15">15 preguntas</option>
+      </select>
+    </section>
+
+    <section class="section-block" aria-labelledby="ask-case-title">
+      <div class="section-heading">
+        <p class="section-kicker">Ejercicio 1</p>
+        <h2 id="ask-case-title">Pregunta por el caso</h2>
+        <p>Selecciona la pregunta correcta para la parte subrayada.</p>
+      </div>
+      <div class="question-list" id="ask-case-list"></div>
+    </section>
+
+    <section class="section-block" aria-labelledby="identify-case-title">
+      <div class="section-heading">
+        <p class="section-kicker">Ejercicio 2</p>
+        <h2 id="identify-case-title">Identifica el caso</h2>
+        <p>Marca el caso gramatical de cada componente destacado.</p>
+      </div>
+      <div class="question-list" id="identify-case-list"></div>
+    </section>
+
+    <section class="section-block" aria-labelledby="acc-dat-title">
+      <div class="section-heading">
+        <p class="section-kicker">Ejercicio 3</p>
+        <h2 id="acc-dat-title">Acusativo o dativo</h2>
+        <p>Decide si la parte subrayada está en acusativo o dativo.</p>
+      </div>
+      <div class="question-list" id="acc-dat-list"></div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

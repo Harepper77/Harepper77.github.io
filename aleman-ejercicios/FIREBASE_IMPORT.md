@@ -12,7 +12,7 @@ In Firebase Console:
 4. Save the JSON outside this repository, for example:
 
 ```txt
-/Users/user/.firebase-keys/deutsch-ad427-service-account.json
+/Users/your-user/.firebase-keys/deutsch-ad427-service-account.json
 ```
 
 Do not put the service account JSON in this repo.
@@ -28,7 +28,7 @@ cp aleman-ejercicios/.env.example aleman-ejercicios/.env
 Edit `.env`:
 
 ```txt
-GOOGLE_APPLICATION_CREDENTIALS=/Users/user/.firebase-keys/deutsch-ad427-service-account.json
+GOOGLE_APPLICATION_CREDENTIALS=/Users/your-user/.firebase-keys/deutsch-ad427-service-account.json
 FIRESTORE_PROJECT_ID=deutsch-ad427
 FIRESTORE_COLLECTION=sentences
 FIRESTORE_IMPORT_MODE=upsert
