@@ -1,0 +1,267 @@
+const temporals = [
+  "heute", "morgen", "gestern", "am Montag", "am Wochenende",
+  "jeden Morgen", "um acht Uhr", "nach der Schule", "im Sommer", "später",
+];
+
+const causals = [
+  "wegen der Arbeit", "wegen des Regens", "wegen der Prüfung", "aus Interesse", "aus Liebe",
+  "wegen des Kurses", "wegen der Familie", "aus Zeitmangel", "wegen des Wetters", "wegen des Termins",
+];
+
+const modals = [
+  "mit dem Bus", "mit dem Zug", "gern", "schnell", "langsam",
+  "mit meiner Freundin", "allein", "mit dem Fahrrad", "leise", "gut",
+];
+
+const locals = [
+  "in der Schule", "im Park", "zu Hause", "in Berlin", "im Büro",
+  "in der Küche", "am Bahnhof", "in der Bibliothek", "im Supermarkt", "im Restaurant",
+];
+
+const orderPool = [
+  ["Anna", "lernt", "heute", "Deutsch."],
+  ["Wir", "fahren", "morgen", "mit dem Zug", "nach Berlin."],
+  ["Paul", "hat", "gestern", "im Park", "Fußball", "gespielt."],
+  ["Ich", "werde", "am Montag", "im Büro", "arbeiten."],
+  ["Die Kinder", "aßen", "am Abend", "eine Suppe."],
+  ["Meine Schwester", "hat", "am Wochenende", "ein Buch", "gelesen."],
+  ["Der Lehrer", "erklärt", "heute", "in der Schule", "die Aufgabe."],
+  ["Tom", "wird", "später", "zu Hause", "kochen."],
+];
+
+const verbPool = [
+  { text: "Ich ___ morgen Deutsch ___.", blanks: ["werde", "lernen"], hint: "(lernen, Futur I)" },
+  { text: "Wir ___ gestern nach Hause ___.", blanks: ["sind", "gegangen"], hint: "(gehen, Perfekt)" },
+  { text: "Anna ___ jeden Morgen Kaffee.", blanks: ["trinkt"], hint: "(trinken, Präsens)" },
+  { text: "Paul ___ am Samstag ein Buch.", blanks: ["las"], hint: "(lesen, Präteritum)" },
+  { text: "Die Kinder ___ im Park ___.", blanks: ["haben", "gespielt"], hint: "(spielen, Perfekt)" },
+  { text: "Du ___ morgen den Lehrer ___.", blanks: ["wirst", "fragen"], hint: "(fragen, Futur I)" },
+  { text: "Meine Mutter ___ eine Suppe.", blanks: ["kocht"], hint: "(kochen, Präsens)" },
+  { text: "Der Student ___ in Berlin.", blanks: ["studierte"], hint: "(studieren, Präteritum)" },
+];
+
+const classifyPool = [
+  { sentence: "Ich lerne heute Deutsch.", answer: "Präsens" },
+  { sentence: "Wir haben gestern Pizza gegessen.", answer: "Perfekt" },
+  { sentence: "Sie ging am Montag in die Schule.", answer: "Präteritum" },
+  { sentence: "Er wird morgen im Büro arbeiten.", answer: "Futur I" },
+  { sentence: "Anna fährt heute wegen der Arbeit mit dem Zug nach Berlin.", answer: "TEKAMOLO" },
+  { sentence: "Paul hat am Wochenende im Park Fußball gespielt.", answer: "Perfekt" },
+  { sentence: "Die Lehrerin erklärte die Aufgabe.", answer: "Präteritum" },
+  { sentence: "Wir werden später zu Hause kochen.", answer: "Futur I" },
+];
+
+const tekamoloBase = [
+  { subject: "Ich", verb: "lerne", object: "Deutsch." },
+  { subject: "Anna", verb: "fährt", object: "zur Schule." },
+  { subject: "Wir", verb: "essen", object: "eine Suppe." },
+  { subject: "Paul", verb: "arbeitet", object: "an der Aufgabe." },
+  { subject: "Die Kinder", verb: "spielen", object: "Fußball." },
+];
+
+const state = {
+  questions: [],
+};
+
+const randomInt = (max) => {
+  const array = new Uint32Array(1);
+  crypto.getRandomValues(array);
+  return array[0] % max;
+};
+
+const shuffle = (items) => {
+  const copy = [...items];
+  for (let index = copy.length - 1; index > 0; index -= 1) {
+    const swapIndex = randomInt(index + 1);
+    [copy[index], copy[swapIndex]] = [copy[swapIndex], copy[index]];
+  }
+  return copy;
+};
+
+const pick = (items, count) => shuffle(items).slice(0, count);
+
+const normalize = (value) => value
+  .trim()
+  .replace(/\s+/g, " ")
+  .replace(/\s+\./g, ".")
+  .toLowerCase();
+
+const updateScore = (correct, total) => {
+  document.querySelector("#score").textContent = `${correct} / ${total}`;
+};
+
+const makeCard = (id, type, answer, content, feedback) => {
+  const card = document.createElement("article");
+  card.className = "question-card";
+  card.dataset.id = id;
+  card.dataset.type = type;
+  card.dataset.answer = answer;
+  card.innerHTML = `${content}<p class="feedback">${feedback}</p>`;
+  return card;
+};
+
+const renderOrder = () => {
+  const list = document.querySelector("#order-list");
+  list.innerHTML = "";
+  pick(orderPool, 3).forEach((words, index) => {
+    const answer = words.join(" ");
+    const chips = shuffle(words);
+    const content = `
+      <p class="sentence">Orden correcto:</p>
+      <div class="answer-zone" data-answer-zone></div>
+      <div class="chip-zone">
+        ${chips.map((word) => `<button class="chip" type="button">${word}</button>`).join("")}
+      </div>
+    `;
+    list.append(makeCard(`order-${index}`, "order", answer, content, `Respuesta: ${answer}`));
+  });
+};
+
+const renderVerbs = () => {
+  const list = document.querySelector("#verb-list");
+  list.innerHTML = "";
+  pick(verbPool, 3).forEach((item, index) => {
+    let blankIndex = 0;
+    const html = item.text.replaceAll("___", () => `
+      <input class="blank-input" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" data-answer="${item.blanks[blankIndex++]}">
+    `);
+    const answer = item.blanks.join("|");
+    const content = `<p class="sentence">${html} <span class="hint">${item.hint}</span></p>`;
+    list.append(makeCard(`verb-${index}`, "verb", answer, content, `Respuesta: ${item.blanks.join(" / ")}`));
+  });
+};
+
+const renderClassify = () => {
+  const list = document.querySelector("#classify-list");
+  list.innerHTML = "";
+  const options = ["Präsens", "Perfekt", "Präteritum", "Futur I", "TEKAMOLO"];
+  pick(classifyPool, 3).forEach((item, index) => {
+    const name = `classify-${index}`;
+    const content = `
+      <p class="sentence">${item.sentence}</p>
+      <div class="choice-row">
+        ${shuffle(options).map((option) => `
+          <label class="choice">
+            <input type="radio" name="${name}" value="${option}">
+            <span>${option}</span>
+          </label>
+        `).join("")}
+      </div>
+    `;
+    list.append(makeCard(name, "classify", item.answer, content, `Respuesta: ${item.answer}`));
+  });
+};
+
+const makeTekamoloQuestion = (index) => {
+  const base = tekamoloBase[index % tekamoloBase.length];
+  const temporal = temporals[randomInt(temporals.length)];
+  const causal = causals[randomInt(causals.length)];
+  const modal = modals[randomInt(modals.length)];
+  const local = locals[randomInt(locals.length)];
+  return [
+    base.subject,
+    base.verb,
+    temporal,
+    causal,
+    modal,
+    local,
+    base.object,
+  ];
+};
+
+const renderTekamolo = () => {
+  const list = document.querySelector("#tekamolo-list");
+  list.innerHTML = "";
+  [0, 1, 2].forEach((slot) => {
+    const words = makeTekamoloQuestion(slot);
+    const answer = words.join(" ");
+    const content = `
+      <p class="sentence">Orden TEKAMOLO: temporal → causal → modal → local</p>
+      <div class="answer-zone" data-answer-zone></div>
+      <div class="chip-zone">
+        ${shuffle(words).map((word) => `<button class="chip" type="button">${word}</button>`).join("")}
+      </div>
+    `;
+    list.append(makeCard(`tekamolo-${slot}`, "order", answer, content, `Respuesta: ${answer}`));
+  });
+};
+
+const render = () => {
+  renderOrder();
+  renderVerbs();
+  renderClassify();
+  renderTekamolo();
+  updateScore(0, document.querySelectorAll(".question-card").length);
+};
+
+const selectedOrderText = (card) => [...card.querySelectorAll("[data-answer-zone] .chip")]
+  .map((chip) => chip.textContent)
+  .join(" ");
+
+const checkCard = (card) => {
+  const type = card.dataset.type;
+  let isCorrect = false;
+
+  if (type === "order") {
+    isCorrect = normalize(selectedOrderText(card)) === normalize(card.dataset.answer);
+  }
+
+  if (type === "verb") {
+    const inputs = [...card.querySelectorAll(".blank-input")];
+    isCorrect = inputs.every((input) => normalize(input.value) === normalize(input.dataset.answer));
+  }
+
+  if (type === "classify") {
+    const selected = card.querySelector("input:checked");
+    isCorrect = selected?.value === card.dataset.answer;
+  }
+
+  card.classList.add("has-feedback");
+  card.classList.toggle("is-correct", isCorrect);
+  card.classList.toggle("is-wrong", !isCorrect);
+  return isCorrect;
+};
+
+const checkAll = () => {
+  const cards = [...document.querySelectorAll(".question-card")];
+  const correct = cards.filter(checkCard).length;
+  updateScore(correct, cards.length);
+};
+
+const showAnswers = () => {
+  document.querySelectorAll(".question-card").forEach((card) => {
+    if (card.dataset.type === "verb") {
+      card.querySelectorAll(".blank-input").forEach((input) => {
+        input.value = input.dataset.answer;
+      });
+    }
+    if (card.dataset.type === "classify") {
+      const input = card.querySelector(`input[value="${card.dataset.answer}"]`);
+      if (input) input.checked = true;
+    }
+    if (card.dataset.type === "order") {
+      const zone = card.querySelector("[data-answer-zone]");
+      const chips = card.dataset.answer.split(" ");
+      zone.innerHTML = chips.map((chip) => `<button class="chip chip--answer" type="button">${chip}</button>`).join("");
+    }
+  });
+  checkAll();
+};
+
+document.addEventListener("click", (event) => {
+  const chip = event.target.closest(".chip");
+  if (!chip || chip.classList.contains("chip--answer")) return;
+  const card = chip.closest(".question-card");
+  const zone = card.querySelector("[data-answer-zone]");
+  if (!zone) return;
+  const clone = chip.cloneNode(true);
+  clone.classList.add("chip--answer");
+  zone.append(clone);
+  chip.disabled = true;
+});
+
+document.querySelector("#check-all").addEventListener("click", checkAll);
+document.querySelector("#new-exercise").addEventListener("click", render);
+document.querySelector("#show-answers").addEventListener("click", showAnswers);
+
+render();
