@@ -41,14 +41,14 @@ const verbPool = [
 ];
 
 const classifyPool = [
-  { sentence: "Ich lerne heute Deutsch.", answer: "Präsens" },
-  { sentence: "Wir haben gestern Pizza gegessen.", answer: "Perfekt" },
-  { sentence: "Sie ging am Montag in die Schule.", answer: "Präteritum" },
-  { sentence: "Er wird morgen im Büro arbeiten.", answer: "Futur I" },
-  { sentence: "Anna fährt heute wegen der Arbeit mit dem Zug nach Berlin.", answer: "TEKAMOLO" },
-  { sentence: "Paul hat am Wochenende im Park Fußball gespielt.", answer: "Perfekt" },
-  { sentence: "Die Lehrerin erklärte die Aufgabe.", answer: "Präteritum" },
-  { sentence: "Wir werden später zu Hause kochen.", answer: "Futur I" },
+  { sentence: "Ich lerne heute Deutsch.", translation: "Yo aprendo alemán hoy.", answer: "Präsens" },
+  { sentence: "Wir haben gestern Pizza gegessen.", translation: "Nosotros comimos pizza ayer.", answer: "Perfekt" },
+  { sentence: "Sie ging am Montag in die Schule.", translation: "Ella fue a la escuela el lunes.", answer: "Präteritum" },
+  { sentence: "Er wird morgen im Büro arbeiten.", translation: "Él trabajará mañana en la oficina.", answer: "Futur I" },
+  { sentence: "Anna fährt heute wegen der Arbeit mit dem Zug nach Berlin.", translation: "Anna va hoy a Berlín en tren por trabajo.", answer: "TEKAMOLO" },
+  { sentence: "Paul hat am Wochenende im Park Fußball gespielt.", translation: "Paul jugó fútbol el fin de semana en el parque.", answer: "Perfekt" },
+  { sentence: "Die Lehrerin erklärte die Aufgabe.", translation: "La maestra explicó la tarea.", answer: "Präteritum" },
+  { sentence: "Wir werden später zu Hause kochen.", translation: "Nosotros cocinaremos más tarde en casa.", answer: "Futur I" },
 ];
 
 const tekamoloBase = [
@@ -86,6 +86,12 @@ const normalize = (value) => value
   .replace(/\s+\./g, ".")
   .toLowerCase();
 
+const escapeAttribute = (value) => value
+  .replaceAll("&", "&amp;")
+  .replaceAll('"', "&quot;")
+  .replaceAll("<", "&lt;")
+  .replaceAll(">", "&gt;");
+
 const updateScore = (correct, total) => {
   document.querySelector("#score").textContent = `${correct} / ${total}`;
 };
@@ -102,6 +108,15 @@ const makeCard = (id, type, answer, content, feedback) => {
 
 const makeChipHtml = (word, tokenId, extraClass = "") => `
   <button class="chip ${extraClass}" type="button" draggable="true" data-token-id="${tokenId}">${word}</button>
+`;
+
+const translationIcon = (translation) => `
+  <button class="translation-tip" type="button" aria-label="Ver traducción" data-tooltip="${escapeAttribute(translation)}">
+    <svg aria-hidden="true" width="15" height="15" viewBox="0 0 24 24" fill="none">
+      <circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/>
+      <path d="M3.6 9h16.8M3.6 15h16.8M12 3c2.1 2.3 3.1 5.3 3.1 9s-1 6.7-3.1 9M12 3c-2.1 2.3-3.1 5.3-3.1 9s1 6.7 3.1 9" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+    </svg>
+  </button>
 `;
 
 const makeOrderCard = (id, words, prompt) => {
@@ -149,7 +164,7 @@ const renderClassify = () => {
   pick(classifyPool, 3).forEach((item, index) => {
     const name = `classify-${index}`;
     const content = `
-      <p class="sentence">${item.sentence}</p>
+      <p class="sentence"><span class="sentence__text">${item.sentence}</span>${translationIcon(item.translation)}</p>
       <div class="choice-row">
         ${shuffle(options).map((option) => `
           <label class="choice">
