@@ -100,20 +100,31 @@ const makeCard = (id, type, answer, content, feedback) => {
   return card;
 };
 
+const makeChipHtml = (word, tokenId, extraClass = "") => `
+  <button class="chip ${extraClass}" type="button" draggable="true" data-token-id="${tokenId}">${word}</button>
+`;
+
+const makeOrderCard = (id, words, prompt) => {
+  const answer = words.join(" ");
+  const tokens = words.map((word, index) => ({ word, id: `${id}-${index}` }));
+  const shuffledTokens = shuffle(tokens);
+  const content = `
+    <p class="sentence">${prompt}</p>
+    <div class="answer-zone" data-answer-zone aria-label="Respuesta ordenada"></div>
+    <div class="chip-zone" aria-label="Elementos disponibles">
+      ${shuffledTokens.map((token) => makeChipHtml(token.word, token.id)).join("")}
+    </div>
+  `;
+  const card = makeCard(id, "order", answer, content, `Respuesta: ${answer}`);
+  card.dataset.tokens = JSON.stringify(tokens);
+  return card;
+};
+
 const renderOrder = () => {
   const list = document.querySelector("#order-list");
   list.innerHTML = "";
   pick(orderPool, 3).forEach((words, index) => {
-    const answer = words.join(" ");
-    const chips = shuffle(words);
-    const content = `
-      <p class="sentence">Orden correcto:</p>
-      <div class="answer-zone" data-answer-zone></div>
-      <div class="chip-zone">
-        ${chips.map((word) => `<button class="chip" type="button">${word}</button>`).join("")}
-      </div>
-    `;
-    list.append(makeCard(`order-${index}`, "order", answer, content, `Respuesta: ${answer}`));
+    list.append(makeOrderCard(`order-${index}`, words, "Orden correcto:"));
   });
 };
 
@@ -174,15 +185,7 @@ const renderTekamolo = () => {
   list.innerHTML = "";
   [0, 1, 2].forEach((slot) => {
     const words = makeTekamoloQuestion(slot);
-    const answer = words.join(" ");
-    const content = `
-      <p class="sentence">Orden TEKAMOLO: temporal → causal → modal → local</p>
-      <div class="answer-zone" data-answer-zone></div>
-      <div class="chip-zone">
-        ${shuffle(words).map((word) => `<button class="chip" type="button">${word}</button>`).join("")}
-      </div>
-    `;
-    list.append(makeCard(`tekamolo-${slot}`, "order", answer, content, `Respuesta: ${answer}`));
+    list.append(makeOrderCard(`tekamolo-${slot}`, words, "Orden TEKAMOLO: temporal → causal → modal → local"));
   });
 };
 
@@ -241,23 +244,98 @@ const showAnswers = () => {
     }
     if (card.dataset.type === "order") {
       const zone = card.querySelector("[data-answer-zone]");
-      const chips = card.dataset.answer.split(" ");
-      zone.innerHTML = chips.map((chip) => `<button class="chip chip--answer" type="button">${chip}</button>`).join("");
+      const tokens = JSON.parse(card.dataset.tokens);
+      zone.innerHTML = tokens.map((token) => makeChipHtml(token.word, token.id, "chip--answer")).join("");
+      card.querySelectorAll(".chip-zone .chip").forEach((chip) => {
+        chip.disabled = true;
+      });
     }
   });
   checkAll();
 };
 
-document.addEventListener("click", (event) => {
-  const chip = event.target.closest(".chip");
-  if (!chip || chip.classList.contains("chip--answer")) return;
+const addChipToAnswer = (chip, beforeElement = null) => {
   const card = chip.closest(".question-card");
-  const zone = card.querySelector("[data-answer-zone]");
-  if (!zone) return;
+  const zone = card?.querySelector("[data-answer-zone]");
+  if (!zone || chip.closest("[data-answer-zone]")) return;
   const clone = chip.cloneNode(true);
   clone.classList.add("chip--answer");
-  zone.append(clone);
+  clone.disabled = false;
+  zone.insertBefore(clone, beforeElement);
   chip.disabled = true;
+};
+
+const removeChipFromAnswer = (chip) => {
+  const card = chip.closest(".question-card");
+  const source = card?.querySelector(`.chip-zone .chip[data-token-id="${chip.dataset.tokenId}"]`);
+  if (source) source.disabled = false;
+  chip.remove();
+};
+
+const getDragAfterElement = (zone, x, y) => {
+  const chips = [...zone.querySelectorAll(".chip:not(.is-dragging)")];
+  return chips.reduce((closest, child) => {
+    const box = child.getBoundingClientRect();
+    const offsetY = y - box.top - box.height / 2;
+    const offsetX = x - box.left - box.width / 2;
+    const offset = Math.abs(offsetY) > box.height ? offsetY : offsetX;
+    if (offset < 0 && offset > closest.offset) {
+      return { offset, element: child };
+    }
+    return closest;
+  }, { offset: Number.NEGATIVE_INFINITY, element: null }).element;
+};
+
+document.addEventListener("click", (event) => {
+  const chip = event.target.closest(".chip");
+  if (!chip) return;
+  if (chip.classList.contains("chip--answer")) {
+    removeChipFromAnswer(chip);
+    return;
+  }
+  if (!chip.disabled) addChipToAnswer(chip);
+});
+
+document.addEventListener("dragstart", (event) => {
+  const chip = event.target.closest(".chip");
+  if (!chip || chip.disabled) return;
+  chip.classList.add("is-dragging");
+  event.dataTransfer.effectAllowed = "move";
+  event.dataTransfer.setData("text/plain", chip.dataset.tokenId);
+});
+
+document.addEventListener("dragend", (event) => {
+  event.target.closest(".chip")?.classList.remove("is-dragging");
+  document.querySelectorAll(".answer-zone.is-drag-over").forEach((zone) => zone.classList.remove("is-drag-over"));
+});
+
+document.addEventListener("dragover", (event) => {
+  const zone = event.target.closest("[data-answer-zone]");
+  if (!zone) return;
+  const dragging = document.querySelector(".chip.is-dragging");
+  if (!dragging || zone.closest(".question-card") !== dragging.closest(".question-card")) return;
+  event.preventDefault();
+  zone.classList.add("is-drag-over");
+  if (!dragging || !dragging.classList.contains("chip--answer")) return;
+  zone.insertBefore(dragging, getDragAfterElement(zone, event.clientX, event.clientY));
+});
+
+document.addEventListener("dragleave", (event) => {
+  const zone = event.target.closest("[data-answer-zone]");
+  if (zone && !zone.contains(event.relatedTarget)) zone.classList.remove("is-drag-over");
+});
+
+document.addEventListener("drop", (event) => {
+  const zone = event.target.closest("[data-answer-zone]");
+  const dragging = document.querySelector(".chip.is-dragging");
+  if (!zone || !dragging || zone.closest(".question-card") !== dragging.closest(".question-card")) return;
+  event.preventDefault();
+  zone.classList.remove("is-drag-over");
+  if (dragging.classList.contains("chip--answer")) {
+    zone.insertBefore(dragging, getDragAfterElement(zone, event.clientX, event.clientY));
+    return;
+  }
+  addChipToAnswer(dragging, getDragAfterElement(zone, event.clientX, event.clientY));
 });
 
 document.querySelector("#check-all").addEventListener("click", checkAll);

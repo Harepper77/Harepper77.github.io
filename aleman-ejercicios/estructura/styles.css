@@ -243,6 +243,12 @@ h2 {
   background: rgba(7, 95, 115, .06);
   border: 1px dashed rgba(7, 95, 115, .35);
   border-radius: 8px;
+  transition: background-color .18s ease, border-color .18s ease;
+}
+
+.answer-zone.is-drag-over {
+  background: rgba(7, 95, 115, .12);
+  border-color: var(--accent);
 }
 
 .chip {
@@ -254,6 +260,13 @@ h2 {
   border-radius: 8px;
   cursor: pointer;
   font-weight: 700;
+  touch-action: manipulation;
+  transition: transform .16s ease, opacity .16s ease, border-color .16s ease;
+}
+
+.chip:hover:not(:disabled) {
+  border-color: var(--accent);
+  transform: translateY(-1px);
 }
 
 .chip:disabled {
@@ -264,6 +277,18 @@ h2 {
 .chip--answer {
   background: var(--accent-soft);
   border-color: rgba(7, 95, 115, .25);
+}
+
+.chip--answer::after {
+  content: "×";
+  margin-left: 8px;
+  color: var(--accent);
+  font-weight: 800;
+}
+
+.chip.is-dragging {
+  opacity: .52;
+  transform: scale(.98);
 }
 
 .blank-input {
