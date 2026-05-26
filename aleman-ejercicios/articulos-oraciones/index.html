@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Artículos en oraciones alemanas</title>
+  <meta name="description" content="Practica artículos definidos en nominativo, acusativo y dativo dentro de oraciones alemanas." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=20260526-articulos-oraciones" />
+</head>
+<body>
+  <main class="app-shell">
+    <header class="app-header">
+      <a class="home-link" href="../">HA</a>
+      <div class="header-copy">
+        <p class="eyebrow">Deutsch A1-A2</p>
+        <h1>Artículos en oraciones</h1>
+        <p>Completa artículos definidos en nominativo, acusativo y dativo dentro de frases con distintos tiempos verbales.</p>
+      </div>
+      <div class="score-panel" aria-live="polite">
+        <span class="score-panel__label">Resultado</span>
+        <strong id="score">0 / 0</strong>
+      </div>
+    </header>
+
+    <section class="toolbar" aria-label="Controles del ejercicio">
+      <button class="button button--primary" id="check-all" type="button">Validar respuestas</button>
+      <button class="button" id="new-exercise" type="button">Nuevas oraciones</button>
+      <button class="button" id="show-answers" type="button">Mostrar respuestas</button>
+      <label class="select-label" for="question-count">Cantidad</label>
+      <select id="question-count" class="select">
+        <option value="9">9 oraciones</option>
+        <option value="12" selected>12 oraciones</option>
+        <option value="15">15 oraciones</option>
+      </select>
+    </section>
+
+    <section class="section-block" aria-labelledby="sentences-title">
+      <div class="section-heading">
+        <p class="section-kicker">Ejercicio principal</p>
+        <h2 id="sentences-title">Completa el artículo</h2>
+        <p>Escribe solo el artículo definido: der, die, das, den o dem. La pista indica caso, género/plural y tiempo verbal.</p>
+      </div>
+      <div class="question-list" id="question-list"></div>
+    </section>
+
+    <section class="section-block" aria-labelledby="ideas-title">
+      <div class="section-heading">
+        <p class="section-kicker">Siguientes variantes</p>
+        <h2 id="ideas-title">Más formas de practicar</h2>
+        <p>Después podemos convertir estas ideas en ejercicios interactivos separados.</p>
+      </div>
+      <div class="idea-grid">
+        <article>
+          <strong>Artículo + terminación</strong>
+          <span>Completar der/die/das/den/dem y también la terminación del adjetivo: gute, guten, gutem.</span>
+        </article>
+        <article>
+          <strong>Detectar el caso</strong>
+          <span>Mostrar una oración completa y elegir si el grupo nominal está en nominativo, acusativo o dativo.</span>
+        </article>
+        <article>
+          <strong>Reescritura guiada</strong>
+          <span>Cambiar sujeto, objeto o preposición y ajustar automáticamente el artículo correcto.</span>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js?v=20260526-articulos-oraciones"></script>
+</body>
+</html>
