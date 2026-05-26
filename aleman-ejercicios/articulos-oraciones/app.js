@@ -396,6 +396,38 @@ const balancedPick = (count) => {
   return shuffle(selected);
 };
 
+const adjectiveEndings = {
+  Nominativ: {
+    maskulin: "e",
+    feminin: "e",
+    neutrum: "e",
+    plural: "en",
+  },
+  Akkusativ: {
+    maskulin: "en",
+    feminin: "e",
+    neutrum: "e",
+    plural: "en",
+  },
+  Dativ: {
+    maskulin: "en",
+    feminin: "en",
+    neutrum: "en",
+    plural: "en",
+  },
+};
+
+const splitPhrase = (phrase, ending) => {
+  const [adjective, ...nounParts] = phrase.split(" ");
+  const adjectiveStem = adjective.endsWith(ending)
+    ? adjective.slice(0, -ending.length)
+    : adjective;
+  return {
+    adjectiveStem,
+    noun: nounParts.join(" "),
+  };
+};
+
 const escapeAttribute = (value) => value
   .replaceAll("&", "&amp;")
   .replaceAll('"', "&quot;")
@@ -423,9 +455,12 @@ const render = () => {
   list.innerHTML = "";
 
   balancedPick(count).forEach((item, index) => {
+    const adjectiveEnding = adjectiveEndings[item.caseName][item.gender];
+    const phrase = splitPhrase(item.phrase, adjectiveEnding);
     const card = document.createElement("article");
     card.className = "question-card";
     card.dataset.answer = item.article;
+    card.dataset.ending = adjectiveEnding;
     card.innerHTML = `
       <p class="sentence">
         ${item.before ? `<span>${item.before}</span>` : ""}
@@ -440,7 +475,18 @@ const render = () => {
             aria-label="Artículo de la oración ${index + 1}"
             data-answer="${item.article}"
           >
-          <strong>${item.phrase}</strong>
+          <strong class="adjective-piece">${phrase.adjectiveStem}</strong>
+          <input
+            class="ending-input"
+            type="text"
+            autocomplete="off"
+            autocapitalize="none"
+            spellcheck="false"
+            maxlength="2"
+            aria-label="Terminación del adjetivo de la oración ${index + 1}"
+            data-answer="${adjectiveEnding}"
+          >
+          <strong>${phrase.noun}</strong>
         </span>
         <span>${item.after}</span>
         ${translationIcon(item.translation)}
@@ -455,36 +501,41 @@ const render = () => {
     list.append(card);
   });
 
-  updateScore(0, document.querySelectorAll(".article-input").length);
+  updateScore(0, document.querySelectorAll(".question-card").length);
 };
 
 const markInput = (input, showAnswer = false) => {
   const card = input.closest(".question-card");
   const feedback = card.querySelector(".feedback");
-  const isCorrect = normalize(input.value) === input.dataset.answer;
+  const fields = [...card.querySelectorAll(".article-input, .ending-input")];
+  const isCorrect = fields.every((field) => normalize(field.value) === field.dataset.answer);
 
   card.classList.toggle("is-correct", isCorrect);
   card.classList.toggle("is-wrong", !isCorrect);
   feedback.textContent = isCorrect
     ? "Correcto"
     : showAnswer
-      ? `Respuesta: ${input.dataset.answer}`
-      : "Revisa el caso y el género";
+      ? `Respuesta: ${card.dataset.answer} + ${card.dataset.ending}`
+      : "Revisa el artículo, el caso y la terminación";
 
-  if (showAnswer) input.value = input.dataset.answer;
+  if (showAnswer) {
+    fields.forEach((field) => {
+      field.value = field.dataset.answer;
+    });
+  }
   return isCorrect;
 };
 
 const checkAll = () => {
-  const inputs = [...document.querySelectorAll(".article-input")];
-  const correct = inputs.filter((input) => markInput(input)).length;
-  updateScore(correct, inputs.length);
+  const cards = [...document.querySelectorAll(".question-card")];
+  const correct = cards.filter((card) => markInput(card.querySelector(".article-input"))).length;
+  updateScore(correct, cards.length);
 };
 
 const showAnswers = () => {
-  const inputs = [...document.querySelectorAll(".article-input")];
-  const correct = inputs.filter((input) => markInput(input, true)).length;
-  updateScore(correct, inputs.length);
+  const cards = [...document.querySelectorAll(".question-card")];
+  const correct = cards.filter((card) => markInput(card.querySelector(".article-input"), true)).length;
+  updateScore(correct, cards.length);
 };
 
 document.querySelector("#check-all").addEventListener("click", checkAll);
@@ -492,7 +543,7 @@ document.querySelector("#new-exercise").addEventListener("click", render);
 document.querySelector("#show-answers").addEventListener("click", showAnswers);
 document.querySelector("#question-count").addEventListener("change", render);
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Enter" && event.target.classList.contains("article-input")) {
+  if (event.key === "Enter" && event.target.matches(".article-input, .ending-input")) {
     checkAll();
   }
 });

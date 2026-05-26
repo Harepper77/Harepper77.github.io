@@ -3,12 +3,12 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Artículos en oraciones alemanas</title>
-  <meta name="description" content="Practica artículos definidos en nominativo, acusativo y dativo dentro de oraciones alemanas." />
+  <title>Adjektivdeklination en oraciones alemanas</title>
+  <meta name="description" content="Practica artículos definidos y terminaciones de adjetivos en nominativo, acusativo y dativo dentro de oraciones alemanas." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css?v=20260526-articulos-oraciones" />
+  <link rel="stylesheet" href="styles.css?v=20260526-adjektivdeklination" />
 </head>
 <body>
   <main class="app-shell">
@@ -16,8 +16,8 @@
       <a class="home-link" href="../">HA</a>
       <div class="header-copy">
         <p class="eyebrow">Deutsch A1-A2</p>
-        <h1>Artículos en oraciones</h1>
-        <p>Completa artículos definidos en nominativo, acusativo y dativo dentro de frases con distintos tiempos verbales.</p>
+        <h1>Adjektivdeklination</h1>
+        <p>Completa artículos definidos y terminaciones de adjetivos en nominativo, acusativo y dativo.</p>
       </div>
       <div class="score-panel" aria-live="polite">
         <span class="score-panel__label">Resultado</span>
@@ -40,10 +40,54 @@
     <section class="section-block" aria-labelledby="sentences-title">
       <div class="section-heading">
         <p class="section-kicker">Ejercicio principal</p>
-        <h2 id="sentences-title">Completa el artículo</h2>
-        <p>Escribe solo el artículo definido: der, die, das, den o dem. La pista indica caso, género/plural y tiempo verbal.</p>
+        <h2 id="sentences-title">Completa artículo y adjetivo</h2>
+        <p>Escribe el artículo definido y la terminación del adjetivo: der große Tisch, den großen Tisch, dem großen Tisch.</p>
       </div>
       <div class="question-list" id="question-list"></div>
+    </section>
+
+    <section class="section-block" aria-labelledby="guide-title">
+      <div class="section-heading">
+        <p class="section-kicker">Mini guía</p>
+        <h2 id="guide-title">Terminaciones con artículo definido</h2>
+        <p>Con der, die, das, den y dem, casi todas las terminaciones son e o en.</p>
+      </div>
+      <div class="table-wrap">
+        <table class="guide-table">
+          <thead>
+            <tr>
+              <th scope="col">Caso</th>
+              <th scope="col">Maskulin</th>
+              <th scope="col">Feminin</th>
+              <th scope="col">Neutral</th>
+              <th scope="col">Plural</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Nominativ</th>
+              <td>der groß<strong>e</strong> Tisch</td>
+              <td>die schön<strong>e</strong> Lampe</td>
+              <td>das alt<strong>e</strong> Auto</td>
+              <td>die intelligent<strong>en</strong> Studenten</td>
+            </tr>
+            <tr>
+              <th scope="row">Akkusativ</th>
+              <td>den groß<strong>en</strong> Tisch</td>
+              <td>die schön<strong>e</strong> Lampe</td>
+              <td>das alt<strong>e</strong> Auto</td>
+              <td>die intelligent<strong>en</strong> Studenten</td>
+            </tr>
+            <tr>
+              <th scope="row">Dativ</th>
+              <td>dem groß<strong>en</strong> Tisch</td>
+              <td>der schön<strong>en</strong> Lampe</td>
+              <td>dem alt<strong>en</strong> Auto</td>
+              <td>den intelligent<strong>en</strong> Studenten</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
 
     <section class="section-block" aria-labelledby="ideas-title">
@@ -69,6 +113,6 @@
     </section>
   </main>
 
-  <script src="app.js?v=20260526-articulos-oraciones"></script>
+  <script src="app.js?v=20260526-adjektivdeklination"></script>
 </body>
 </html>

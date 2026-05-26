@@ -222,7 +222,8 @@ h2 {
   font-size: 1.08rem;
 }
 
-.article-input {
+.article-input,
+.ending-input {
   width: 64px;
   min-height: 38px;
   padding: 7px 9px;
@@ -235,7 +236,12 @@ h2 {
   text-transform: lowercase;
 }
 
-.article-input:focus {
+.ending-input {
+  width: 54px;
+}
+
+.article-input:focus,
+.ending-input:focus {
   border-color: var(--accent);
   outline: 3px solid rgba(7, 95, 115, .18);
 }
@@ -248,10 +254,44 @@ h2 {
   border-bottom: 2px solid rgba(7, 95, 115, .35);
 }
 
+.adjective-piece {
+  margin-right: -4px;
+}
+
 .meta-row {
   display: flex;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.table-wrap {
+  margin-top: 18px;
+  overflow-x: auto;
+}
+
+.guide-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+}
+
+.guide-table th,
+.guide-table td {
+  padding: 12px;
+  border: 1px solid var(--line);
+  text-align: left;
+  vertical-align: top;
+}
+
+.guide-table th {
+  color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.guide-table strong {
+  color: var(--gold);
 }
 
 .tag {
