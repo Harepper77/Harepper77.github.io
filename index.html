@@ -1210,5 +1210,95 @@
   else document.addEventListener('DOMContentLoaded', initScroll);
   </script>
 
+  <!-- MODAL CASE STUDY (reutilizable) -->
+  <div id="cs-modal" class="cs-modal" onclick="closeCS(event)">
+    <div class="cs-modal__content" onclick="event.stopPropagation()">
+      <button class="cs-modal__close" onclick="closeCS()" aria-label="Close">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
+
+      <!-- Header -->
+      <div class="cs-modal__header">
+        <img id="cs-image" src="" alt="" class="cs-modal__image" />
+        <div class="cs-modal__header-text">
+          <p class="cs-modal__kicker" id="cs-kicker"></p>
+          <h1 id="cs-title"></h1>
+          <p class="cs-modal__subtitle" id="cs-subtitle"></p>
+          <div class="cs-modal__meta">
+            <div><strong>Role:</strong> <span id="cs-role"></span></div>
+            <div><strong>Client:</strong> <span id="cs-client"></span></div>
+            <div><strong>Location:</strong> <span id="cs-location"></span></div>
+            <div><strong>Year:</strong> <span id="cs-year"></span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sections (dinamicas) -->
+      <div id="cs-sections" class="cs-modal__sections"></div>
+
+      <!-- Tags -->
+      <div class="cs-modal__footer">
+        <div class="cs-tags" id="cs-tags"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="data/case-studies.js"></script>
+  <script>
+    // Abrir/cerrar modal case study
+    function openCS(caseId) {
+      const data = caseStudiesData[caseId];
+      if (!data) return;
+
+      const lang = currentLang || 'en';
+      const modal = document.getElementById('cs-modal');
+
+      // Llenar header
+      document.getElementById('cs-kicker').textContent = data.kicker[lang];
+      document.getElementById('cs-title').textContent = data.title[lang];
+      document.getElementById('cs-subtitle').textContent = data.subtitle[lang];
+      document.getElementById('cs-role').textContent = data.role[lang] || data.role.en;
+      document.getElementById('cs-client').textContent = data.client[lang] || data.client.en;
+      document.getElementById('cs-location').textContent = data.location[lang] || data.location.en;
+      document.getElementById('cs-year').textContent = data.year;
+      document.getElementById('cs-image').src = data.image;
+      document.getElementById('cs-image').alt = data.title[lang];
+
+      // Llenar secciones
+      const sectionsContainer = document.getElementById('cs-sections');
+      sectionsContainer.innerHTML = '';
+      (data.sections[lang] || data.sections.en).forEach(section => {
+        const div = document.createElement('div');
+        div.className = 'cs-section';
+        div.innerHTML = `
+          <h2>${section.title}</h2>
+          <h3>${section.subtitle}</h3>
+          <p>${section.content}</p>
+        `;
+        sectionsContainer.appendChild(div);
+      });
+
+      // Llenar tags
+      const tagsContainer = document.getElementById('cs-tags');
+      tagsContainer.innerHTML = data.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
+
+      // Mostrar modal
+      modal.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeCS(event) {
+      if (event && event.target.id !== 'cs-modal') return;
+      const modal = document.getElementById('cs-modal');
+      modal.classList.remove('is-open');
+      document.body.style.overflow = '';
+    }
+
+    // Cerrar con ESC
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeCS();
+    });
+  </script>
+
 </body>
 </html>
