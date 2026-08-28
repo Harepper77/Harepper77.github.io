@@ -571,28 +571,35 @@ p:last-child { margin-bottom: 0; }
   background: var(--line-soft); color: var(--accent);
 }
 
-/* Header */
-.cs-modal__header {
-  display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; margin-bottom: 3rem; align-items: start;
+/* Hero Header with Image Overlay */
+.cs-modal__hero {
+  position: relative; width: 100%; aspect-ratio: 16/10; margin: -2.5rem -2.5rem 2.5rem;
+  overflow: hidden; border-radius: var(--r) var(--r) 0 0;
 }
-.cs-modal__image {
-  width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--r);
-  border: 1px solid var(--line-soft);
+.cs-modal__hero-image {
+  width: 100%; height: 100%; object-fit: cover;
 }
-.cs-modal__header-text h1 {
-  font-family: var(--fd); font-size: clamp(1.8rem, 4vw, 2.4rem);
-  font-weight: 400; margin: 1rem 0 .5rem; line-height: 1.2;
+.cs-modal__hero-overlay {
+  position: absolute; bottom: 0; left: 0; right: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.3) 60%, transparent);
+  padding: 3rem 2.5rem 2rem;
+  color: white; display: flex; flex-direction: column; justify-content: flex-end;
 }
 .cs-modal__kicker {
-  font-size: .78rem; letter-spacing: .15em; text-transform: uppercase;
-  color: var(--accent); margin: 0; font-weight: 500;
+  font-size: .75rem; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--accent); margin: 0 0 .5rem; font-weight: 500;
 }
-.cs-modal__subtitle {
-  font-size: 1.1rem; color: var(--text-muted); margin: 1rem 0 1.5rem; line-height: 1.5;
+.cs-modal__hero-title {
+  font-family: var(--fd); font-size: clamp(2rem, 5vw, 2.8rem);
+  font-weight: 400; margin: 0 0 .5rem; line-height: 1.1; color: white;
+}
+.cs-modal__hero-subtitle {
+  font-size: 1.1rem; color: rgba(255,255,255, 0.9); margin: 0; line-height: 1.5;
+  font-weight: 400;
 }
 .cs-modal__meta {
   display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;
-  padding-top: 1.5rem; border-top: 1px solid var(--line-soft);
+  margin-bottom: 2.5rem; padding-bottom: 2rem; border-bottom: 1px solid var(--line-soft);
   font-size: .88rem; color: var(--text-muted);
 }
 .cs-modal__meta div { line-height: 1.6; }

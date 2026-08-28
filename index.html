@@ -1151,20 +1151,22 @@
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
       </button>
 
-      <!-- Header -->
-      <div class="cs-modal__header">
-        <img id="cs-image" src="" alt="" class="cs-modal__image" />
-        <div class="cs-modal__header-text">
-          <p class="cs-modal__kicker" id="cs-kicker"></p>
-          <h1 id="cs-title"></h1>
-          <p class="cs-modal__subtitle" id="cs-subtitle"></p>
-          <div class="cs-modal__meta">
-            <div><strong>Role:</strong> <span id="cs-role"></span></div>
-            <div><strong>Client:</strong> <span id="cs-client"></span></div>
-            <div><strong>Location:</strong> <span id="cs-location"></span></div>
-            <div><strong>Year:</strong> <span id="cs-year"></span></div>
-          </div>
+      <!-- Hero Header with Image Overlay -->
+      <div class="cs-modal__hero">
+        <img id="cs-image" src="" alt="" class="cs-modal__hero-image" />
+        <div class="cs-modal__hero-overlay">
+          <h4 class="cs-modal__kicker" id="cs-kicker"></h4>
+          <h2 class="cs-modal__hero-title" id="cs-title"></h2>
+          <h3 class="cs-modal__hero-subtitle" id="cs-subtitle"></h3>
         </div>
+      </div>
+
+      <!-- Metadata -->
+      <div class="cs-modal__meta">
+        <div><strong>Role:</strong> <span id="cs-role"></span></div>
+        <div><strong>Client:</strong> <span id="cs-client"></span></div>
+        <div><strong>Location:</strong> <span id="cs-location"></span></div>
+        <div><strong>Year:</strong> <span id="cs-year"></span></div>
       </div>
 
       <!-- Sections (dinamicas) -->
