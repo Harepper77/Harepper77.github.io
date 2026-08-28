@@ -149,7 +149,7 @@ const caseStudiesData = {
     role: { en: 'UX Designer → Product Designer', es: 'Diseñador UX → Diseñador de Producto' },
     client: { en: 'Improving (Chicago, USA)', es: 'Improving (Chicago, EE.UU.)' },
     location: { en: 'Chicago, USA', es: 'Chicago, EE.UU.' },
-    image: 'img/delphian-hero.jpg',
+    image: 'images/case-studies/delphian.png',
     sections: {
       en: [
         {
@@ -359,7 +359,7 @@ const caseStudiesData = {
     role: { en: 'Lead UX Designer', es: 'Diseñador UX Líder' },
     client: { en: 'Independent Project', es: 'Proyecto Independiente' },
     location: { en: 'Mexico', es: 'México' },
-    image: 'img/buenafruta-hero.jpg',
+    image: 'images/case-studies/buenafruta.png',
     sections: {
       en: [
         {
