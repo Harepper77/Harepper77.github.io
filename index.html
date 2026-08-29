@@ -534,11 +534,12 @@
       // Llenar secciones
       const sectionsContainer = document.getElementById('cs-sections');
       sectionsContainer.innerHTML = '';
-      (data.sections[lang] || data.sections.en).forEach(section => {
+      (data.sections[lang] || data.sections.en).forEach((section, idx) => {
         const div = document.createElement('div');
         div.className = 'cs-section';
+        const imageHTML = idx === 0 ? `<img src="${data.image}" alt="${data.title[lang]}" class="cs-section__image-real" />` : `<div class="cs-section__image">[ Image placeholder ]</div>`;
         div.innerHTML = `
-          <div class="cs-section__image">[ Image placeholder ]</div>
+          ${imageHTML}
           <div>
             <h2>${section.title}</h2>
             <h3>${section.subtitle}</h3>
