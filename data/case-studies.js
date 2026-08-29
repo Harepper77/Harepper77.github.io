@@ -429,7 +429,7 @@ const caseStudiesData = {
     role: { en: 'Lead UX Designer', es: 'Diseñador UX Líder' },
     client: { en: 'TEPJF (Electoral Tribunal)', es: 'TEPJF (Tribunal Electoral)' },
     location: { en: 'Mexico City, MX', es: 'Ciudad de México, MX' },
-    image: 'img/sief-hero.jpg',
+    image: 'images/case-studies/sief.png',
     sections: {
       en: [
         {
