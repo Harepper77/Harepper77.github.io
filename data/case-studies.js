@@ -289,7 +289,7 @@ const caseStudiesData = {
     role: { en: 'Lead UX Designer', es: 'Diseñador UX Líder' },
     client: { en: 'Improving (Mexico)', es: 'Improving (México)' },
     location: { en: 'Mexico', es: 'México' },
-    image: 'img/rain4rent-hero.jpg',
+    image: 'images/case-studies/rain4rent.png',
     sections: {
       en: [
         {
