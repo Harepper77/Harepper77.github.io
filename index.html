@@ -548,7 +548,7 @@
           // Buscar imagen específica de sección (ej: capstone-research.png)
           const sectionName = sectionNames[idx];
           const sectionImagePath = `images/case-studies/${data.id}-${sectionName}.png`;
-          imageHTML = `<img src="${sectionImagePath}" alt="${section.title}" class="cs-section__image-real" style="display: none;" onerror="this.style.display='none'; this.previousElementSibling?.remove();" /><div class="cs-section__image">[ Image placeholder ]</div>`;
+          imageHTML = `<img src="${sectionImagePath}" alt="${section.title}" class="cs-section__image-real" onerror="const ph=document.createElement('div'); ph.className='cs-section__image'; ph.innerHTML='[ Image placeholder ]'; this.replaceWith(ph);" />`;
         }
         // Si es la última sección (idx === sections.length - 1), no mostrar imageholder
 
