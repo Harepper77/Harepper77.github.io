@@ -546,15 +546,15 @@ p:last-child { margin-bottom: 0; }
 /* ─── CASE STUDY MODAL (reutilizable) ──────────────────────── */
 .cs-modal {
   position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.85);
-  backdrop-filter: blur(4px); z-index: 9999; display: flex; align-items: flex-end;
+  backdrop-filter: blur(4px); z-index: 9999; display: flex; align-items: center; justify-content: center;
   opacity: 0; pointer-events: none; transition: opacity .3s ease;
 }
 .cs-modal.is-open {
   opacity: 1; pointer-events: all;
 }
 .cs-modal__content {
-  width: 100%; max-width: 1000px; background: var(--bg);
-  border-radius: 24px 24px 0 0; padding: 3rem; max-height: 90vh; overflow-y: auto;
+  width: 95%; max-width: 1200px; background: var(--bg);
+  border-radius: 24px; padding: 0; max-height: 90vh; overflow-y: auto;
   animation: slideUp .4s cubic-bezier(0.34, 1.56, 0.64, 1);
 }
 @keyframes slideUp {
@@ -573,29 +573,33 @@ p:last-child { margin-bottom: 0; }
 
 /* Hero Header with Image Overlay */
 .cs-modal__hero {
-  position: relative; width: 100%; aspect-ratio: 16/10; margin: -2.5rem -2.5rem 2.5rem;
-  overflow: hidden; border-radius: var(--r) var(--r) 0 0;
+  position: relative; width: 100%; aspect-ratio: 16/9; margin: 0;
+  overflow: hidden; border-radius: 24px 24px 0 0;
 }
 .cs-modal__hero-image {
   width: 100%; height: 100%; object-fit: cover;
 }
 .cs-modal__hero-overlay {
-  position: absolute; bottom: 0; left: 0; right: 0;
-  background: linear-gradient(to top, rgba(0,0,0,0.9), rgba(0,0,0,0.3) 60%, transparent);
-  padding: 3rem 2.5rem 2rem;
-  color: white; display: flex; flex-direction: column; justify-content: flex-end;
+  position: absolute; bottom: 0; left: 0; right: 0; top: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.7) 30%, rgba(0,0,0,0.3) 70%, transparent);
+  padding: 3rem; padding-top: 0;
+  color: white; display: flex; flex-direction: column; justify-content: flex-end; align-items: flex-start;
 }
 .cs-modal__kicker {
-  font-size: .75rem; letter-spacing: .2em; text-transform: uppercase;
-  color: var(--accent); margin: 0 0 .5rem; font-weight: 500;
+  font-size: .8rem; letter-spacing: .2em; text-transform: uppercase;
+  color: var(--accent); margin: 0 0 1rem; font-weight: 600;
+  display: flex; gap: .5rem; align-items: center;
+}
+.cs-modal__kicker::after {
+  content: "•"; color: var(--accent); margin-left: .5rem;
 }
 .cs-modal__hero-title {
-  font-family: var(--fd); font-size: clamp(2rem, 5vw, 2.8rem);
-  font-weight: 400; margin: 0 0 .5rem; line-height: 1.1; color: white;
+  font-family: var(--fd); font-size: clamp(2.2rem, 6vw, 3.2rem);
+  font-weight: 400; margin: 0 0 .8rem; line-height: 1.15; color: white;
 }
 .cs-modal__hero-subtitle {
-  font-size: 1.1rem; color: rgba(255,255,255, 0.9); margin: 0; line-height: 1.5;
-  font-weight: 400;
+  font-size: 1.15rem; color: rgba(255,255,255, 0.95); margin: 0; line-height: 1.6;
+  font-weight: 300; max-width: 90%;
 }
 .cs-modal__meta {
   display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;
