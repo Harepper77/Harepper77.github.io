@@ -9,7 +9,7 @@ const caseStudiesData = {
     role: { en: 'Lead UX Designer', es: 'Diseñador UX Líder' },
     client: { en: 'Improving (Atlanta, USA)', es: 'Improving (Atlanta, EE.UU.)' },
     location: { en: 'Atlanta, USA', es: 'Atlanta, EE.UU.' },
-    image: 'img/capstone-hero.jpg',
+    image: 'images/case-studies/capstone.png',
     sections: {
       en: [
         {
