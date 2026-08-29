@@ -70,6 +70,7 @@ const caseStudiesData = {
     technologies: ['Figma', 'Heuristic Evaluation', 'Usability Testing', 'Analytics']
   },
 
+  /* Electrolit case study — pending hero image
   electrolit: {
     id: 'electrolit',
     year: '2022',
@@ -139,6 +140,7 @@ const caseStudiesData = {
     tags: ['Sprint Design', 'Mobile Design', 'User Research', 'Prototyping'],
     technologies: ['Figma', 'Photoshop', 'Illustrator', 'HTML/CSS/JS', 'Card Sorting', 'Crazy 8s']
   },
+  */
 
   delphian: {
     id: 'delphian',
@@ -219,7 +221,7 @@ const caseStudiesData = {
     role: { en: 'Independent UX Consultant', es: 'Consultor UX Independiente' },
     client: { en: 'IMPI (Mexico City)', es: 'IMPI (Ciudad de México)' },
     location: { en: 'Mexico City, MX', es: 'Ciudad de México, MX' },
-    image: 'img/impi-hero.jpg',
+    image: 'images/case-studies/impi.png',
     sections: {
       en: [
         {
