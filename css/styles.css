@@ -720,7 +720,15 @@ p:last-child { margin-bottom: 0; }
   .section--work { min-height: auto; padding: 4.5rem 0 3rem; }
   /* 1 columna en mobile */
   .cards-grid { grid-template-columns: 1fr; }
-  .cs-modal { height: 96vh; border-radius: 16px 16px 0 0; }
+  /* Modal responsive en mobile */
+  .cs-modal { height: 96vh; border-radius: 16px 16px 0 0; align-items: flex-end; }
+  .cs-modal__content { width: 90%; max-width: 100%; max-height: 96vh; }
+  .cs-modal__close { top: 1rem; right: 1rem; }
+  .cs-modal__hero { padding: 2rem 1.5rem; min-height: auto; }
+  .cs-modal__hero-title { font-size: clamp(1.5rem, 5vw, 2.2rem); }
+  .cs-modal__body { padding: 1.5rem; }
+  .cs-modal__sections { padding: 0 1.5rem 1.5rem; }
+  .cs-section { margin-bottom: 2rem; }
   .cs-hero { height: 200px; }
   .cs-metrics { grid-template-columns: 1fr; }
   .cs-content { padding: 0 16px 40px; }
