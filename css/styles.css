@@ -632,11 +632,11 @@ p:last-child { margin-bottom: 0; }
 }
 
 .cs-modal__meta {
-  display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem;
+  display: flex; flex-wrap: wrap; gap: 1.5rem;
   margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--line-soft);
   font-size: .88rem; color: var(--text-muted);
 }
-.cs-modal__meta div { line-height: 1.6; }
+.cs-modal__meta div { width: 20%; line-height: 1.6; }
 .cs-modal__meta strong { color: var(--text); font-weight: 500; display: block; }
 
 /* Sections — Editorial Layout with Image Placeholders */
