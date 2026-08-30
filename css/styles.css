@@ -277,7 +277,7 @@ p:last-child { margin-bottom: 0; }
 }
 .cs-overlay.open { opacity: 1; pointer-events: all; }
 
-.cs-modal {
+.cs-drawer-modal {
   width: 100%; max-width: 800px; height: 92vh;
   background: var(--bg-soft, #0d0f13);
   border: 1px solid var(--line); border-bottom: none;
@@ -287,7 +287,7 @@ p:last-child { margin-bottom: 0; }
   transition: transform .4s cubic-bezier(0.22,1,0.36,1);
   box-shadow: 0 -20px 80px rgba(0,0,0,.5);
 }
-.cs-overlay.open .cs-modal { transform: translateY(0); }
+.cs-overlay.open .cs-drawer-modal { transform: translateY(0); }
 
 /* Sticky bar */
 .cs-bar {
@@ -558,26 +558,26 @@ p:last-child { margin-bottom: 0; }
 .cs-modal {
   position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.85);
   backdrop-filter: blur(4px); z-index: 9999; display: flex; align-items: center; justify-content: center;
-  opacity: 0; pointer-events: none; transition: opacity .3s ease;
+  opacity: 0; pointer-events: none; transition: opacity .3s ease; padding: 2rem;
 }
 .cs-modal.is-open {
   opacity: 1; pointer-events: all;
 }
 .cs-modal__content {
-  width: 90%; max-width: 1600px; background: var(--bg);
+  width: 80%; background: var(--bg);
   border-radius: 24px; padding: 0; max-height: 90vh; overflow-y: auto;
   animation: slideUp .4s cubic-bezier(0.34, 1.56, 0.64, 1);
-  display: flex; flex-direction: column; margin: auto;
+  display: flex; flex-direction: column; position: relative;
 }
 @keyframes slideUp {
   from { transform: translateY(40px); opacity: 0; }
   to { transform: translateY(0); opacity: 1; }
 }
 .cs-modal__close {
-  position: absolute; top: 2rem; right: 2rem; width: 40px; height: 40px;
+  position: absolute; top: 1.5rem; right: 1.5rem; width: 40px; height: 40px;
   border: 1px solid var(--line-soft); background: var(--surface); border-radius: 50%;
   display: flex; align-items: center; justify-content: center; cursor: pointer;
-  color: var(--text); transition: all .2s;
+  color: var(--text); transition: all .2s; z-index: 10000;
 }
 .cs-modal__close:hover {
   background: var(--line-soft); color: var(--accent);
@@ -599,7 +599,7 @@ p:last-child { margin-bottom: 0; }
 .cs-modal__hero-overlay {
   position: relative; padding: 0; background: transparent;
   display: flex; flex-direction: column; justify-content: center; align-items: flex-start;
-  gap: 1rem; max-width: 600px;
+  gap: 1rem;
 }
 .cs-modal__kicker {
   font-size: .8rem; letter-spacing: .2em; text-transform: uppercase;
@@ -615,7 +615,7 @@ p:last-child { margin-bottom: 0; }
 }
 .cs-modal__hero-subtitle {
   font-size: 1.15rem; color: rgba(255,255,255, 0.95); margin: 0; line-height: 1.6;
-  font-weight: 300; max-width: 90%;
+  font-weight: 300;
 }
 /* Right Column — Editorial Content */
 .cs-modal__body {
@@ -697,7 +697,12 @@ p:last-child { margin-bottom: 0; }
   .timeline__period { padding-top: 0; }
   /* 2 columnas en tablet */
   .cards-grid { grid-template-columns: repeat(2, 1fr); }
+
+  /* Modal tablet adjustments (1024px–900px) */
+  .cs-modal__content { width: 85%; max-width: 1000px; }
+  .cs-modal__meta { grid-template-columns: repeat(2, 1fr); }
 }
+
 @media (max-width: 900px) {
   .site-nav { width: min(100% - 2rem, var(--max-w)); }
   .site-nav__menu { gap: 1.2rem; }
@@ -705,7 +710,23 @@ p:last-child { margin-bottom: 0; }
   .cs-meta { grid-template-columns: repeat(2,1fr); }
   .cs-meta__item:nth-child(2) { border-right: none; }
   .cs-meta__item:nth-child(3), .cs-meta__item:nth-child(4) { border-top: 1px solid var(--line); }
+
+  /* Modal tablet large adjustments (900px) */
+  .cs-modal__hero { padding: 3rem 2.5rem; }
+  .cs-modal__body { padding: 2.5rem; }
+  .cs-modal__sections { padding: 0 2.5rem 2.5rem; }
 }
+
+@media (max-width: 768px) {
+  /* Modal tablet small adjustments */
+  .cs-modal__content { width: 90%; max-width: none; }
+  .cs-modal__meta { grid-template-columns: 1fr; }
+  .cs-modal__hero { padding: 2.5rem 2rem; }
+  .cs-modal__body { padding: 2rem; }
+  .cs-modal__sections { padding: 0 2rem 2rem; }
+  .cs-modal__hero-title { font-size: clamp(1.8rem, 5vw, 2.5rem); }
+}
+
 @media (max-width: 640px) {
   .site-nav { flex-direction: column; align-items: flex-start; gap: .8rem; }
   .site-nav__right { align-self: flex-start; }
@@ -720,14 +741,17 @@ p:last-child { margin-bottom: 0; }
   .section--work { min-height: auto; padding: 4.5rem 0 3rem; }
   /* 1 columna en mobile */
   .cards-grid { grid-template-columns: 1fr; }
+
   /* Modal responsive en mobile */
-  .cs-modal { height: 96vh; border-radius: 16px 16px 0 0; align-items: flex-end; }
-  .cs-modal__content { width: 90%; max-width: 100%; max-height: 96vh; }
+  .cs-modal { padding: 1rem; align-items: flex-end; }
+  .cs-modal__content { width: 100%; max-width: none; max-height: 96vh; border-radius: 16px 16px 0 0; }
   .cs-modal__close { top: 1rem; right: 1rem; }
-  .cs-modal__hero { padding: 2rem 1.5rem; min-height: auto; }
+  .cs-modal__hero { padding: 1.5rem; min-height: auto; }
   .cs-modal__hero-title { font-size: clamp(1.5rem, 5vw, 2.2rem); }
+  .cs-modal__hero-overlay { max-width: 100%; }
   .cs-modal__body { padding: 1.5rem; }
   .cs-modal__sections { padding: 0 1.5rem 1.5rem; }
+  .cs-modal__meta { grid-template-columns: 1fr; gap: 1rem; border-top: none; padding-top: 0; }
   .cs-section { margin-bottom: 2rem; }
   .cs-hero { height: 200px; }
   .cs-metrics { grid-template-columns: 1fr; }
