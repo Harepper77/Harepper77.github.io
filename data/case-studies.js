@@ -311,8 +311,8 @@ const caseStudiesData = {
         },
         {
           title: 'Testing',
-          subtitle: 'User centered experience',
-          content: 'For tool testing, the QA team created a test environment implementing AB testing scenarios. Surprisingly, adjustments in this phase were minimal — users worked with mental maps created by the old tool and sometimes small changes like a border line caused them to struggle completing the flow. This taught me many things, which is why I like to add it to my work portfolio. We adjusted elements to imperceptible levels based on testing results, discovering users were following mental maps from the old system.'
+          subtitle: 'Guerrilla testing with real users',
+          content: 'In the first mockup iterations I noticed that even small visual changes, like a border line, made users hesitate, because they were following the mental maps of the old portal, so I reorganized the screens into a hierarchical flow of the quoting process that kept the familiar order of steps and made the new layout easier to follow. With the prototype ready in InVision, I ran remote guerrilla tests with three salespeople and one sales manager, each one with a set of cards with different goals to complete while they explored the interface and told me how they would solve each task. The users who were most used to the old system found the new one intuitive and easy to use, and the manager was the only one asking extra questions. I documented the findings so the team could turn them into hypotheses.'
         },
         {
           title: 'Conclusions',
@@ -338,8 +338,8 @@ const caseStudiesData = {
         },
         {
           title: 'Testing',
-          subtitle: 'Experiencia centrada en usuario',
-          content: 'Para testing de la herramienta, el equipo QA creó ambiente de prueba implementando escenarios de AB testing. Sorprendentemente, ajustes en esta fase fueron mínimos — usuarios trabajaban con mapas mentales creados por la herramienta antigua y a veces cambios pequeños como línea de borde causaban que lucharan completando el flujo. Esto me enseñó muchas cosas, por eso me gusta agregarlo a mi portafolio. Ajustamos elementos a niveles imperceptibles basados en resultados de testing, descubriendo usuarios seguían mapas mentales del sistema antiguo.'
+          subtitle: 'Pruebas de guerrilla con usuarios reales',
+          content: 'En las primeras iteraciones de los mockups noté que hasta cambios visuales pequeños, como una línea de borde, hacían dudar a los usuarios, porque seguían los mapas mentales del portal anterior, así que reorganicé las pantallas en un flujo jerarquizado del proceso de cotización que respetaba el orden conocido de los pasos y hacía más fácil seguir el nuevo diseño. Con el prototipo listo en InVision, hice pruebas de guerrilla remotas con tres vendedores y un gerente de ventas, cada uno con un juego de tarjetas con objetivos diferentes que debían cumplir mientras exploraban la interfaz y me contaban cómo resolverían cada tarea. Los usuarios más acostumbrados al sistema viejo encontraron el nuevo intuitivo y fácil de usar, y el gerente fue el único que hizo preguntas extra. Documenté los hallazgos para que el equipo pudiera convertirlos en hipótesis.'
         },
         {
           title: 'Conclusiones',
@@ -348,8 +348,8 @@ const caseStudiesData = {
         }
       ]
     },
-    tags: ['Sales Platform', 'Gamification', 'User Research', 'SaaS'],
-    technologies: ['Figma', 'Card Sorting', 'Heuristic Testing', 'Component Library']
+    tags: ['Sales Platform', 'Guerrilla Testing', 'User Research', 'SaaS'],
+    technologies: ['Figma', 'InVision', 'Card Sorting', 'Heuristic Testing', 'Component Library']
   },
 
   buenafruta: {
