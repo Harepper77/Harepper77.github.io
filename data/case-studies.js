@@ -30,7 +30,7 @@ const caseStudiesData = {
         {
           title: 'Testing',
           subtitle: 'From proposing in meetings to leading sessions',
-          content: 'Over time we made the interface easier to understand, adding descriptions that explained the most complex functions, and the team started adopting the ideas I brought to the grooming meetings. Eventually I was leading UX discovery sessions that managers attended, while Aaron\'s site visits and contextual interviews showed us problems in the field that needed more research, and we used analytics to measure the impact of the changes.'
+          content: 'Over time we made the interface easier to understand, adding descriptions that explained the most complex functions, and the team started adopting the ideas I brought to the grooming meetings. Eventually I was leading UX discovery sessions that managers attended, while Aaron\'s site visits and contextual interviews showed us problems in the field that needed more research, and analytics showed fewer support tickets and fewer complaints from truck drivers about billing, while the product kept being implemented in more yards, mainly in Texas. The changes users liked the most were the revamp of the settings area and the dock reservation flow with its summary.'
         },
         {
           title: 'Conclusions',
@@ -57,7 +57,7 @@ const caseStudiesData = {
         {
           title: 'Testing',
           subtitle: 'De proponer en juntas a dirigir sesiones',
-          content: 'Con el tiempo hicimos la interfaz más fácil de entender, agregando descripciones que explicaban las funciones más complejas, y el equipo empezó a adoptar las ideas que llevaba a las juntas de grooming. Con el tiempo terminé dirigiendo sesiones de descubrimiento de UX a las que asistían los gerentes, mientras las visitas a campo y entrevistas contextuales de Aaron nos mostraban problemas que necesitaban más investigación, y usamos analítica para medir el impacto de los cambios.'
+          content: 'Con el tiempo hicimos la interfaz más fácil de entender, agregando descripciones que explicaban las funciones más complejas, y el equipo empezó a adoptar las ideas que llevaba a las juntas de grooming. Con el tiempo terminé dirigiendo sesiones de descubrimiento de UX a las que asistían los gerentes, mientras las visitas a campo y entrevistas contextuales de Aaron nos mostraban problemas que necesitaban más investigación, y la analítica mostró menos tickets de soporte y menos quejas de los camioneros sobre la facturación, mientras el producto se seguía implementando en más patios, principalmente en Texas. Los cambios que más les gustaron a los usuarios fueron el rediseño del área de configuración y el flujo de reservación de andenes con su resumen.'
         },
         {
           title: 'Conclusiones',
