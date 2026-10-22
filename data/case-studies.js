@@ -7,62 +7,62 @@ const caseStudiesData = {
     subtitle: { en: 'Building UX culture in enterprise logistics', es: 'Construyendo cultura UX en logística empresarial' },
     kicker: { en: 'Enterprise UX · Logistics', es: 'UX Empresarial · Logística' },
     role: { en: 'Lead UX Designer', es: 'Diseñador UX Líder' },
-    client: { en: 'Improving (Atlanta, USA)', es: 'Improving (Atlanta, EE.UU.)' },
+    client: { en: 'Capstone Logistics (via Improving)', es: 'Capstone Logistics (vía Improving)' },
     location: { en: 'Atlanta, USA', es: 'Atlanta, EE.UU.' },
     image: 'images/case-studies/capstone.png',
     sections: {
       en: [
         {
           title: 'Introduction',
-          subtitle: 'Understanding a new vertical',
-          content: 'The main challenge was understanding the business model of a vertical I had no previous knowledge in — a logistics company in Atlanta whose SaaS B2B model manages yard traffic, unit unload times, and "last mile" services all from centralized software. The system was managing complex logistical operations, but the design reflected reactive development rather than strategic planning.'
+          subtitle: 'Learning a business from zero',
+          content: 'Capstone is a logistics company in Atlanta whose software manages yard traffic, unloading times and last mile deliveries from one place, and the first challenge was understanding a business I knew nothing about. The system worked, but it had grown by reacting to each new need instead of following a plan, and you could see it in every screen.'
         },
         {
           title: 'Research',
-          subtitle: 'Discovering architectural issues',
-          content: 'I discovered essential problems in the system\'s information architecture through heuristic examinations, usability tests, and user flow mapping. It was clear the system had been built reacting to needs rather than following a planned architecture. I determined roles and organized mockups based on these discoveries. The previous designer had left non-editable screenshot-based mockups, with no component library or reusable patterns. I also faced a significant challenge: the team had limited trust in integrated UX processes.'
+          subtitle: 'What was not visible at first sight',
+          content: 'With heuristic reviews, usability tests and user flow maps I found the main problems in how the information was organized, so I defined the user roles and reorganized the mockups around them. The previous designer had left only screenshots, nothing editable and no reusable components, and on top of that the team did not trust UX processes very much.'
         },
         {
           title: 'Design',
-          subtitle: 'Building design systems and trust',
-          content: 'After mapping navigation flows and the system architecture, I created editable mockups of key screens to build reusable templates and establish a component library. I worked extensively with the product owner, design lead, and project manager (who had deep product knowledge and engineering background). These interviews confirmed my hypotheses. I started somewhat isolated from the team, intentionally beginning to indoctrinate the development team on UX practices and their advantages. The goal was to gain managerial trust and establish UX as a core practice.'
+          subtitle: 'Building components and trust at the same time',
+          content: 'I rebuilt the key screens as editable mockups and started a component library, working closely with the product owner, the design lead and the project manager, who knew the product deeply and had an engineering background, and those conversations confirmed my hypotheses. At the beginning I was quite isolated from the team, so I made a point of showing developers, little by little, what UX could do for them, to earn the managers\' trust and make UX part of how the team worked.'
         },
         {
           title: 'Testing',
-          subtitle: 'Gaining adoption through discovery',
-          content: 'Over time, we refined the interface to make it more intuitive, adding descriptions and information to explain complex system functions. The team gradually adopted the ideas I presented in grooming meetings. Eventually, I led dedicated UX discovery sessions that managers attended. Contextual interviews and site visits by the design lead revealed field difficulties needing ideation and research. Analytics provided impact measurement for our changes.'
+          subtitle: 'From proposing in meetings to leading sessions',
+          content: 'Over time we made the interface easier to understand, adding descriptions that explained the most complex functions, and the team started adopting the ideas I brought to the grooming meetings. Eventually I was leading UX discovery sessions that managers attended, while the design lead\'s site visits and contextual interviews showed us problems in the field that needed more research, and we used analytics to measure the impact of the changes.'
         },
         {
           title: 'Conclusions',
-          subtitle: 'From isolation to integration',
-          content: 'The project gave me valuable learning about large modular systems. Many modules existed that I didn\'t directly use, managed by teammates. I covered absences and dimensioned the project\'s full scope. I had the opportunity to work with analytics measuring the impact of our changes. Most importantly, I transformed a skeptical team into believers in the UX process, establishing a foundation for future design-driven development.'
+          subtitle: 'From isolation to being part of the team',
+          content: 'It was a large system made of many modules, several of them handled by teammates, and covering their absences helped me understand the full scope of the project. What I value most is that a team that was skeptical about UX ended up asking for it, which left a base for the product to keep being designed with users in mind.'
         }
       ],
       es: [
         {
           title: 'Introducción',
-          subtitle: 'Comprendiendo una vertical nueva',
-          content: 'El reto principal fue entender el modelo de negocio de una vertical sin conocimiento previo — una empresa de logística en Atlanta cuyo modelo SaaS B2B gestiona tráfico de patios, tiempos de descarga de unidades y servicios de "última milla" desde software centralizado. El sistema manejaba operaciones complejas, pero el diseño reflejaba desarrollo reactivo en lugar de planificación estratégica.'
+          subtitle: 'Aprender un negocio desde cero',
+          content: 'Capstone es una empresa de logística en Atlanta cuyo software controla el tráfico de patios, los tiempos de descarga y las entregas de última milla desde un solo lugar, y el primer reto fue entender un negocio del que no sabía nada. El sistema funcionaba, pero había crecido reaccionando a cada necesidad nueva en lugar de seguir un plan, y eso se notaba en cada pantalla.'
         },
         {
           title: 'Investigación',
-          subtitle: 'Descubriendo problemas arquitectónicos',
-          content: 'Descubrí problemas esenciales en la arquitectura de información del sistema a través de exámenes heurísticos, pruebas de usabilidad y mapeo de flujos de usuario. Era evidente que el sistema fue construido reaccionando a necesidades en lugar de seguir una arquitectura planeada. Determiné roles y organicé mockups basándome en estos descubrimientos. El diseñador anterior había dejado mockups no editables basados en screenshots, sin librería de componentes ni patrones reutilizables. También enfrenté un desafío significativo: el equipo tenía confianza limitada en procesos UX integrados.'
+          subtitle: 'Lo que no se veía a simple vista',
+          content: 'Con revisiones heurísticas, pruebas de usabilidad y mapas de flujos encontré los problemas principales en cómo estaba organizada la información, así que definí los roles de usuario y reorganicé los mockups alrededor de ellos. El diseñador anterior solo había dejado capturas de pantalla, nada editable y ningún componente reutilizable, y además el equipo no confiaba mucho en los procesos de UX.'
         },
         {
           title: 'Diseño',
-          subtitle: 'Construyendo design systems y confianza',
-          content: 'Después de mapear flujos de navegación y la arquitectura del sistema, creé mockups editables de pantallas clave para construir plantillas reutilizables y establecer una librería de componentes. Trabajé extensamente con el product owner, jefe de diseño y project manager (quien tenía conocimiento profundo del producto y background de ingeniería). Estas entrevistas confirmaron mis hipótesis. Comencé algo aislado del equipo, intentando deliberadamente introducir al equipo de desarrollo en prácticas UX y sus ventajas. El objetivo era ganar confianza gerencial y establecer UX como práctica central.'
+          subtitle: 'Construir componentes y confianza al mismo tiempo',
+          content: 'Rehice las pantallas clave como mockups editables y empecé una librería de componentes, trabajando de cerca con el product owner, el design lead y el project manager, que conocía el producto a fondo y venía de ingeniería, y esas pláticas confirmaron mis hipótesis. Al principio estaba bastante aislado del equipo, así que me propuse mostrarles a los desarrolladores, poco a poco, lo que UX podía hacer por ellos, para ganarme la confianza de los gerentes y que UX fuera parte de la forma de trabajar.'
         },
         {
           title: 'Testing',
-          subtitle: 'Ganando adopción a través del descubrimiento',
-          content: 'Con el tiempo, refinamos la interfaz para hacerla más intuitiva, agregando descripciones e información para explicar funciones complejas del sistema. El equipo gradualmente adoptó las ideas que presenté en grooming meetings. Eventualmente, lideré sesiones de descubrimiento UX dedicadas a las que asistían managers. Entrevistas contextuales y visitas de sitio del jefe de diseño revelaron dificultades de campo necesitando ideación e investigación. Analytics proporcionó medición de impacto para nuestros cambios.'
+          subtitle: 'De proponer en juntas a dirigir sesiones',
+          content: 'Con el tiempo hicimos la interfaz más fácil de entender, agregando descripciones que explicaban las funciones más complejas, y el equipo empezó a adoptar las ideas que llevaba a las juntas de grooming. Con el tiempo terminé dirigiendo sesiones de descubrimiento de UX a las que asistían los gerentes, mientras las visitas a campo y entrevistas contextuales del design lead nos mostraban problemas que necesitaban más investigación, y usamos analítica para medir el impacto de los cambios.'
         },
         {
           title: 'Conclusiones',
-          subtitle: 'De aislamiento a integración',
-          content: 'El proyecto me dio aprendizaje valioso sobre sistemas modulares grandes. Muchos módulos existían que no usaba directamente, administrados por compañeros. Cubrí ausencias y dimensioné el alcance completo del proyecto. Tuve la oportunidad de trabajar con analytics midiendo el impacto de nuestros cambios. Lo más importante, transformé un equipo escéptico en creyentes del proceso UX, estableciendo una base para desarrollo futuro dirigido por diseño.'
+          subtitle: 'De estar aislado a ser parte del equipo',
+          content: 'Era un sistema grande con muchos módulos, varios a cargo de compañeros, y cubrir sus ausencias me ayudó a entender el alcance completo del proyecto. Lo que más valoro es que un equipo escéptico del UX terminó pidiéndolo, y eso dejó una base para que el producto se siguiera diseñando pensando en los usuarios.'
         }
       ]
     },
