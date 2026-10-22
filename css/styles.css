@@ -126,6 +126,10 @@ p:last-child { margin-bottom: 0; }
 .hero__eyebrow { margin: 0 0 1.2rem; font-size: .74rem; font-weight: 400; letter-spacing: .22em; text-transform: uppercase; color: var(--accent); }
 .hero h1 { margin: 0; font-family: var(--fd); font-size: clamp(4rem,9vw,9rem); font-weight: 300; line-height: .92; letter-spacing: -.02em; }
 .hero h1 em { font-style: italic; color: var(--text-muted); font-weight: 300; font-size: .72em; }
+.hero__quote { margin: 1.6rem 0 0; padding-left: 1rem; border-left: 1px solid var(--accent); max-width: 34rem; }
+.hero__quote p { margin: 0; font-family: var(--fd); font-style: italic; font-size: 1.05rem; line-height: 1.6; font-weight: 300; color: var(--text-muted); }
+.hero__quote cite { display: block; margin-top: .55rem; font-family: inherit; font-style: normal; font-size: .7rem; letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+.hero__quote .hero__quote-es { margin-top: .6rem; font-size: .88rem; opacity: .8; }
 .hero__description { max-width: 34rem; margin: 2rem 0 0; font-size: 1.05rem; line-height: 1.85; font-weight: 300; color: var(--text-muted); }
 .hero__actions { display: flex; flex-wrap: wrap; gap: .9rem; margin-top: 2.4rem; }
 

@@ -44,7 +44,11 @@
     </div>
     <div class="hero__content">
       <p class="hero__eyebrow" data-i18n="hero.eyebrow">Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México</p>
-      <h1 data-i18n="hero.h1">Order<br/><em>from</em><br/>chaos.</h1>
+      <h1 id="hero-quote">Half reveal<br/><em>and</em><br/>half conceal</h1>
+      <blockquote class="hero__quote">
+        <p id="hero-quote-full">For words, like Nature, half reveal<br/>And half conceal the Soul within.<cite>Alfred, Lord Tennyson · In Memoriam A.H.H., V (1850)</cite></p>
+        <p id="hero-quote-es" class="hero__quote-es" hidden></p>
+      </blockquote>
       <p class="hero__description" data-i18n="hero.desc">Former visual artist turned experience strategist. I design digital products that make complex systems legible — for enterprise logistics, civic infrastructure, and global-scale platforms.</p>
       <div class="hero__actions">
         <a class="btn btn--primary" href="#case-studies" data-i18n="hero.cta1">See my work</a>
@@ -342,6 +346,7 @@
     </div>
   </footer>
 
+  <script src="data/quotes.js"></script>
   <script>
   // ─────────────────────────────────────────────────────────────
   // CASE STUDY DATA — Loaded from data/case-studies.js (caseStudiesData)
@@ -359,7 +364,6 @@
     en: {
       'nav.work':'Work','nav.experience':'Experience','nav.about':'About','nav.contact':'Contact',
       'hero.eyebrow':'Senior Lead UI/UX Designer&ensp;·&ensp;25+ years&ensp;·&ensp;Zapopan, México',
-      'hero.h1':'Clarity<br/><em>from</em><br/>complexity.',
       'hero.desc':'Former visual artist turned experience strategist. I design digital products that make complex systems legible.',
       'hero.cta1':'See my work','hero.cta2':'About me',
       'work.label':'Selected work','work.h2':'Case studies',
@@ -413,7 +417,6 @@
     es: {
       'nav.work':'Trabajo','nav.experience':'Experiencia','nav.about':'Acerca','nav.contact':'Contacto',
       'hero.eyebrow':'Senior Lead UI/UX Designer&ensp;·&ensp;25+ años&ensp;·&ensp;Zapopan, México',
-      'hero.h1':'Claridad<br/><em>desde</em><br/>la complejidad.',
       'hero.desc':'Artista visual convertido en estratega de experiencia digital. Diseño productos que hacen legibles los sistemas complejos.',
       'hero.cta1':'Ver proyectos','hero.cta2':'Acerca de mí',
       'work.label':'Trabajo seleccionado','work.h2':'Casos de estudio',
@@ -470,6 +473,7 @@
   function applyLang(lang) {
     const d = i18n[lang];
     document.querySelectorAll('[data-i18n]').forEach(el => { const k=el.getAttribute('data-i18n'); if(d[k]) el.innerHTML=d[k]; });
+    if (typeof renderHeroQuote === 'function') renderHeroQuote(lang);
     document.documentElement.setAttribute('lang', lang);
     document.documentElement.setAttribute('data-lang', lang);
     document.getElementById('lang-en').classList.toggle('lang-active', lang==='en');
