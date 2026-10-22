@@ -237,7 +237,7 @@ const caseStudiesData = {
         {
           title: 'Design',
           subtitle: 'A design system everyone could use',
-          content: 'After several meetings with the managers, the most realistic first step was a design system, at least to give all the products the same visual identity. I designed it in Figma and then I was asked to turn it into code, so I built it in HTML, CSS and JavaScript, but the developers rejected it because each team wanted its own version for its own programming language.'
+          content: 'After several meetings with the managers, the most realistic first step was a design system, at least to give all the products the same visual identity. I designed it in Figma and then I was asked to turn it into code, so I built it in HTML, CSS and JavaScript, but the developers rejected it because each team wanted its own version for its own programming language. Beyond the visual identity, I built accessibility principles into every section, because as a government institution IMPI was required to meet them and the Gob.mx guidelines they were following did not. I also designed the main user flows and reviewed them with the areas responsible for each service, since the development managers were not the ones in charge of the content.'
         },
         {
           title: 'Testing',
@@ -264,7 +264,7 @@ const caseStudiesData = {
         {
           title: 'Diseño',
           subtitle: 'Un design system que todos pudieran usar',
-          content: 'Después de varias reuniones con los gerentes, el primer paso más realista era un design system, aunque fuera para darle a todos los productos la misma identidad visual. Lo diseñé en Figma y luego me pidieron convertirlo en código, así que lo hice en HTML, CSS y JavaScript, pero los desarrolladores lo rechazaron porque cada equipo quería su propia versión para su propio lenguaje.'
+          content: 'Después de varias reuniones con los gerentes, el primer paso más realista era un design system, aunque fuera para darle a todos los productos la misma identidad visual. Lo diseñé en Figma y luego me pidieron convertirlo en código, así que lo hice en HTML, CSS y JavaScript, pero los desarrolladores lo rechazaron porque cada equipo quería su propia versión para su propio lenguaje. Más allá de la identidad visual, integré principios de accesibilidad en cada sección, porque como institución de gobierno el IMPI estaba obligado a cumplirlos y la guía de Gob.mx que seguían no lo hacía. También diseñé los flujos principales y los revisé con las áreas encargadas de cada servicio, ya que los gerentes de desarrollo no eran los responsables de los contenidos.'
         },
         {
           title: 'Testing',
