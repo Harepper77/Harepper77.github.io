@@ -148,7 +148,7 @@ const caseStudiesData = {
     title: { en: 'Delphian Systems — StrongBox', es: 'Delphian Systems — StrongBox' },
     subtitle: { en: 'IoT residential lock platform from chaos to market', es: 'Plataforma cerradura IoT residencial del caos al mercado' },
     kicker: { en: 'IoT · UX + Product', es: 'IoT · UX + Producto' },
-    role: { en: 'UX Designer → Product Designer', es: 'Diseñador UX → Diseñador de Producto' },
+    role: { en: 'UX Designer with product responsibilities', es: 'Diseñador UX con responsabilidades de producto' },
     client: { en: 'Improving (Chicago, USA)', es: 'Improving (Chicago, EE.UU.)' },
     location: { en: 'Chicago, USA', es: 'Chicago, EE.UU.' },
     image: 'images/case-studies/delphian.png',
@@ -171,13 +171,13 @@ const caseStudiesData = {
         },
         {
           title: 'Testing',
-          subtitle: 'From designer to product manager',
-          content: 'At first I tested directly with the product manager, and when he left shortly after, the company hired a CTO and I took over part of the product work, prioritizing features and keeping development aligned. We delivered two native apps, won a client contract to adapt the platform to that client\'s own branded devices, and took part in Porcelanite\'s smart bathroom project for the Indiana Pacers stadium, with work trips to Chicago and visits to customer installations.'
+          subtitle: 'Taking on product work',
+          content: 'At first I tested directly with the product manager, and when he left shortly after, the company hired a CTO and I took over part of the product work, writing user stories, prioritizing features with the lead developer and the project manager, and reviewing finished features before passing them to the CTO for the final decision. We delivered two native apps, won a client contract to adapt the platform to that client\'s own branded devices, and we took part in Porcelanite\'s smart bathroom project for the Indiana Pacers stadium, where I designed the UI and the graphic elements and icons for the screens outside the bathrooms, which worked with automated doors and sensors to notify users and maintenance staff, with work trips to Chicago and visits to customer installations.'
         },
         {
           title: 'Conclusions',
           subtitle: 'My first product experience',
-          content: 'It was the first time I covered product owner responsibilities and managed development teams so the quality of the apps matched what the project needed, and it taught me to think about the product and not only about the design. Even with the chaos of replacing a team under investor pressure, we delivered a platform ready for the market.'
+          content: 'It was the first time I took on product responsibilities, and it taught me to think about the product and not only about the design. Even with the chaos of replacing a team under investor pressure, the investors kept funding the project for almost two more years, and both apps were published in the stores after I delivered the icons and assets each store required.'
         }
       ],
       es: [
@@ -198,18 +198,18 @@ const caseStudiesData = {
         },
         {
           title: 'Testing',
-          subtitle: 'De diseñador a product manager',
-          content: 'Al principio probaba directamente con el product manager, y cuando se fue poco después, la empresa contrató a un CTO y yo tomé parte del trabajo de producto, priorizando funcionalidades y manteniendo alineado al equipo de desarrollo. Entregamos dos apps nativas, ganamos un contrato para adaptar la plataforma a los dispositivos de marca de un cliente, y participamos en el proyecto de baños inteligentes de Porcelanite para el estadio de los Indiana Pacers, con viajes de trabajo a Chicago y visitas a instalaciones de clientes.'
+          subtitle: 'Asumiendo trabajo de producto',
+          content: 'Al principio probaba directamente con el product manager, y cuando se fue poco después, la empresa contrató a un CTO y yo asumí parte del trabajo de producto, escribiendo historias de usuario, priorizando funcionalidades con el lead developer y el project manager, y revisando las funcionalidades terminadas antes de pasarlas al CTO para la decisión final. Entregamos dos apps nativas, ganamos un contrato para adaptar la plataforma a los dispositivos de marca de un cliente, y participamos en el proyecto de baños inteligentes de Porcelanite para el estadio de los Indiana Pacers, donde diseñé la interfaz y los elementos gráficos e íconos de las pantallas afuera de los baños, que funcionaban con puertas automáticas y sensores para avisar a los usuarios y al personal de mantenimiento, con viajes de trabajo a Chicago y visitas a instalaciones de clientes.'
         },
         {
           title: 'Conclusiones',
           subtitle: 'Mi primera experiencia en producto',
-          content: 'Fue la primera vez que cubrí responsabilidades de product owner y coordiné equipos de desarrollo para que la calidad de las apps estuviera a la altura del proyecto, y me enseñó a pensar en el producto y no solo en el diseño. Aun con el caos de reemplazar a un equipo bajo presión de los inversionistas, entregamos una plataforma lista para el mercado.'
+          content: 'Fue la primera vez que asumí responsabilidades de producto, y me enseñó a pensar en el producto y no solo en el diseño. Aun con el caos de reemplazar a un equipo bajo presión de los inversionistas, ellos siguieron financiando el proyecto casi dos años más, y las dos apps se publicaron en las tiendas después de que entregué los íconos y materiales que pedía cada una.'
         }
       ]
     },
     tags: ['Product Management', 'Design System', 'Native Apps', 'Team Leadership'],
-    technologies: ['Adobe XD', 'UX Pin', 'Google/Apple Guidelines', 'Figma', 'iOS', 'Android']
+    technologies: ['Adobe XD', 'UXPin', 'Google/Apple Guidelines', 'iOS', 'Android']
   },
 
   impi: {
