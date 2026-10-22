@@ -15,7 +15,7 @@ const caseStudiesData = {
         {
           title: 'Introduction',
           subtitle: 'Learning a business from zero',
-          content: 'Capstone is a logistics company in Atlanta whose software manages yard traffic, unloading times and last mile deliveries from one place, and the first challenge was understanding a business I knew nothing about. The system worked, but it had grown by reacting to each new need instead of following a plan, and you could see it in every screen.'
+          content: 'Capstone is a logistics company in Atlanta whose software manages yard traffic, unloading times and last mile deliveries from one place, and the first challenge was understanding a business I knew nothing about. The system worked, but it had grown by reacting to each new need instead of following a plan, and you could see it in every screen. Capstone has many products, and I worked on one of them, Yard Management, as part of a design team led by Aaron Baille, our design manager and a truly talented designer.'
         },
         {
           title: 'Research',
@@ -25,12 +25,12 @@ const caseStudiesData = {
         {
           title: 'Design',
           subtitle: 'Building components and trust at the same time',
-          content: 'I rebuilt the key screens as editable mockups and started a component library, working closely with the product owner, the design lead and the project manager, who knew the product deeply and had an engineering background, and those conversations confirmed my hypotheses. At the beginning I was quite isolated from the team, so I made a point of showing developers, little by little, what UX could do for them, to earn the managers\' trust and make UX part of how the team worked.'
+          content: 'I rebuilt the key screens as editable mockups and started a component library, working closely with the product owner, Aaron and the project manager, who knew the product deeply and had an engineering background, and those conversations confirmed my hypotheses. At the beginning I was quite isolated from the team, so I made a point of showing developers, little by little, what UX could do for them, to earn the managers\' trust and make UX part of how the team worked.'
         },
         {
           title: 'Testing',
           subtitle: 'From proposing in meetings to leading sessions',
-          content: 'Over time we made the interface easier to understand, adding descriptions that explained the most complex functions, and the team started adopting the ideas I brought to the grooming meetings. Eventually I was leading UX discovery sessions that managers attended, while the design lead\'s site visits and contextual interviews showed us problems in the field that needed more research, and we used analytics to measure the impact of the changes.'
+          content: 'Over time we made the interface easier to understand, adding descriptions that explained the most complex functions, and the team started adopting the ideas I brought to the grooming meetings. Eventually I was leading UX discovery sessions that managers attended, while Aaron\'s site visits and contextual interviews showed us problems in the field that needed more research, and we used analytics to measure the impact of the changes.'
         },
         {
           title: 'Conclusions',
@@ -42,7 +42,7 @@ const caseStudiesData = {
         {
           title: 'Introducción',
           subtitle: 'Aprender un negocio desde cero',
-          content: 'Capstone es una empresa de logística en Atlanta cuyo software controla el tráfico de patios, los tiempos de descarga y las entregas de última milla desde un solo lugar, y el primer reto fue entender un negocio del que no sabía nada. El sistema funcionaba, pero había crecido reaccionando a cada necesidad nueva en lugar de seguir un plan, y eso se notaba en cada pantalla.'
+          content: 'Capstone es una empresa de logística en Atlanta cuyo software controla el tráfico de patios, los tiempos de descarga y las entregas de última milla desde un solo lugar, y el primer reto fue entender un negocio del que no sabía nada. El sistema funcionaba, pero había crecido reaccionando a cada necesidad nueva en lugar de seguir un plan, y eso se notaba en cada pantalla. Capstone tiene muchos productos, y yo trabajé en uno de ellos, Yard Management, como parte de un equipo de diseño liderado por Aaron Baille, nuestro design manager y un diseñador realmente talentoso.'
         },
         {
           title: 'Investigación',
@@ -52,12 +52,12 @@ const caseStudiesData = {
         {
           title: 'Diseño',
           subtitle: 'Construir componentes y confianza al mismo tiempo',
-          content: 'Rehice las pantallas clave como mockups editables y empecé una librería de componentes, trabajando de cerca con el product owner, el design lead y el project manager, que conocía el producto a fondo y venía de ingeniería, y esas pláticas confirmaron mis hipótesis. Al principio estaba bastante aislado del equipo, así que me propuse mostrarles a los desarrolladores, poco a poco, lo que UX podía hacer por ellos, para ganarme la confianza de los gerentes y que UX fuera parte de la forma de trabajar.'
+          content: 'Rehice las pantallas clave como mockups editables y empecé una librería de componentes, trabajando de cerca con el product owner, Aaron y el project manager, que conocía el producto a fondo y venía de ingeniería, y esas pláticas confirmaron mis hipótesis. Al principio estaba bastante aislado del equipo, así que me propuse mostrarles a los desarrolladores, poco a poco, lo que UX podía hacer por ellos, para ganarme la confianza de los gerentes y que UX fuera parte de la forma de trabajar.'
         },
         {
           title: 'Testing',
           subtitle: 'De proponer en juntas a dirigir sesiones',
-          content: 'Con el tiempo hicimos la interfaz más fácil de entender, agregando descripciones que explicaban las funciones más complejas, y el equipo empezó a adoptar las ideas que llevaba a las juntas de grooming. Con el tiempo terminé dirigiendo sesiones de descubrimiento de UX a las que asistían los gerentes, mientras las visitas a campo y entrevistas contextuales del design lead nos mostraban problemas que necesitaban más investigación, y usamos analítica para medir el impacto de los cambios.'
+          content: 'Con el tiempo hicimos la interfaz más fácil de entender, agregando descripciones que explicaban las funciones más complejas, y el equipo empezó a adoptar las ideas que llevaba a las juntas de grooming. Con el tiempo terminé dirigiendo sesiones de descubrimiento de UX a las que asistían los gerentes, mientras las visitas a campo y entrevistas contextuales de Aaron nos mostraban problemas que necesitaban más investigación, y usamos analítica para medir el impacto de los cambios.'
         },
         {
           title: 'Conclusiones',
