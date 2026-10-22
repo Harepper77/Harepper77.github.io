@@ -142,6 +142,76 @@ const caseStudiesData = {
   },
   */
 
+  iotfactory: {
+    id: 'iotfactory',
+    year: '2021–2025',
+    title: { en: 'IoT Factory — Dashboards for the physical world', es: 'IoT Factory — Dashboards para el mundo físico' },
+    subtitle: { en: 'Four years as the only designer of an IoT company', es: 'Cuatro años como único diseñador de una empresa de IoT' },
+    kicker: { en: 'IoT · Operational Dashboards', es: 'IoT · Dashboards operativos' },
+    role: { en: 'Freelance Product Designer (sole designer)', es: 'Product Designer freelance (único diseñador)' },
+    client: { en: 'IoT Factory (Mexico)', es: 'IoT Factory (México)' },
+    location: { en: 'Remote · Mexico', es: 'Remoto · México' },
+    image: 'images/case-studies/iotfactory.png',
+    sections: {
+      en: [
+        {
+          title: 'Introduction',
+          subtitle: 'A company full of sensors and no UX designer',
+          content: 'IoT Factory, the company of Adolfo Bautista, builds solutions with sensors, RFID, beacons and cameras for logistics and industry, and when a friend I worked with at the Electoral Tribunal recommended me, they had no UX designer at all, only a graphic designer making videos and print material. I joined as a part-time freelance designer, paid by project, and for four years I designed the software side of their solutions, the part where all the data coming from the devices had to become something a person could understand and act on.'
+        },
+        {
+          title: 'Research',
+          subtitle: 'Learning the yard before drawing it',
+          content: 'For SmartHUB, a yard management platform, I worked with a logistics expert as product owner who brought real use cases from distribution centers, and we benchmarked against PINC (now Kaleris), the market leader, then we removed the many modules nobody uses in Mexico and added what made our proposal different: the setup of the devices that automate the yard. For a proposal to Grupo PINSA we visited their tuna plant in Mazatlán. They wanted to know their tuna inventory by quality and size, estimate its value and track more than 15,000 steel tubs used for refrigeration, so we had to figure out which sensors or RFID tags could survive -12°C inside the freezers, 40°C outside in summer and forklifts hitting the tubs all day.'
+        },
+        {
+          title: 'Design',
+          subtitle: 'One look to understand the whole yard',
+          content: 'The main users of SmartHUB were yard operators, so I proposed a Gantt timeline of docks and hours where anyone can see in one look which truck is at which dock, its status and what comes next, with the day\'s KPIs on top and live operations below. Almost everything was automated: RFID gates registered entries and exits, beacons tracked trucks from the gate to the dock and forklifts inside the warehouse, cameras watched security zones and unloading times and read labels, and every event changed the status on the dashboard. I also designed the dock operator app, where they saw what was arriving (refrigerated or not, customs papers) and started and finished each unload, and the flows for a small pager-like device the engineers built from scratch, which told drivers when to wait, which dock to go to and when to leave.'
+        },
+        {
+          title: 'Testing',
+          subtitle: 'Validating through the product owner',
+          content: 'I validated every flow with the product owner, who showed it to his clients, and since we never had direct contact with them, the use cases he brought were my main source of truth. SmartHUB was built and its first client was MABE, for yards in northern Mexico. With the same approach I designed Bonafont\'s security and access control center (pedestrian and vehicle traffic, cameras, door sensors, a breathalyzer, tailgating sensors, automated turnstiles) and RIOT, a platform for an MMA league that manages tournaments, matchmaking, medical and athletic commissions, fighter profiles and tickets. PINSA and a yard app proposal for BYD didn\'t move forward for commercial reasons; for BYD I used AI to fill in the kind of content a car dealership captures when it receives units, while the design and the flow were mine.'
+        },
+        {
+          title: 'Conclusions',
+          subtitle: 'Turning signals into decisions',
+          content: 'Four years with IoT Factory taught me that a dashboard is only useful if the person on the floor understands it in seconds, so every screen started from who was looking at it and what they had to decide next. It was also where I learned the most about designing around data I couldn\'t see directly (sensors, cameras and devices that sometimes didn\'t exist yet), and RIOT ended up being the seed of my own ticketing platform, N3WKS Studio.'
+        }
+      ],
+      es: [
+        {
+          title: 'Introducción',
+          subtitle: 'Una empresa llena de sensores y sin diseñador UX',
+          content: 'IoT Factory, la empresa de Adolfo Bautista, hace soluciones con sensores, RFID, beacons y cámaras para logística e industria, y cuando un amigo con el que trabajé en el Tribunal Electoral me recomendó, no tenían ningún diseñador UX, solo un diseñador gráfico que hacía videos y material impreso. Entré como diseñador freelance de medio tiempo, pagado por proyecto, y durante cuatro años diseñé la parte de software de sus soluciones, donde todos los datos que llegaban de los dispositivos tenían que convertirse en algo que una persona pudiera entender y usar para decidir.'
+        },
+        {
+          title: 'Investigación',
+          subtitle: 'Conocer el patio antes de dibujarlo',
+          content: 'Para SmartHUB, una plataforma de gestión de patios, trabajé con un experto en logística como product owner que nos traía casos de uso reales de centros de distribución, e hicimos benchmarking contra PINC (hoy Kaleris), el líder del mercado, y luego quitamos los muchos módulos que nadie usa en México y agregamos lo que hacía diferente nuestra propuesta: la configuración de los dispositivos que automatizan el patio. Para una propuesta a Grupo PINSA visitamos su planta de atún en Mazatlán. Querían conocer su inventario de atún por calidad y tamaño, estimar su valor y rastrear más de 15,000 tinas de acero que usaban para refrigerar, así que tuvimos que pensar qué sensores o etiquetas RFID podían aguantar -12 °C dentro de los congeladores, 40 °C afuera en verano y los golpes de los montacargas todo el día.'
+        },
+        {
+          title: 'Diseño',
+          subtitle: 'Entender todo el patio de un vistazo',
+          content: 'Los usuarios principales de SmartHUB eran los operadores de patio, así que propuse un diagrama de Gantt de andenes y horas donde cualquiera puede ver de un vistazo qué camión está en qué andén, su estatus y qué sigue, con los KPIs del día arriba y las operaciones en vivo abajo. Casi todo estaba automatizado: los arcos RFID registraban entradas y salidas, los beacons seguían a los camiones desde la puerta hasta el andén y a los montacargas dentro de la bodega, las cámaras vigilaban zonas de seguridad y tiempos de descarga y leían etiquetas, y cada evento cambiaba el estatus en el dashboard. También diseñé la app del operador de andén, donde veía qué mercancía llegaba (si se refrigeraba, los pedimentos) e iniciaba y terminaba cada descarga, y los flujos de un pequeño dispositivo tipo bíper que los ingenieros construyeron desde cero, que le decía al chofer cuándo esperar, a qué andén pasar y cuándo irse.'
+        },
+        {
+          title: 'Testing',
+          subtitle: 'Validar a través del product owner',
+          content: 'Validé cada flujo con el product owner, que se lo mostraba a sus clientes, y como nunca tuvimos contacto directo con ellos, los casos de uso que él traía eran mi principal fuente de verdad. SmartHUB se construyó y su primer cliente fue MABE, para patios en el norte de México. Con el mismo enfoque diseñé el centro de seguridad y control de accesos de Bonafont (tráfico peatonal y vehicular, cámaras, sensores en puertas, un alcoholímetro, sensores de tailgating, torniquetes automáticos) y RIOT, una plataforma para una liga de MMA que gestiona torneos, matchmaking, comisiones médica y atlética, perfiles de peleadores y boletos. PINSA y una propuesta de app de patio para BYD no avanzaron por razones comerciales; para BYD usé IA para llenar el tipo de contenido que captura una agencia de autos al recibir unidades, mientras que el diseño y el flujo fueron míos.'
+        },
+        {
+          title: 'Conclusiones',
+          subtitle: 'Convertir señales en decisiones',
+          content: 'Cuatro años con IoT Factory me enseñaron que un dashboard solo sirve si la persona en piso lo entiende en segundos, así que cada pantalla empezaba por quién la iba a ver y qué tenía que decidir después. También fue donde más aprendí a diseñar alrededor de datos que no podía ver directamente (sensores, cámaras y dispositivos que a veces todavía no existían), y RIOT terminó siendo la semilla de mi propia plataforma de boletos, N3WKS Studio.'
+        }
+      ]
+    },
+    tags: ['Operational Dashboards', 'IoT', 'Data Visualization', 'Sole Designer'],
+    technologies: ['Figma', 'Benchmarking', 'Use Cases', 'AI-assisted content']
+  },
+
   delphian: {
     id: 'delphian',
     year: '2020–2022',
