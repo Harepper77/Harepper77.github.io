@@ -358,68 +358,68 @@ const caseStudiesData = {
     title: { en: 'Buena Fruta — Cherry Grading App', es: 'Buena Fruta — App de Clasificación de Cerezas' },
     subtitle: { en: 'Digital transformation for fruit processing', es: 'Transformación digital para procesamiento de frutas' },
     kicker: { en: 'Agriculture · Processing', es: 'Agricultura · Procesamiento' },
-    role: { en: 'Lead UX Designer', es: 'Diseñador UX Líder' },
-    client: { en: 'Independent Project', es: 'Proyecto Independiente' },
-    location: { en: 'Mexico', es: 'México' },
+    role: { en: 'UX/UI Designer, grading app', es: 'Diseñador UX/UI, app de gradeo' },
+    client: { en: 'Improving (California, USA)', es: 'Improving (California, EE. UU.)' },
+    location: { en: 'California, USA', es: 'California, EE. UU.' },
     image: 'images/case-studies/buenafruta.png',
     sections: {
       en: [
         {
           title: 'Introduction',
-          subtitle: 'The challenges',
-          content: 'I participated in this project in 2020. The client wanted to improve his business through digital transformation. The goal was creating a tool helping seasonal manual workers pick and grade cherries in a processing plant minutes after harvest, without interrupting ongoing processes. Challenges to consider: the picking and grading crew could be asked to take samples from any part of the processing line. Data recovered by the crew would create data banks for future IA implementations. Most critically, most plant areas lacked WiFi or internet, so creating an offline-capable tool was essential.'
+          subtitle: 'Three generations of cherries',
+          content: 'The owner of this company is the third generation of a family of cherry growers and processors in California, and he wanted to bring digital transformation to his processes. He was a client of Improving, and my part was to design, prototype and test the interface of the solution.'
         },
         {
           title: 'Research',
-          subtitle: 'Understanding the business',
-          content: 'First step was interviewing all people related to the project understanding the process, expectations, business model, etc. Answers proved different concerns — managers and owners rounded business concerns while grading crew worried about usability and work tracking since they must grade huge amounts of fruit nonstop during peak season. A quick review revealed existing grading software available in market was very expensive and used sophisticated equipment. Understanding how to provide value in very affordable solutions gave ideas for next phase. Research showed we needed both an offline-first system and a data collection interface.'
+          subtitle: 'Finding the point with the most impact',
+          content: 'Interviewing the owner and a couple of plant managers, we found that the best place to make an impact was the grading, in the middle of the process. Every ten minutes the grading team takes a small bucket of fruit from the production line, pours it on a table, separates it by size and color, and decides the grade, color and quality of the fruit at that moment, so the packing team at the end of the line knows how and where to place those cherries. The PM, a solutions architect and a developer visited the plant, and the owner came to Mexico to work with us.'
         },
         {
           title: 'Design',
-          subtitle: 'Defining the scope and the devices',
-          content: 'Synthesizing data provided patterns suggesting goals letting us move forward. The most feasible and affordable solution was tablet-based — the most practical for the client. I transformed those points into sketches testing work flow with users. Wireframes were scattered and I asked the client order them in a way making sense. Pointing out gaps between sketches helped me get final user feedback before jumping into wireframes. The project consisted of two fronts: the grading tool and a management dashboard. I worked with apps designed for tablets since they\'re easier to use and perform nearly as well as PCs. We decided to leverage the set of cameras previewing and pre-selecting fruit in samples. In the long run, the app will learn making this automatically with all user input.'
+          subtitle: 'One dedicated tablet, no internet needed',
+          content: 'Together with the solutions architect we decided that an offline app installed on a dedicated tablet was the best option. The app used optical recognition to grade the fruit from a photo, and in the first phases the graders would approve each result, teaching the system through machine learning so that after a couple of seasons it could do it better on its own. To make that review less tedious I proposed adding gamification, and the owner told us it would also help him track each person\'s work, so we added biometric login for every grader. A teammate designed the live dashboard for the conveyor operator, which showed the quality being processed at that moment.'
         },
         {
           title: 'Testing',
-          subtitle: 'Harvesting the results',
-          content: 'We conducted extensive testing with the grading teams and management. The QA team created specific test scenarios for the processing environment. Testing focused on offline functionality, tablet usability under real processing conditions, and data accuracy. We adjusted elements based on findings — users brought existing mental models from traditional processes. The offline-first approach proved critical; connectivity gaps would have made the system unusable in real production environments. Performance testing showed the tablet solution met all operational requirements.'
+          subtitle: 'Printed screens on a whiteboard',
+          content: 'I tested the design with the owner: we printed the screens, put them on a whiteboard with descriptions, and went through several rounds of corrections together. I delivered the interface in Sketch, the prototype in InVision and my documentation, and that is where my participation ended, after that the QA team created test scenarios for the processing environment.'
         },
         {
           title: 'Conclusions',
-          subtitle: 'Not the end',
-          content: 'The project was challenging because we worked in an unknown industry, trying to digitally transform manual processes that may never have been addressed this way. The result was very satisfying — we implemented a gamification process tracking performance of each person, giving game-like achievements for each sample graded. We proved an app could provide business value helping make grading accurate and time-saving. The work will be the base for an intelligent app that will grade automatically using all data gathered season after season, eventually achieving fully automated quality control.'
+          subtitle: 'A project that kept growing',
+          content: 'With that idea the scope kept growing: in future iterations the plant could cross the grading data with the weather and the field each load came from, to learn the best conditions to harvest better cherries. The app was put on hold for a season, but later a teammate at Improving asked me for my mockups because he was developing it, and as far as I know it was built and delivered, although I do not know how long it was used.'
         }
       ],
       es: [
         {
           title: 'Introducción',
-          subtitle: 'Los desafíos',
-          content: 'Participé en este proyecto en 2020. El cliente quería mejorar su negocio a través de transformación digital. El objetivo era crear herramienta ayudando trabajadores estacionales manuales a recoger y clasificar cerezas en planta de procesamiento minutos después de cosecha, sin interrumpir procesos en curso. Desafíos a considerar: la tripulación de recolección y clasificación podía ser pidida tomar muestras de cualquier parte de la línea de procesamiento. Datos recuperados por la tripulación crearían bancos de datos para implementaciones futuras de IA. Lo más crítico, la mayoría de áreas de planta carecían de WiFi o internet, así que crear herramienta capaz de funcionar sin conexión era esencial.'
+          subtitle: 'Tres generaciones de cerezas',
+          content: 'El dueño de esta empresa es la tercera generación de una familia de productores y procesadores de cereza en California, y quería llevar la transformación digital a sus procesos. Era cliente de Improving, y mi parte fue diseñar, prototipar y probar la interfaz de la solución.'
         },
         {
           title: 'Investigación',
-          subtitle: 'Comprendiendo el negocio',
-          content: 'El primer paso fue entrevistar todas las personas relacionadas con el proyecto comprendiendo el proceso, expectativas, modelo de negocio, etc. Las respuestas probaron preocupaciones diferentes — gerentes y dueños redondearon preocupaciones de negocio mientras tripulación de clasificación se preocupaba por usabilidad y rastreo de trabajo ya que deben clasificar cantidades enormes de fruta sin parar durante temporada alta. Una revisión rápida reveló que software de clasificación existente disponible en mercado era muy caro y usaba equipamiento sofisticado. Comprender cómo proporcionar valor en soluciones muy asequibles dio ideas para próxima fase. La investigación mostró necesitábamos tanto sistema offline-first como interfaz de recolección de datos.'
+          subtitle: 'Encontrar el punto con más impacto',
+          content: 'Entrevistando al dueño y a un par de managers de la planta, encontramos que el mejor punto para tener impacto era el gradeo, a mitad del proceso. Cada diez minutos el equipo de gradeo toma fruta de la línea de producción con una cubetita, la tira sobre una mesa, la separa por tamaño y color, y decide el grado, el color y la calidad de la fruta en ese momento, para que la gente de empaque al final de la línea sepa cómo y a dónde mandar esas cerezas. El PM, un arquitecto de soluciones y un desarrollador visitaron la planta, y el dueño vino a México a trabajar con nosotros.'
         },
         {
           title: 'Diseño',
-          subtitle: 'Definiendo alcance y dispositivos',
-          content: 'Sintetizar datos proporcionó patrones sugiriendo metas permitiéndonos avanzar. La solución más factible y asequible fue basada en tablet — la más práctica para el cliente. Transformé esos puntos en bocetos probando flujo de trabajo con usuarios. Los wireframes estaban dispersos y le pedí al cliente ordenarlos de forma que tengan sentido. Señalar brechas entre bocetos me ayudó obtener feedback final de usuarios antes de saltar a wireframes. El proyecto consistió de dos frentes: herramienta de clasificación y dashboard de gestión. Trabajé con apps diseñadas para tablets ya que son más fáciles de usar y rendimiento casi tan bueno como PCs. Decidimos aprovechar el conjunto de cámaras previsualizando y pre-seleccionando fruta en muestras. A largo plazo, la app aprenderá haciendo esto automáticamente con toda entrada de usuario.'
+          subtitle: 'Una tableta dedicada, sin internet',
+          content: 'Junto con el arquitecto de soluciones decidimos que una app sin conexión, instalada en una tableta dedicada, era la mejor opción. La app usaba reconocimiento óptico para gradear la fruta a partir de una foto, y en las primeras fases los gradeadores aprobarían cada resultado, enseñándole al sistema con machine learning para que después de un par de temporadas lo hiciera mejor por su cuenta. Para que esa revisión no fuera tediosa propuse agregar gamificación, y el dueño nos dijo que además le ayudaría a dar seguimiento al trabajo de cada persona, así que agregamos inicio de sesión biométrico para cada gradeador. Un compañero diseñó el dashboard en vivo para el operador de la banda, que mostraba la calidad que se estaba procesando en ese momento.'
         },
         {
           title: 'Testing',
-          subtitle: 'Cosechando los resultados',
-          content: 'Realizamos testing extensivo con equipos de clasificación y gestión. El equipo QA creó escenarios de prueba específicos para el ambiente de procesamiento. El testing se enfocó en funcionalidad offline, usabilidad de tablet bajo condiciones reales de procesamiento, y precisión de datos. Ajustamos elementos basados en hallazgos — usuarios traían modelos mentales existentes de procesos tradicionales. El enfoque offline-first resultó crítico; brechas de conectividad hubieran hecho el sistema inutilizable en ambientes de producción real. Las pruebas de rendimiento mostraron la solución tablet cumplió todos los requisitos operacionales.'
+          subtitle: 'Pantallas impresas en un pizarrón',
+          content: 'Probé el diseño con el dueño: imprimimos las pantallas, las pusimos en un pizarrón con descripciones e hicimos varias rondas de correcciones juntos. Entregué la interfaz en Sketch, el prototipo en InVision y mi documentación, y ahí terminó mi participación, después el equipo de QA creó escenarios de prueba para el ambiente de la planta.'
         },
         {
           title: 'Conclusiones',
-          subtitle: 'No es el fin',
-          content: 'El proyecto fue desafiante porque trabajamos en industria desconocida, intentando transformar digitalmente procesos manuales que quizás nunca fueron abordados de esta forma. El resultado fue muy satisfactorio — implementamos proceso de gamificación rastreando desempeño de cada persona, dando logros tipo juego para cada muestra clasificada. Probamos una app podría proporcionar valor de negocio ayudando a hacer clasificación precisa y ahorradora de tiempo. El trabajo será la base para una app inteligente que clasificará automáticamente usando todos los datos recopilados temporada tras temporada, eventualmente logrando control de calidad completamente automatizado.'
+          subtitle: 'Un proyecto que siguió creciendo',
+          content: 'Con esa idea el alcance siguió creciendo: en futuras iteraciones la planta podría cruzar los datos del gradeo con el clima y el campo del que venía cada carga, para conocer las mejores condiciones para cosechar mejores cerezas. La app se quedó guardada una temporada, pero después un compañero de Improving me buscó para pedirme mis mockups porque él la estaba desarrollando, y hasta donde sé se desarrolló y se entregó, aunque no sé cuánto tiempo se usó.'
         }
       ]
     },
     tags: ['Gamification', 'Offline-First', 'Tablet Design', 'Agricultural Tech'],
-    technologies: ['Figma', 'Tablet UI', 'Offline Architecture', 'Data Collection', 'User Testing']
+    technologies: ['Sketch', 'InVision', 'Tablet UI', 'Paper Prototyping', 'Offline Architecture']
   },
 
   sief: {
