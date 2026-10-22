@@ -214,7 +214,7 @@ const caseStudiesData = {
 
   impi: {
     id: 'impi',
-    year: '2021–2023',
+    year: '2025–2026',
     title: { en: 'IMPI — Design System for Government', es: 'IMPI — Design System para Gobierno' },
     subtitle: { en: 'Unifying disparate systems with design standards', es: 'Unificando sistemas dispares con estándares de diseño' },
     kicker: { en: 'Government · Design System', es: 'Gobierno · Design System' },
@@ -226,60 +226,60 @@ const caseStudiesData = {
       en: [
         {
           title: 'Introduction',
-          subtitle: 'Government digital transformation chaos',
-          content: 'IMPI is a Mexican government entity managing patents and intellectual property rights. Its development team is outsourced through Infotec, a government IT company. The problem: extremely deficient management of digital assets across both B2B and B2C services. Like all government entities, leadership changes every six years, destroying continuity. Technology obsolescence, outdated systems using deprecated programming languages, multiple development stacks with no clear governance or interconnection, and complete lack of UX understanding in processes.'
+          subtitle: 'A chaos that restarts every six years',
+          content: 'IMPI is the Mexican government institution in charge of patents and intellectual property, and its development team is outsourced through Infotec, a government IT company. When I arrived, each digital service (for companies and for citizens) had been built in a different way, with old technology and no shared rules, and like every government institution, leadership changes every six years, so every new administration starts almost from zero.'
         },
         {
           title: 'Research',
-          subtitle: 'Discovering fragmented organizational structure',
-          content: 'Discovery revealed IMPI\'s four areas each had different managers and development teams using different programming languages and information models. Systems needing interconnection had no communication. They relied on APIs or even Excel/PowerPoint/Word documents to share data. There was no unified design language, no component standards, and no UX methodology. Each department operated in isolation, creating redundant systems and duplicated effort across the organization.'
+          subtitle: 'Four areas, four worlds',
+          content: 'Talking with each area I found four different managers, four development teams and four ways of building software, systems that needed to talk to each other were sharing information through Excel, Word or PowerPoint files, and there was no common design language, no components and no UX process, so every department was solving the same problems on its own.'
         },
         {
           title: 'Design',
-          subtitle: 'Creating unified design standards',
-          content: 'I held meetings with managers attempting to align ideation and design efforts to update existing systems. The best solution: create a design system to at least standardize graphic identity across different products. I developed the first design system in Figma but was asked to convert it into reusable code. I created HTML, vanilla JavaScript, and CSS versions, but developers rejected adoption — they wanted customizations for each programming language. Facing impossibility of replicating the same work multiple times, we adapted the design system using Web Components + Lit for better adaptability across development teams.'
+          subtitle: 'A design system everyone could use',
+          content: 'After several meetings with the managers, the most realistic first step was a design system, at least to give all the products the same visual identity. I designed it in Figma and then I was asked to turn it into code, so I built it in HTML, CSS and JavaScript, but the developers rejected it because each team wanted its own version for its own programming language.'
         },
         {
           title: 'Testing',
-          subtitle: 'Resistance and gradual adoption',
-          content: 'I delivered Storybook catalogs with component documentation and usage instructions. Development teams received the design system reluctantly — accustomed to working without supervision or design standards. I used Figma for component design, JavaScript/HTML/CSS for implementation, and Web Components + Lit for framework-agnostic delivery. AI tools assisted in design system creation and documentation. Gradually, teams began adopting the new design system despite initial resistance.'
+          subtitle: 'Resistance and slow adoption',
+          content: 'I designed the components in Figma and used an AI agent to turn them into HTML, CSS and JavaScript, then we documented everything in Storybook with instructions for each component, and when the teams asked for something that worked with any technology, I used an AI agent again to convert it all into Web Components with Lit. I uploaded the design system to IMPI\'s repository and every manager acknowledged it and said they would share it with their teams, after that only three people from two teams wrote to me with questions, and in one meeting a manager told me that sooner or later adoption would have to be mandatory, because the way they were designing under the Gob.mx guidelines was not working.'
         },
         {
           title: 'Conclusions',
-          subtitle: 'Government continuity challenges',
-          content: 'The IMPI director left the institution to pursue a governorship, halting all development contracts. I couldn\'t follow up on design system adoption. However, the work established a foundation for future UX integration in government digital services. The design system represented the first coordinated UX effort across IMPI\'s siloed departments, introducing modern design standards to legacy government systems. It demonstrated that even in highly constrained government environments, UX methodology can drive positive change.'
+          subtitle: 'What remains when leadership changes',
+          content: 'The director of IMPI left to run for governor and all the development contracts stopped, so I could not follow how far the adoption went. Even so, it was the first coordinated UX effort between areas that had never worked together, and it taught me that in government the best you can leave is something simple enough to survive the next change of leadership.'
         }
       ],
       es: [
         {
           title: 'Introducción',
-          subtitle: 'Caos de transformación digital gubernamental',
-          content: 'IMPI es una entidad gubernamental mexicana gestionando patentes y derechos de propiedad intelectual. Su equipo de desarrollo es tercerizado a través de Infotec, una empresa IT gubernamental. El problema: gestión extremadamente deficiente de assets digitales en servicios B2B y B2C. Como todas entidades gubernamentales, cambios de liderazgo cada seis años destruyen continuidad. Obsolescencia tecnológica, sistemas anticuados usando lenguajes de programación depreciados, múltiples stacks de desarrollo sin gobernanza clara o interconexión, y falta completa de comprensión de UX en procesos.'
+          subtitle: 'Un caos que se reinicia cada seis años',
+          content: 'El IMPI es la institución del gobierno mexicano que se encarga de patentes y propiedad intelectual, y su equipo de desarrollo está tercerizado a través de Infotec, una empresa de TI del gobierno. Cuando llegué, cada servicio digital (para empresas y para ciudadanos) estaba hecho de una forma distinta, con tecnología vieja y sin reglas compartidas, y como en toda institución de gobierno, la dirección cambia cada seis años, así que cada administración empieza casi desde cero.'
         },
         {
           title: 'Investigación',
-          subtitle: 'Descubriendo estructura organizacional fragmentada',
-          content: 'El descubrimiento reveló que los cuatro áreas de IMPI cada una tenía diferentes gerentes y equipos de desarrollo usando diferentes lenguajes de programación y modelos de información. Sistemas necesitando interconexión no tenían comunicación. Dependían de APIs o incluso documentos Excel/PowerPoint/Word para compartir datos. No había lenguaje de diseño unificado, no había estándares de componentes, no había metodología UX. Cada departamento operaba en aislamiento, creando sistemas redundantes y esfuerzo duplicado en toda la organización.'
+          subtitle: 'Cuatro áreas, cuatro mundos',
+          content: 'Platicando con cada área encontré cuatro gerentes distintos, cuatro equipos de desarrollo y cuatro formas de hacer software, sistemas que necesitaban comunicarse compartían información en archivos de Excel, Word o PowerPoint, y no había un lenguaje de diseño común, ni componentes, ni proceso de UX, así que cada departamento resolvía los mismos problemas por su cuenta.'
         },
         {
           title: 'Diseño',
-          subtitle: 'Creando estándares de diseño unificados',
-          content: 'Tuve reuniones con gerentes intentando alinear esfuerzos de ideación y diseño para actualizar sistemas existentes. La mejor solución: crear un design system para al menos estandarizar identidad gráfica en diferentes productos. Desarrollé el primer design system en Figma pero me pidieron convertirlo en código reutilizable. Creé versiones HTML, JavaScript vanilla y CSS, pero desarrolladores rechazaron adopción — querían customizaciones para cada lenguaje de programación. Enfrentando imposibilidad de replicar el mismo trabajo múltiples veces, adaptamos el design system usando Web Components + Lit para mejor adaptabilidad en equipos de desarrollo.'
+          subtitle: 'Un design system que todos pudieran usar',
+          content: 'Después de varias reuniones con los gerentes, el primer paso más realista era un design system, aunque fuera para darle a todos los productos la misma identidad visual. Lo diseñé en Figma y luego me pidieron convertirlo en código, así que lo hice en HTML, CSS y JavaScript, pero los desarrolladores lo rechazaron porque cada equipo quería su propia versión para su propio lenguaje.'
         },
         {
           title: 'Testing',
-          subtitle: 'Resistencia y adopción gradual',
-          content: 'Entregué catálogos Storybook con documentación de componentes e instrucciones de uso. Equipos de desarrollo recibieron el design system a regañadientes — acostumbrados a trabajar sin supervisión o estándares de diseño. Usé Figma para diseño de componentes, JavaScript/HTML/CSS para implementación, y Web Components + Lit para entrega agnóstica de framework. Herramientas IA asistieron en creación y documentación de design system. Gradualmente, equipos comenzaron adoptando el nuevo design system a pesar de resistencia inicial.'
+          subtitle: 'Resistencia y una adopción lenta',
+          content: 'Diseñé los componentes en Figma y usé un agente de IA para convertirlos en HTML, CSS y JavaScript, luego documentamos todo en Storybook con instrucciones para cada componente, y cuando los equipos pidieron algo que funcionara con cualquier tecnología, usé otra vez un agente de IA para convertirlo todo en Web Components con Lit. Subí el design system al repositorio del IMPI y cada gerente dio el enterado y dijo que lo pasaría a su equipo, después de eso solo tres personas de dos equipos me escribieron con dudas, y en una junta una gerente me dijo que tarde o temprano la adopción iba a tener que ser obligatoria, porque la forma en que estaban diseñando con la guía de Gob.mx no estaba funcionando.'
         },
         {
           title: 'Conclusiones',
-          subtitle: 'Desafíos de continuidad gubernamental',
-          content: 'El director de IMPI dejó la institución para perseguir una gobernatura, paralizando todos contratos de desarrollo. No pude dar seguimiento a adopción de design system. Sin embargo, el trabajo estableció una base para integración UX futura en servicios digitales gubernamentales. El design system representó el primer esfuerzo UX coordinado a través de departamentos silo de IMPI, introduciendo estándares de diseño modernos en sistemas gubernamentales legacy. Demostró que incluso en ambientes gubernamentales altamente limitados, la metodología UX puede impulsar cambio positivo.'
+          subtitle: 'Lo que queda cuando cambia la dirección',
+          content: 'El director del IMPI se fue para buscar una gubernatura y todos los contratos de desarrollo se detuvieron, así que no pude dar seguimiento a qué tanto se adoptó. Aun así, fue el primer esfuerzo de UX coordinado entre áreas que nunca habían trabajado juntas, y me enseñó que en gobierno lo mejor que puedes dejar es algo lo bastante simple para sobrevivir al siguiente cambio de dirección.'
         }
       ]
     },
     tags: ['Design System', 'Government', 'Web Components', 'Design Standards'],
-    technologies: ['Figma', 'HTML/CSS', 'JavaScript', 'Web Components', 'Lit', 'Storybook', 'AI Tools']
+    technologies: ['Figma', 'HTML/CSS', 'JavaScript', 'Web Components', 'Lit', 'Storybook', 'AI Agents']
   },
 
   rain4rent: {
