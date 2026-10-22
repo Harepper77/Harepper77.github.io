@@ -424,7 +424,7 @@ const caseStudiesData = {
 
   sief: {
     id: 'sief',
-    year: '2018',
+    year: '2017–2018',
     title: { en: 'SIEF — Electoral Tribunal of Mexico', es: 'SIEF — Tribunal Electoral de México' },
     subtitle: { en: 'Redesigning Mexico\'s federal electoral results system', es: 'Rediseño del sistema de resultados electorales federales de México' },
     kicker: { en: 'Government · Electoral System', es: 'Gobierno · Sistema Electoral' },
@@ -437,7 +437,7 @@ const caseStudiesData = {
         {
           title: 'Introduction',
           subtitle: 'A project that scared me',
-          content: 'This project began in 2018, six months before the presidential elections in Mexico, when an old friend invited me to redesign an old system of the TEPJF, the electoral tribunal, the tool used to track the election results and validate the winner. The system was ten years old, built with very old technology by a team without any methodology, so it had no UX research and a poor UI, it used the native Visual Basic components, and in most cases the icons on the buttons had nothing to do with their function.'
+          content: 'This project began at the end of 2017, about six months before the presidential elections of July 2018, when an old friend invited me to redesign an old system of the TEPJF, the electoral tribunal, the tool used to track the election results and validate the winner. The system was ten years old, built with very old technology by a team without any methodology, so it had no UX research and a poor UI, it used the native Visual Basic components, and in most cases the icons on the buttons had nothing to do with their function.'
         },
         {
           title: 'Research',
@@ -447,12 +447,12 @@ const caseStudiesData = {
         {
           title: 'Design',
           subtitle: 'Designing for the people who capture',
-          content: 'Since the wireframes were already approved, the high fidelity mockups came quickly. As usual in a federal institution there was not much room to play with colors or typography, so I played with the style of the components instead, because data capture was the main task of the tool, I made the components bigger and worked with the developers so everything could be used from the keyboard. As part of the delivery I also wrote extensive documentation of every design decision, and we finished with enough time to test with users.'
+          content: 'Since the wireframes were already approved, the high fidelity mockups came quickly. As usual in a federal institution there was not much room to play with colors or typography, so I played with the style of the components instead, because data capture was the main task of the tool, I made the components bigger and worked with the developers so everything could be used from the keyboard. For example, in one screen users had to mark a checkbox for every issue a case file presented, in a list of more than twenty items, and the old system had tiny checkboxes that only worked if you clicked exactly on them, so we made them extra large, added filters to fill them faster, and made the whole row clickable to mark each one. I also helped the developers apply the styles, since they had no experience doing it. As part of the delivery I also wrote extensive documentation of every design decision, and we finished with enough time to test with users.'
         },
         {
           title: 'Testing',
           subtitle: 'Harvesting a well planned work',
-          content: 'It was the first project where my work went through so many reviews, we had to test with different groups of users on devices with different capabilities, and since it was a web application we even supported the infamous Internet Explorer 5 to 7. I designed usability tests around three personas, one for each skill level of the users, each with five cards with different goals, and users entered a room with no moderator to do the tests while I recorded their screens, then I made small adjustments based on the results. To this day the tool is used in every election in Mexico.'
+          content: 'It was the first project where my work went through so many reviews, we had to test with different groups of users on devices with different capabilities, and since it was a web application we even supported the infamous Internet Explorer 5 to 7. I designed usability tests around three personas, one for each skill level of the users, each with five cards with different goals, and users entered a room with no moderator to do the tests while I recorded their screens, then I made small adjustments based on the results. The users who knew the old system told us they completed the process much faster, and we confirmed it in the recordings. To this day the tool is used in every election in Mexico.'
         },
         {
           title: 'Conclusions',
@@ -464,7 +464,7 @@ const caseStudiesData = {
         {
           title: 'Introducción',
           subtitle: 'Un proyecto que daba miedo',
-          content: 'Este proyecto empezó en 2018, seis meses antes de las elecciones presidenciales en México, cuando un viejo amigo me invitó a rediseñar un sistema antiguo del TEPJF, el tribunal electoral, la herramienta que se usa para dar seguimiento a los resultados de la elección y validar al ganador. El sistema tenía diez años, estaba hecho con tecnología muy vieja por un equipo sin ninguna metodología, así que no tenía investigación de UX y su interfaz era pobre, usaba los componentes nativos de Visual Basic, y en la mayoría de los casos los íconos de los botones no tenían nada que ver con su función.'
+          content: 'Este proyecto empezó a finales de 2017, unos seis meses antes de las elecciones presidenciales de julio de 2018, cuando un viejo amigo me invitó a rediseñar un sistema antiguo del TEPJF, el tribunal electoral, la herramienta que se usa para dar seguimiento a los resultados de la elección y validar al ganador. El sistema tenía diez años, estaba hecho con tecnología muy vieja por un equipo sin ninguna metodología, así que no tenía investigación de UX y su interfaz era pobre, usaba los componentes nativos de Visual Basic, y en la mayoría de los casos los íconos de los botones no tenían nada que ver con su función.'
         },
         {
           title: 'Investigación',
@@ -474,12 +474,12 @@ const caseStudiesData = {
         {
           title: 'Diseño',
           subtitle: 'Diseñando para quienes capturan',
-          content: 'Como los wireframes ya estaban aprobados, los mockups de alta fidelidad salieron rápido. Como es normal en una dependencia federal no había mucho espacio para jugar con colores o tipografía, así que jugué con el estilo de los componentes, y como la captura de datos era la tarea principal de la herramienta, hice los componentes más grandes y trabajé con los desarrolladores para que todo se pudiera usar desde el teclado. Como parte de la entrega también escribí una documentación extensa de cada decisión de diseño, y terminamos con tiempo suficiente para hacer pruebas con usuarios.'
+          content: 'Como los wireframes ya estaban aprobados, los mockups de alta fidelidad salieron rápido. Como es normal en una dependencia federal no había mucho espacio para jugar con colores o tipografía, así que jugué con el estilo de los componentes, y como la captura de datos era la tarea principal de la herramienta, hice los componentes más grandes y trabajé con los desarrolladores para que todo se pudiera usar desde el teclado. Por ejemplo, en una pantalla los usuarios tenían que marcar un checkbox por cada caso que presentaba un expediente, en una lista de más de veinte elementos, y el sistema anterior tenía checkboxes minúsculos que solo funcionaban si le dabas clic exactamente al componente, así que los hicimos extra grandes, agregamos filtros de llenado y la línea completa se podía señalar para marcar cada uno. También ayudé a los desarrolladores a aplicar los estilos, porque no tenían experiencia haciéndolo. Como parte de la entrega también escribí una documentación extensa de cada decisión de diseño, y terminamos con tiempo suficiente para hacer pruebas con usuarios.'
         },
         {
           title: 'Testing',
           subtitle: 'Cosechando un trabajo bien planeado',
-          content: 'Fue el primer proyecto en el que mi trabajo pasó por tantas revisiones, tuvimos que probar con distintos grupos de usuarios en equipos con diferentes capacidades, y como era una aplicación web hasta dimos soporte a los infames Internet Explorer 5 a 7. Diseñé pruebas de usabilidad alrededor de tres personas, una por cada nivel de habilidad de los usuarios, cada una con cinco tarjetas con objetivos distintos, y los usuarios entraban a una sala sin moderador a hacer las pruebas mientras yo grababa sus pantallas, y después hice pequeños ajustes con los resultados. Hasta hoy la herramienta se usa en cada elección en México.'
+          content: 'Fue el primer proyecto en el que mi trabajo pasó por tantas revisiones, tuvimos que probar con distintos grupos de usuarios en equipos con diferentes capacidades, y como era una aplicación web hasta dimos soporte a los infames Internet Explorer 5 a 7. Diseñé pruebas de usabilidad alrededor de tres personas, una por cada nivel de habilidad de los usuarios, cada una con cinco tarjetas con objetivos distintos, y los usuarios entraban a una sala sin moderador a hacer las pruebas mientras yo grababa sus pantallas, y después hice pequeños ajustes con los resultados. Los usuarios que conocían el sistema anterior nos dijeron que hacían el proceso mucho más rápido, y lo confirmamos en las grabaciones. Hasta hoy la herramienta se usa en cada elección en México.'
         },
         {
           title: 'Conclusiones',
