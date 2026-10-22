@@ -269,6 +269,10 @@ p:last-child { margin-bottom: 0; }
 .card__client { font-size: .75rem; color: var(--text-dim); font-style: italic; }
 .card__cta    { font-size: .75rem; color: var(--text-dim); transition: color .2s; letter-spacing: .02em; }
 .card:hover .card__cta { color: var(--accent); }
+a.card__cta { text-decoration: none; }
+.card:focus-within, .card:has(.card__cta:focus-visible) { border-color: var(--accent); }
+.card__cta:focus-visible { color: var(--accent); outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+.cs-modal__close:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 
 /* ─── CASE STUDY MODAL ───────────────────────────────────── */
 .cs-overlay {

@@ -75,7 +75,7 @@
       <div class="cards-gallery">
         <div class="cards-grid" id="cards-track">
 
-          <article class="card card--featured" onclick="openCS('impi')">
+          <article class="card card--featured" onclick="location.hash='case/impi'">
             <div class="card__meta">
               <span class="card__kicker" data-i18n="work.c3.kicker">Government · IP Systems</span>
               <span class="card__year">2025 – 2026</span>
@@ -87,11 +87,11 @@
             </ul>
             <div class="card__footer">
               <span class="card__client" data-i18n="work.c3.client">Independent · México</span>
-              <span class="card__cta">View case study →</span>
+              <a class="card__cta" href="#case/impi" data-i18n="work.cta" onclick="event.stopPropagation()">View case study →</a>
             </div>
           </article>
 
-          <article class="card" onclick="openCS('capstone')">
+          <article class="card" onclick="location.hash='case/capstone'">
             <div class="card__meta">
               <span class="card__kicker" data-i18n="work.c1.kicker">Enterprise UX · Logistics</span>
               <span class="card__year">2022 – 2024</span>
@@ -103,11 +103,11 @@
             </ul>
             <div class="card__footer">
               <span class="card__client" data-i18n="work.c1.client">Via Improving · Atlanta, USA</span>
-              <span class="card__cta">View case study →</span>
+              <a class="card__cta" href="#case/capstone" data-i18n="work.cta" onclick="event.stopPropagation()">View case study →</a>
             </div>
           </article>
 
-          <article class="card" onclick="openCS('delphian')">
+          <article class="card" onclick="location.hash='case/delphian'">
             <div class="card__meta">
               <span class="card__kicker" data-i18n="work.c4.kicker">IoT · UX + Product</span>
               <span class="card__year">2020 – 2022</span>
@@ -119,11 +119,11 @@
             </ul>
             <div class="card__footer">
               <span class="card__client" data-i18n="work.c4.client">Via Improving · Chicago, USA</span>
-              <span class="card__cta">View case study →</span>
+              <a class="card__cta" href="#case/delphian" data-i18n="work.cta" onclick="event.stopPropagation()">View case study →</a>
             </div>
           </article>
 
-          <article class="card" onclick="openCS('sief')">
+          <article class="card" onclick="location.hash='case/sief'">
             <div class="card__meta">
               <span class="card__kicker" data-i18n="work.c5.kicker">Government · Electoral System</span>
               <span class="card__year">2017 – 2018</span>
@@ -135,11 +135,11 @@
             </ul>
             <div class="card__footer">
               <span class="card__client" data-i18n="work.c5.client">TEPJF · CDMX, México</span>
-              <span class="card__cta">View case study →</span>
+              <a class="card__cta" href="#case/sief" data-i18n="work.cta" onclick="event.stopPropagation()">View case study →</a>
             </div>
           </article>
 
-          <article class="card" onclick="openCS('rain4rent')">
+          <article class="card" onclick="location.hash='case/rain4rent'">
             <div class="card__meta">
               <span class="card__kicker">SaaS · Sales Platform</span>
               <span class="card__year">2019</span>
@@ -151,11 +151,11 @@
             </ul>
             <div class="card__footer">
               <span class="card__client">Improving · Mexico</span>
-              <span class="card__cta">View case study →</span>
+              <a class="card__cta" href="#case/rain4rent" data-i18n="work.cta" onclick="event.stopPropagation()">View case study →</a>
             </div>
           </article>
 
-          <article class="card" onclick="openCS('buenafruta')">
+          <article class="card" onclick="location.hash='case/buenafruta'">
             <div class="card__meta">
               <span class="card__kicker">Agriculture · Processing</span>
               <span class="card__year">2020</span>
@@ -167,7 +167,7 @@
             </ul>
             <div class="card__footer">
               <span class="card__client">Via Improving · California, USA</span>
-              <span class="card__cta">View case study →</span>
+              <a class="card__cta" href="#case/buenafruta" data-i18n="work.cta" onclick="event.stopPropagation()">View case study →</a>
             </div>
           </article>
 
@@ -385,6 +385,7 @@
       'work.r4r.desc':'Quoting system for an industrial water pump company, a long sales flow simplified while respecting users\' habits, validated with guerrilla tests.',
       'work.bf.desc':'Offline tablet app to digitize cherry grading in a California plant, with photo recognition and gamification so graders could teach the system to grade.',
       'work.note':'Additional work: Sparefoot and ZoomCatalog available upon request.',
+      'work.cta':'View case study →','cs.role':'Role','cs.client':'Client','cs.location':'Location','cs.year':'Year',
       'exp.label':'Career','exp.h2':'Experience',
       'exp.gl.role':'Senior Lead UI/UX Designer','exp.gl.flag':'· Google project',
       'exp.gl.desc':'Lead designer for a network security product, in an engagement with Google through GlobalLogic.',
@@ -438,6 +439,7 @@
       'work.r4r.desc':'Sistema de cotizaciones para una empresa de bombas de agua industriales, un flujo de ventas largo simplificado respetando los hábitos de los usuarios y validado con pruebas de guerrilla.',
       'work.bf.desc':'App de tableta sin conexión para digitalizar el gradeo de cerezas en una planta de California, con reconocimiento por foto y gamificación para que los gradeadores le enseñaran al sistema a gradear.',
       'work.note':'Trabajo adicional: Sparefoot y ZoomCatalog disponibles bajo solicitud.',
+      'work.cta':'Ver caso de estudio →','cs.role':'Rol','cs.client':'Cliente','cs.location':'Ubicación','cs.year':'Año',
       'exp.label':'Trayectoria','exp.h2':'Experiencia',
       'exp.gl.role':'Senior Lead UI/UX Designer','exp.gl.flag':'· Proyecto Google',
       'exp.gl.desc':'Lead designer de un producto de seguridad de red, en un proyecto con Google a través de GlobalLogic.',
@@ -496,7 +498,7 @@
   </script>
 
   <!-- MODAL CASE STUDY (reutilizable) -->
-  <div id="cs-modal" class="cs-modal" onclick="closeCS(event)">
+  <div id="cs-modal" class="cs-modal" onclick="closeCS(event)" role="dialog" aria-modal="true" aria-labelledby="cs-title" aria-hidden="true">
     <div class="cs-modal__content" onclick="event.stopPropagation()">
       <button class="cs-modal__close" onclick="closeCS()" aria-label="Close">
         <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 6L18 18M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
@@ -514,10 +516,10 @@
 
       <!-- Metadata -->
       <div class="cs-modal__meta">
-        <div><strong>Role:</strong> <span id="cs-role"></span></div>
-        <div><strong>Client:</strong> <span id="cs-client"></span></div>
-        <div><strong>Location:</strong> <span id="cs-location"></span></div>
-        <div><strong>Year:</strong> <span id="cs-year"></span></div>
+        <div><strong><span data-i18n="cs.role">Role</span>:</strong> <span id="cs-role"></span></div>
+        <div><strong><span data-i18n="cs.client">Client</span>:</strong> <span id="cs-client"></span></div>
+        <div><strong><span data-i18n="cs.location">Location</span>:</strong> <span id="cs-location"></span></div>
+        <div><strong><span data-i18n="cs.year">Year</span>:</strong> <span id="cs-year"></span></div>
       </div>
 
       <!-- Sections (dinamicas) -->
@@ -588,16 +590,38 @@
       tagsContainer.innerHTML = data.tags.map(tag => `<span class="tag">${tag}</span>`).join('');
 
       // Mostrar modal
+      if (!modal.classList.contains('is-open')) lastFocus = document.activeElement;
       modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden', 'false');
       document.body.style.overflow = 'hidden';
+      modal.querySelector('.cs-modal__close').focus();
+    }
+
+    let lastFocus = null;
+
+    function hideCS() {
+      const modal = document.getElementById('cs-modal');
+      if (!modal.classList.contains('is-open')) return;
+      modal.classList.remove('is-open');
+      modal.setAttribute('aria-hidden', 'true');
+      document.body.style.overflow = '';
+      if (lastFocus) lastFocus.focus();
     }
 
     function closeCS(event) {
       if (event && event.target.id !== 'cs-modal') return;
-      const modal = document.getElementById('cs-modal');
-      modal.classList.remove('is-open');
-      document.body.style.overflow = '';
+      // Quita #case/<id> de la URL sin agregar historial
+      if (location.hash.startsWith('#case/')) history.replaceState(null, '', location.pathname + location.search);
+      hideCS();
     }
+
+    // Cada caso tiene su propio enlace: harepper.me/#case/<id>
+    function routeCS() {
+      const m = location.hash.match(/^#case\/(\w+)$/);
+      if (m && caseStudiesData[m[1]]) openCS(m[1]); else hideCS();
+    }
+    window.addEventListener('hashchange', routeCS);
+    routeCS();
 
     // Cerrar con ESC
     document.addEventListener('keydown', (e) => {
