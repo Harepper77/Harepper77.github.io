@@ -156,55 +156,55 @@ const caseStudiesData = {
       en: [
         {
           title: 'Introduction',
-          subtitle: 'Replacing a failed team under pressure',
-          content: 'Delphian Systems was another new vertical — IoT devices controlled via a native app. We arrived to replace an Indian development team that had worked inefficiently for over a year with no design, styles, or mockups, and poorly executed code. The real challenge: we had one month to present to investors who would decide whether to continue funding the project. Investors would determine the project\'s survival.'
+          subtitle: 'One month to convince the investors',
+          content: 'Delphian Systems makes smart locks for homes that are controlled from a mobile app, another industry that was new for me. We arrived to replace a development team that had worked for more than a year with no design, no styles, no mockups and poorly built code, and we had one month to present to the investors who would decide whether the project kept its funding.'
         },
         {
           title: 'Research',
-          subtitle: 'Starting from zero with tight timeline',
-          content: 'Discovery revealed nothing was reusable. The "mockups" were JPGs that didn\'t even match device dimensions. However, this gave us the opportunity to work from scratch — though pressured by time. The one-month deadline before investor review was the hard constraint. We conducted extensive research on user needs, competitive landscape, and technical requirements for native iOS and Android applications serving residential customers.'
+          subtitle: 'Starting from zero, against the clock',
+          content: 'Nothing could be reused, the "mockups" were JPGs that did not even match the size of a phone screen, so we started from zero, which was an opportunity but with very little time. We researched what users needed, what the competition was doing and what the native iOS and Android apps required.'
         },
         {
           title: 'Design',
-          subtitle: 'Building identity and differentiation',
-          content: 'I built a design system from zero to create corporate identity and visual language for the applications. With limited time, I conducted competitive benchmarking to find commercial differentiators suggested by the project director and product manager. I designed low-resolution templates for initial flow and function approvals, then high-resolution mockups. Following Google and Apple guidelines for native applications and app store requirements was essential. I used Adobe XD and UX Pin for design work.'
+          subtitle: 'An identity from zero',
+          content: 'I built a design system from zero to give the apps their own identity and visual language, and with the little time we had, I compared competitors to find the differentiators the project director and the product manager wanted to highlight. I started with low fidelity layouts to approve flows and functions, then moved to high fidelity mockups following Google and Apple guidelines and the app store requirements, working in Adobe XD and UXPin.'
         },
         {
           title: 'Testing',
-          subtitle: 'Evolving from designer to product manager',
-          content: 'Initial testing was direct with the product manager. When he left shortly after, they hired a technical chief officer. I took on junior product-designer responsibilities, managing feature prioritization and development alignment. We created two native applications and secured a client contract for Delphian\'s platform adapted to their brand devices. We also participated in Porcelanite\'s smart bathroom project for the Indiana Pacers stadium in Indianapolis, with work trips to Chicago and customer installation visits.'
+          subtitle: 'From designer to product manager',
+          content: 'At first I tested directly with the product manager, and when he left shortly after, the company hired a CTO and I took over part of the product work, prioritizing features and keeping development aligned. We delivered two native apps, won a client contract to adapt the platform to that client\'s own branded devices, and took part in Porcelanite\'s smart bathroom project for the Indiana Pacers stadium, with work trips to Chicago and visits to customer installations.'
         },
         {
           title: 'Conclusions',
-          subtitle: 'First product leadership experience',
-          content: 'It was interesting to cover product owner responsibilities for the first time and manage development teams to align application quality with project expectations. The experience taught me product-thinking alongside design. Despite the chaos of replacing a failed team with investor pressure, we delivered a market-ready platform. The technical chief officer\'s arrival shifted my role, giving me hybrid responsibilities that bridged design and product management.'
+          subtitle: 'My first product experience',
+          content: 'It was the first time I covered product owner responsibilities and managed development teams so the quality of the apps matched what the project needed, and it taught me to think about the product and not only about the design. Even with the chaos of replacing a team under investor pressure, we delivered a platform ready for the market.'
         }
       ],
       es: [
         {
           title: 'Introducción',
-          subtitle: 'Reemplazando un equipo fallido bajo presión',
-          content: 'Delphian Systems fue otra vertical nueva — dispositivos IoT controlados vía app nativa. Llegamos a reemplazar un equipo de desarrollo indio que había trabajado ineficientemente por más de un año sin diseño, estilos o mockups, con código mal ejecutado. El verdadero desafío: teníamos un mes para presentar a inversionistas que decidirían si continuar financiando. Los inversionistas determinarían la supervivencia del proyecto.'
+          subtitle: 'Un mes para convencer a los inversionistas',
+          content: 'Delphian Systems hace cerraduras inteligentes para casas que se controlan desde una app, otra industria nueva para mí. Llegamos a reemplazar a un equipo de desarrollo que llevaba más de un año trabajando sin diseño, sin estilos, sin mockups y con código mal hecho, y teníamos un mes para presentar ante los inversionistas que decidirían si el proyecto seguía teniendo fondos.'
         },
         {
           title: 'Investigación',
-          subtitle: 'Comenzando de cero con timeline ajustado',
-          content: 'El descubrimiento reveló que nada era reutilizable. Los "mockups" eran JPGs que ni siquiera coincidían con dimensiones de dispositivos. Sin embargo, esto nos dio la oportunidad de trabajar desde cero — aunque presionados por tiempo. La fecha límite de un mes antes de revisión de inversionistas fue la limitación dura. Realizamos investigación extensa sobre necesidades de usuarios, panorama competitivo y requisitos técnicos para aplicaciones nativas iOS y Android serviendo a clientes residenciales.'
+          subtitle: 'Empezar de cero, contra reloj',
+          content: 'No había nada reutilizable, los "mockups" eran JPGs que ni siquiera tenían el tamaño de la pantalla de un teléfono, así que empezamos de cero, lo cual era una oportunidad pero con muy poco tiempo. Investigamos qué necesitaban los usuarios, qué estaba haciendo la competencia y qué pedían las apps nativas de iOS y Android.'
         },
         {
           title: 'Diseño',
-          subtitle: 'Construyendo identidad y diferenciación',
-          content: 'Construí un design system desde cero para crear identidad corporativa y lenguaje visual para las aplicaciones. Con tiempo limitado, realicé benchmarking competitivo para encontrar diferenciadores comerciales sugeridos por el director de proyecto y product manager. Diseñé plantillas de baja resolución para aprobaciones iniciales de flujo y función, luego mockups de alta resolución. Seguir directrices de Google y Apple para aplicaciones nativas y requisitos de app store fue esencial. Usé Adobe XD y UX Pin para trabajo de diseño.'
+          subtitle: 'Una identidad desde cero',
+          content: 'Construí un design system desde cero para darle a las apps su propia identidad y lenguaje visual, y con el poco tiempo que teníamos comparé a la competencia para encontrar los diferenciadores que el director del proyecto y el product manager querían destacar. Empecé con diseños de baja fidelidad para aprobar flujos y funciones, y después pasé a mockups de alta fidelidad siguiendo las guías de Google y Apple y los requisitos de las tiendas, trabajando en Adobe XD y UXPin.'
         },
         {
           title: 'Testing',
-          subtitle: 'Evolucionando de diseñador a gestor de producto',
-          content: 'Las pruebas iniciales fueron directas con el product manager. Cuando se fue poco después, contrataron un technical chief officer. Asumí responsabilidades de junior product-designer, gestionando priorización de features y alineación de desarrollo. Creamos dos aplicaciones nativas y aseguramos un contrato de cliente para plataforma de Delphian adaptada a sus dispositivos de marca. También participamos en proyecto de baño inteligente de Porcelanite para estadio Pacers de Indiana en Indianapolis, con viajes de trabajo a Chicago y visitas a instalaciones de clientes.'
+          subtitle: 'De diseñador a product manager',
+          content: 'Al principio probaba directamente con el product manager, y cuando se fue poco después, la empresa contrató a un CTO y yo tomé parte del trabajo de producto, priorizando funcionalidades y manteniendo alineado al equipo de desarrollo. Entregamos dos apps nativas, ganamos un contrato para adaptar la plataforma a los dispositivos de marca de un cliente, y participamos en el proyecto de baños inteligentes de Porcelanite para el estadio de los Indiana Pacers, con viajes de trabajo a Chicago y visitas a instalaciones de clientes.'
         },
         {
           title: 'Conclusiones',
-          subtitle: 'Primera experiencia de liderazgo de producto',
-          content: 'Fue interesante cubrir responsabilidades de product owner por primera vez y gestionar equipos de desarrollo para alinear calidad de aplicación con expectativas de proyecto. La experiencia me enseñó product-thinking junto con diseño. A pesar del caos de reemplazar un equipo fallido con presión de inversionistas, entregamos una plataforma lista para mercado. La llegada del technical chief officer cambió mi rol, dándome responsabilidades híbridas que conectaban diseño y gestión de producto.'
+          subtitle: 'Mi primera experiencia en producto',
+          content: 'Fue la primera vez que cubrí responsabilidades de product owner y coordiné equipos de desarrollo para que la calidad de las apps estuviera a la altura del proyecto, y me enseñó a pensar en el producto y no solo en el diseño. Aun con el caos de reemplazar a un equipo bajo presión de los inversionistas, entregamos una plataforma lista para el mercado.'
         }
       ]
     },
