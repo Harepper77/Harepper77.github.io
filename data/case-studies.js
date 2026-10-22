@@ -296,18 +296,18 @@ const caseStudiesData = {
       en: [
         {
           title: 'Introduction',
-          subtitle: 'Work under pressure',
-          content: 'I jumped into this project in late 2019. The client had urgent need to update a web-based system used by their sales team. The tool is a quoting system highly customized for the client\'s industry — rental and sale of industrial water pumps and related equipment. The prime urgency was time: dropped sales caused by an outdated portal developed in discontinued technology with inefficient databases. The business was losing revenue, and the system needed immediate modernization.'
+          subtitle: 'A system that was costing sales',
+          content: 'I joined this project at the end of 2019. The client rents and sells industrial water pumps, and their sales team used a web quoting system built for that industry, but it was made with discontinued technology and slow databases, and it was costing them sales, so they needed to modernize it fast.'
         },
         {
           title: 'Research',
-          subtitle: 'Learning about sales',
-          content: 'My approach started with series of interviews with the sales team and product manager. They already had well-documented product backlog, so my main goal was providing usable and tidy user interface. I conducted heuristic tests on the interface and contextual interviews with salesmen to understand how the old system worked and user flow patterns. I realized a complete A to Z quoting process for a new sale. I took advantage of gaps in information on the home screen to design a small dashboard at the process beginning — customizable by user to help the sales team track their goals.'
+          subtitle: 'Learning how they sell',
+          content: 'They asked for a revamp but planned to reuse components, so I started by interviewing stakeholders and developers to understand their plan, and then the sales team and the product manager. The backlog was already well documented, so my main goal was a clear and usable interface. I did heuristic reviews, contextual interviews with salespeople, and went through a complete quote from start to finish to understand the flow, and I noticed the home screen had empty space we could use for a small dashboard where each salesperson could track their goals.'
         },
         {
           title: 'Design',
-          subtitle: 'User centered experience',
-          content: 'Since most ideation was ready and user stories already existed in backlog, I focused on usability and navigation of the tool. The user flow was unusually long with many steps for the sales representative to choose. Card sorting and information architecture helped me get the last pieces of feedback from users before jumping into wireframes. I tested different design patterns to provide all options without saturating the screen, creating a component library to keep design homologated throughout the tool. Colors were selected to maintain client branding as a requirement.'
+          subtitle: 'A long flow without overloading the screen',
+          content: 'The quoting flow was unusually long, with many choices for the salesperson, so I used card sorting to get the last feedback from users before the wireframes, and tried different patterns to show every option without overloading the screen. I created a component library to keep the tool consistent and kept the client\'s brand colors. The dashboard idea came from my manager and me, building on work the team had left before I joined.'
         },
         {
           title: 'Testing',
@@ -316,25 +316,25 @@ const caseStudiesData = {
         },
         {
           title: 'Conclusions',
-          subtitle: 'Not the end',
-          content: 'The project was challenging because we worked in an unknown industry trying to digitally transform a manual labor process that may never have been addressed this way. The result was very satisfying — we were able to implement a gamification process to track performance of each person giving game-like achievements for each sample graded. We proved an app could provide value to business helping make grading accurate and time-saving. The work done will be the base for an intelligent app that will grade automatically with help of all data gathered season after season.'
+          subtitle: 'Handing off with a clear path',
+          content: 'I was in the project for four and a half months, and my participation ended before launch when the PM decided the team could continue without design support, but I left them with mockups, an InVision prototype, a component library and the test documentation. After I left, the development team ran A/B tests based on hypotheses from my guerrilla sessions, which for me is the best proof that the research was useful. I also learned to negotiate: managers wanted a strategic dashboard, salespeople needed something to work with every day, and together with my manager we agreed on an operational one that both sides could use.'
         }
       ],
       es: [
         {
           title: 'Introducción',
-          subtitle: 'Trabajo bajo presión',
-          content: 'Salté a este proyecto en el último trimestre de 2019. El cliente tenía urgencia de actualizar un sistema web-based usado por su equipo de ventas. La herramienta es un sistema de cotización altamente customizado para la industria del cliente — renta y venta de bombas de agua industrial y equipos relacionados. La urgencia principal era tiempo: ventas caídas por portal obsoleto desarrollado en tecnología discontinuada con bases de datos ineficientes. El negocio estaba perdiendo ingresos y el sistema necesitaba modernización inmediata.'
+          subtitle: 'Un sistema que estaba costando ventas',
+          content: 'Me integré a este proyecto a finales de 2019. El cliente renta y vende bombas de agua industriales, y su equipo de ventas usaba un sistema web de cotizaciones hecho para esa industria, pero estaba construido con tecnología descontinuada y bases de datos lentas, y les estaba costando ventas, así que necesitaban modernizarlo rápido.'
         },
         {
           title: 'Investigación',
-          subtitle: 'Aprendiendo sobre ventas',
-          content: 'Mi enfoque comenzó con series de entrevistas con el equipo de ventas y product manager. Ellos ya tenían backlog de producto bien documentado, así que mi objetivo principal era proporcionar interfaz de usuario usable y ordenada. Realicé pruebas heurísticas en la interfaz y entrevistas contextuales con vendedores para comprender cómo funcionaba el sistema antiguo y patrones de flujo de usuarios. Realicé el proceso completo de A a Z de cotización para una nueva venta. Aproveché brechas de información en la pantalla de inicio para diseñar pequeño dashboard al inicio del proceso — customizable por usuario para ayudar al equipo de ventas a rastrear sus metas.'
+          subtitle: 'Aprendiendo cómo venden',
+          content: 'Pedían un revamp pero planeaban reusar componentes, así que empecé entrevistando a stakeholders y desarrolladores para entender su plan, y después al equipo de ventas y al product manager. El backlog ya estaba bien documentado, así que mi objetivo principal era una interfaz clara y fácil de usar. Hice revisiones heurísticas, entrevistas contextuales con vendedores, y recorrí una cotización completa de principio a fin para entender el flujo, y noté que la pantalla de inicio tenía espacio libre que podíamos usar para un pequeño dashboard donde cada vendedor pudiera seguir sus metas.'
         },
         {
           title: 'Diseño',
-          subtitle: 'Experiencia centrada en usuario',
-          content: 'Como la mayoría de ideación estaba lista y user stories ya existían en backlog, me enfoqué en usabilidad y navegación de la herramienta. El flujo de usuario era unusualmente largo con muchos pasos para que el representante de ventas eligiera. Card sorting y arquitectura de información me ayudaron obtener las últimas piezas de feedback de usuarios antes de saltar a wireframes. Probé diferentes patrones de diseño para proporcionar todas las opciones sin saturar la pantalla, creando librería de componentes para mantener diseño homologado a través de la herramienta. Los colores fueron seleccionados para mantener branding del cliente como requisito.'
+          subtitle: 'Un flujo largo sin saturar la pantalla',
+          content: 'El flujo de cotización era muy largo, con muchas decisiones para el vendedor, así que usé card sorting para obtener el último feedback de los usuarios antes de los wireframes, y probé distintos patrones para mostrar todas las opciones sin saturar la pantalla. Creé una librería de componentes para mantener la herramienta consistente y respeté los colores de la marca del cliente. La idea del dashboard fue de mi manager y mía, retomando trabajo que el equipo había dejado antes de que yo llegara.'
         },
         {
           title: 'Testing',
@@ -343,8 +343,8 @@ const caseStudiesData = {
         },
         {
           title: 'Conclusiones',
-          subtitle: 'No es el fin',
-          content: 'El proyecto fue desafiante porque trabajamos en una industria desconocida intentando transformar digitalmente un proceso de trabajo manual que quizás nunca fue abordado de esta forma. El resultado fue muy satisfactorio — pudimos implementar proceso de gamificación para rastrear desempeño de cada persona dando logros tipo juego para cada muestra calificada. Probamos una app podría proporcionar valor al negocio ayudando a hacer calificación precisa y ahorradora de tiempo. El trabajo realizado será la base para una app inteligente que calificará automáticamente con ayuda de todos los datos recopilados temporada tras temporada.'
+          subtitle: 'Entregar con un camino claro',
+          content: 'Estuve cuatro meses y medio en el proyecto, y mi participación terminó antes del lanzamiento cuando la PM decidió que el equipo podía continuar sin apoyo de diseño, pero les dejé mockups, un prototipo en InVision, una librería de componentes y la documentación de las pruebas. Después de mi salida, el equipo de desarrollo hizo pruebas A/B con hipótesis que salieron de mis sesiones de guerrilla, y para mí esa es la mejor prueba de que la investigación sirvió. También aprendí a negociar: los gerentes querían un dashboard estratégico, los vendedores necesitaban algo para trabajar día a día, y junto con mi manager acordamos uno operativo que les sirviera a los dos.'
         }
       ]
     },
